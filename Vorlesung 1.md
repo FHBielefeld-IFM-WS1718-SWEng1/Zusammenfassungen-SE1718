@@ -38,7 +38,7 @@ Auftraggeber erstelltes Softwaresystem
     * Software muss daher diesen Änderungen immer wieder angepasst werden
 
 ### Klassischer Software Lebenszyklus</br>
-![Wasserfallmodell](/BilderVorlesung1/Wasserfallmodell.png?raw=true "Wasserfallmodell")
+![Wasserfallmodell](/BilderVorlesung1/Wasserfallmodell.PNG?raw=true "Wasserfallmodell")
 #### Phasen eines Vorgehensmodells
 * Anforderungsermittlung: Wie findet man heraus, welche Eigenschaften (insbesondere Funktionalität) die zu konstruierende Software haben soll?
 * Analyse: Wie beschreibt man dann diese Eigenschaften?
@@ -76,8 +76,8 @@ Auftraggeber erstelltes Softwaresystem
     * Definieren und bauen Software
     * in verschiedenen Rollen (d.h. mit verschiedenartigen Aufgaben)
 </br>
-![RolleBeiAuftragsarbeit](/BilderVorlesung1/RolleBeiAuftragsarbeit.png?raw=true "Rollen bei Auftragsarbeit")</br>
-![RollenInDerSoftwareentwicklung](/BilderVorlesung1/RollenInDerSoftwareentwicklung.png?raw=true "Rollen in der Softwareentwicklung")
+![RolleBeiAuftragsarbeit](/BilderVorlesung1/RolleBeiAuftragsarbeit.PNG?raw=true "Rollen bei Auftragsarbeit")</br>
+![RollenInDerSoftwareentwicklung](/BilderVorlesung1/RollenInDerSoftwareentwicklung.PNG?raw=true "Rollen in der Softwareentwicklung")
 
 
 ### Rollen aus der Informatik-Persperpektive
