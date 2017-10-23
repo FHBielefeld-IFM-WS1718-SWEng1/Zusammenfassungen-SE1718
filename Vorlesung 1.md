@@ -149,7 +149,8 @@ Auftraggeber erstelltes Softwaresystem
     * Überprüfung der Zusammenarbeit der Komponenten
     * Überprüfung des Gesamtsystems
 
-    <br /> 
+    </br>
+
     _Abwesenheit von Fehlern kann durch Testen **NICHT** garantiert werden._
     
 ##### **Konﬁgurationsmanager**
@@ -171,8 +172,7 @@ Auftraggeber erstelltes Softwaresystem
 
 #### Unterschiedliche Projektgrößen
 Die Herstellung großer Softwaresysteme mit Millionen von Codezeilen unterscheidet sich auch qualitativ und nicht nur quantitativ von der Herstellung kleiner Software.
-<br />
-<br />
+</br>
 Unterschiede:
 * Die  Komplexität  großer  Softwaresysteme  übersteigt  die  von  einem Entwickler zu einem Zeitpunkt zu beherrschende Komplexität
 * Die Wahrscheinlichkeit für die Korrektheit eines Systems von vielen „Modulen“ ist wesentlich kleiner als die Wahrscheinlichkeit für die Korrektheit einzelner „Module“
@@ -188,13 +188,17 @@ Unterschiede:
 
 ### Software Qualität
 #### Qualitätsmerkmale für Software
-<br />
+</br>
+
 ![Qualitätsmerkmale](/BilderVorlesung1/qualitaetsmerkmaleSoftware.png?raw=true "Merkmale der Softwarequalität")
-<br />
+
+</br>
 #### Perspektive auf Softwarequalität
-<br />
+</br>
+
 ![Perspektiven](/BilderVorlesung1/perspektivenSoftwarequalität.png?raw=true "Perpektiven auf Softwarequalität")
-<br />
+
+</br>
 #### Intressenskonflikte
 * Funktionalität vs. Benutzbarkeit
 	* Je überladener, um so schwerer zu erlernen
