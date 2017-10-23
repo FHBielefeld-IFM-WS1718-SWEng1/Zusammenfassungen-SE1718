@@ -75,8 +75,13 @@ Auftraggeber erstelltes Softwaresystem
 * Entwickler
     * Definieren und bauen Software
     * in verschiedenen Rollen (d.h. mit verschiedenartigen Aufgaben)
+
 </br>
-![RolleBeiAuftragsarbeit](/BilderVorlesung1/RolleBeiAuftragsarbeit.PNG?raw=true "Rollen bei Auftragsarbeit")</br>
+
+![RolleBeiAuftragsarbeit](/BilderVorlesung1/RolleBeiAuftragsarbeit.PNG?raw=true "Rollen bei Auftragsarbeit") 
+
+</br>
+
 ![RollenInDerSoftwareentwicklung](/BilderVorlesung1/RollenInDerSoftwareentwicklung.PNG?raw=true "Rollen in der Softwareentwicklung")
 
 
