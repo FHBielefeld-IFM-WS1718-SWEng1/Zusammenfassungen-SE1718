@@ -149,8 +149,6 @@ Auftraggeber erstelltes Softwaresystem
     * Überprüfung der Zusammenarbeit der Komponenten
     * Überprüfung des Gesamtsystems
 
-    </br>
-
     _Abwesenheit von Fehlern kann durch Testen **NICHT** garantiert werden._
     
 ##### **Konﬁgurationsmanager**
@@ -182,9 +180,9 @@ Unterschiede:
 |Projektgröße|Kriterien|Rollen|Warum?|Beispiele|
 |--|--|--|--|--|
 |Light|Bis zu 6 Personen </br>Monate (PM) : 0-8</br> Anzahl Technologien: <5|Kunde, Mangager, Programmierer, Teseter|Besteht meistens aus nur einer Person, die alle Rollen erfüllt|Rechenprobleme und Algorithmen|
-|Medium|10-30 Personen</br> 9-24 PM</br>Technologien 5-12|Kunde, Projektleiter, Analytiker, Programmierer, Tester, Controller|Projekt umfangreicher Zusammenarbeit mehrerer Personen notwendig|Buchhaltung und Lagerverwaltung|
-|Heavy|50-100 Personen</br>25-15PM </br> 12-20 Technologien|Kunde, Management, wirtschaftlicher und technischer Projektleiter, Gruppenleiter, Analytiker, Controller, Programmierer, Tester, Qualitätssicherer| Das Projekt ist für Einzelne nicht mehr überschaubar. Es wird Aufgeteilt in Gruppen mit Struktur des Ganzen.|Compiler und Datenbank|
-|Super Heavy|Ab 100 Personen</br> > 45PM</br>> 20 Technologien|siehe Heavy| Raumfahrt, Atomkraftwerk</br>elektronische Börse|siehe Heavy|
+|Medium|10-30 Personen</br> 9-24 PM</br>Technologien: 5-12|Kunde, Projektleiter, Analytiker, Programmierer, Tester, Controller|Projekt umfangreicher Zusammenarbeit mehrerer Personen notwendig|Buchhaltung und Lagerverwaltung|
+|Heavy|50-100 Personen</br>25-45PM </br>Technologien: 12-20 |Kunde, Management, wirtschaftlicher und technischer Projektleiter, Gruppenleiter, Analytiker, Controller, Programmierer, Tester, Qualitätssicherer| Das Projekt ist für Einzelne nicht mehr überschaubar. Es wird Aufgeteilt in Gruppen mit Struktur des Ganzen.|Compiler und Datenbank|
+|Super Heavy|Ab 100 Personen</br> > 45PM</br>>Technologien:  20 |siehe Heavy| Raumfahrt, Atomkraftwerk</br>elektronische Börse|siehe Heavy|
 
 ### Software Qualität
 #### Qualitätsmerkmale für Software
@@ -193,12 +191,15 @@ Unterschiede:
 ![Qualitätsmerkmale](/BilderVorlesung1/qualitaetsmerkmaleSoftware.png?raw=true "Merkmale der Softwarequalität")
 
 </br>
+
 #### Perspektive auf Softwarequalität
+
 </br>
 
 ![Perspektiven](/BilderVorlesung1/perspektivenSoftwarequalität.png?raw=true "Perpektiven auf Softwarequalität")
 
 </br>
+
 #### Intressenskonflikte
 * Funktionalität vs. Benutzbarkeit
 	* Je überladener, um so schwerer zu erlernen
