@@ -188,7 +188,13 @@ Unterschiede:
 
 ### Software Qualität
 #### Qualitätsmerkmale für Software
+<br />
+![Qualitätsmerkmale](/BilderVorlesung1/qualitaetsmerkmaleSoftware.png?raw=true "Merkmale der Softwarequalität")
+<br />
 #### Perspektive auf Softwarequalität
+<br />
+![Perspektiven](/BilderVorlesung1/perspektivenSoftwarequalität.png?raw=true "Perpektiven auf Softwarequalität")
+<br />
 #### Intressenskonflikte
 * Funktionalität vs. Benutzbarkeit
 	* Je überladener, um so schwerer zu erlernen
