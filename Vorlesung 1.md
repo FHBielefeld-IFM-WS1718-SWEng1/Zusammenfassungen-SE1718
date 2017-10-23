@@ -6,7 +6,7 @@ Software ist ein umfassenderer Begriff als „Programm“
 * Software besteht ebenfalls aus der zugehörigen Dokumentation
 * Software enthält alle Elemente, die für den Betrieb notwendig sind. z.B. Datenbankskripte, Dokumentation, Betriebshandbücher, usw.
 
-*„Programme, zugehörige Daten und Dokumentationen, die es zusammengefasst erlauben, mit Hilfe eines Computers Aufgaben zu erledigen.“*
+*„Programme, zugehörige Daten und Dokumentationen, die es zusammengefasst erlauben, mit Hilfe eines Computers Aufgaben zu erledigen.“*</br>
 ![Eisberg](/BilderVorlesung1/Eisberg.png?raw=true "Eisberg der Software")
 #### Softwaresystem
 * Ein Softwaresystem ist ein System, dessen Bestandteile)und Elemente aus Software bestehen („innere“ Sicht des Softwareentwicklers)
@@ -14,8 +14,8 @@ Software ist ein umfassenderer Begriff als „Programm“
 #### Softwareprodukt
 * Ein Softwareprodukt ist ein für einen 
 Auftraggeber erstelltes Softwaresystem
-(„äußere“ Sicht)
-
+(„äußere“ Sicht)</br>
+![SWSystem](/BilderVorlesung1/SWSystem.png?raw=true "Software System")
 #### Softwarearten
 * Systemsoftware(z.B. Betriebssystem)
 * Anwendungssoftware (z.B. Büroanwendungen, Office)
@@ -37,8 +37,8 @@ Auftraggeber erstelltes Softwaresystem
     * Die Umgebung, in der Software eingesetzt wird, ändert sich ständig
     * Software muss daher diesen Änderungen immer wieder angepasst werden
 
-### Klassischer Software Lebenszyklus
-#### **Bild fehlt**
+### Klassischer Software Lebenszyklus</br>
+![Wasserfallmodell](/BilderVorlesung1/Wasserfallmodell.png?raw=true "Wasserfallmodell")
 #### Phasen eines Vorgehensmodells
 * Anforderungsermittlung: Wie findet man heraus, welche Eigenschaften (insbesondere Funktionalität) die zu konstruierende Software haben soll?
 * Analyse: Wie beschreibt man dann diese Eigenschaften?
@@ -75,8 +75,10 @@ Auftraggeber erstelltes Softwaresystem
 * Entwickler
     * Definieren und bauen Software
     * in verschiedenen Rollen (d.h. mit verschiedenartigen Aufgaben)
+</br>
+![RolleBeiAuftragsarbeit](/BilderVorlesung1/RolleBeiAuftragsarbeit.png?raw=true "Rollen bei Auftragsarbeit")</br>
+![RollenInDerSoftwareentwicklung](/BilderVorlesung1/RollenInDerSoftwareentwicklung.png?raw=true "Rollen in der Softwareentwicklung")
 
-#### **Bild fehlt**
 
 ### Rollen aus der Informatik-Persperpektive
 
