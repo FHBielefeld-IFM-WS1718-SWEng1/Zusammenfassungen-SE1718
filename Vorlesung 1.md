@@ -7,7 +7,7 @@ Software ist ein umfassenderer Begriff als „Programm“
 * Software enthält alle Elemente, die für den Betrieb notwendig sind. z.B. Datenbankskripte, Dokumentation, Betriebshandbücher, usw.
 
 *„Programme, zugehörige Daten und Dokumentationen, die es zusammengefasst erlauben, mit Hilfe eines Computers Aufgaben zu erledigen.“*
-#### **Bild fehlt**
+![Eisberg](/BilderVorlesung1/Eisberg.png?raw=true "Eisberg der Software")
 #### Softwaresystem
 * Ein Softwaresystem ist ein System, dessen Bestandteile)und Elemente aus Software bestehen („innere“ Sicht des Softwareentwicklers)
 
