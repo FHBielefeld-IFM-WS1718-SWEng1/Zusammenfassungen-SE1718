@@ -182,7 +182,7 @@ Unterschiede:
 |Light|Bis zu 6 Personen </br>Monate (PM) : 0-8</br> Anzahl Technologien: <5|Kunde, Mangager, Programmierer, Teseter|Besteht meistens aus nur einer Person, die alle Rollen erfüllt|Rechenprobleme und Algorithmen|
 |Medium|10-30 Personen</br> 9-24 PM</br>Technologien: 5-12|Kunde, Projektleiter, Analytiker, Programmierer, Tester, Controller|Projekt umfangreicher Zusammenarbeit mehrerer Personen notwendig|Buchhaltung und Lagerverwaltung|
 |Heavy|50-100 Personen</br>25-45PM </br>Technologien: 12-20 |Kunde, Management, wirtschaftlicher und technischer Projektleiter, Gruppenleiter, Analytiker, Controller, Programmierer, Tester, Qualitätssicherer| Das Projekt ist für Einzelne nicht mehr überschaubar. Es wird Aufgeteilt in Gruppen mit Struktur des Ganzen.|Compiler und Datenbank|
-|Super Heavy|Ab 100 Personen</br> > 45PM</br>>Technologien:  20 |siehe Heavy| Raumfahrt, Atomkraftwerk</br>elektronische Börse|siehe Heavy|
+|Super Heavy|Ab 100 Personen</br> > 45PM</br>Technologien:  >20 |siehe Heavy| Raumfahrt, Atomkraftwerk</br>elektronische Börse|siehe Heavy|
 
 ### Software Qualität
 #### Qualitätsmerkmale für Software
@@ -216,13 +216,13 @@ Unterschiede:
 
 ### Probleme in der Software Entwicklung
 
-*Bild Standish Group Chaos Report*
+![Standish Group Chaos Report](/BilderVorlesung1/StandishGroupChaosReport.png?raw=true "Standish Group Chaos Report")
 
 - 18% aller SW-Projekte wurden ohne verwertbares Ergebnis abgebrochen
 - 53% aller SW-Projekte hatten nach Beendigung eine Budget- und/oder Terminüberschreitung von über 60%
 - 29% aller SW-Projekte in "time, quality & money" abgewickelt worden
- 
-*Baum Bild*
+
+![Baum Bild](/BilderVorlesung1/BaumBild.png?raw=true "Baum Bild")
 
 #### Ursachen für schlechte Software-Qualität
 - Zu wenig Ressourcen bzw. falsche Schätzung benötigter Ressourcen
@@ -249,8 +249,7 @@ Unterschiede:
 
 **-> Ursachen in Organisation, Technologie, Methodik**
 
-#### Schlüsselfaktoren für Projekterfolg
-*Bild Schlüsselfaktoren für Projekterfolg*
+![Schlüsselfaktoren für Projekterfolg](/BilderVorlesung1/SchlüsselfaktorenfürProjekterfolg.png?raw=true "Schlüsselfaktoren für Projekterfolg")
 
 ### Softwarekosten
 
@@ -261,10 +260,12 @@ Unterschiede:
 - Die Mehrzahl der Softwareentwickler sind mit Pflegearbeiten beschäftigt
 
 #### Fehlerentstehung und Fehlererkennung in verschiedenen Projektstadien
-*Bild Fehler in der Softwareentwicklung in %*
+
+![Fehler in der Softwareentwicklung in %](/BilderVorlesung1/Fehlerinder Softwareentwicklungin%.png?raw=true "Fehler in der Softwareentwicklung in %")
 
 #### Verteilung der Fehlerkosten
-*Bild Verteilung der Fehlerkosten*
+
+![Verteilung der Fehlerkosten](/BilderVorlesung1/VerteilungderFehlerkosten.png?raw=true "Verteilung der Fehlerkosten")
 
 **-> Je später ein Fehler entdeckt wird, desto teurer ist die Beseitigung**
 
@@ -276,12 +277,14 @@ Folgende Bedingungen sind gegeben:
 Software-Engineering soll helfen, diese Probleme nicht entstehen zu lassen oder zu beseitigen.
 
 #### Aufbau Informatik
-*Bild Aufbau Informatik*
+
+![Aufbau Informatik](/BilderVorlesung1/AufbauInformatik.png?raw=true "Aufbau Informatik")
 
 #### Aufbau Software Engineering
-*Bild Aufbau Software Engineering*
 
-*Bild Software + Engineering*
+![Aufbau Software Engineering](/BilderVorlesung1/AufbauSoftwareEngineering.png?raw=true "Aufbau Software Engineering")
+
+![Software + Engineering](/BilderVorlesung1/Software+Engineering.png?raw=true "Software + Engineering")
 
 Software Engineering ist der Einsatz von Methoden, Werkzeugen und Vorgehensmodellen zum Erstellen und Betreiben von Software mit dem Ziel, die Softwarekosten bei der Entwicklung, Wartung und Erweiterung von Programmsystemen zu senken und gleichzeitig eine hohe Qualität zu erreichen.
 
