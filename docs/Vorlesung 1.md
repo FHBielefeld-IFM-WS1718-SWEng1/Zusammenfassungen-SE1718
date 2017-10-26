@@ -6,16 +6,16 @@ Software ist ein umfassenderer Begriff als „Programm“
 * Software besteht ebenfalls aus der zugehörigen Dokumentation
 * Software enthält alle Elemente, die für den Betrieb notwendig sind. z.B. Datenbankskripte, Dokumentation, Betriebshandbücher, usw.
 
-*„Programme, zugehörige Daten und Dokumentationen, die es zusammengefasst erlauben, mit Hilfe eines Computers Aufgaben zu erledigen.“*</br>
+*„Programme, zugehörige Daten und Dokumentationen, die es zusammengefasst erlauben, mit Hilfe eines Computers Aufgaben zu erledigen.“*<br>
 ![Eisberg der Software](BilderVorlesung1/Eisberg.png)
 #### Softwaresystem
 * Ein Softwaresystem ist ein System, dessen Bestandteile und Elemente aus Software bestehen („innere“ Sicht des Softwareentwicklers)
 
 #### Softwareprodukt
 * Ein Softwareprodukt ist ein für einen 
-Auftraggeber erstelltes Softwaresystem
-(„äußere“ Sicht)</br>
-![Software System](BilderVorlesung1/SWSystem.png)
+  Auftraggeber erstelltes Softwaresystem
+  („äußere“ Sicht)<br>
+  ![Software System](BilderVorlesung1/SWSystem.png)
 #### Softwarearten
 * Systemsoftware(z.B. Betriebssystem)
 * Anwendungssoftware (z.B. Büroanwendungen, Office)
@@ -37,7 +37,7 @@ Auftraggeber erstelltes Softwaresystem
     * Die Umgebung, in der Software eingesetzt wird, ändert sich ständig
     * Software muss daher diesen Änderungen immer wieder angepasst werden
 
-### Klassischer Software Lebenszyklus</br>
+### Klassischer Software Lebenszyklus<br>
 ![Wasserfallmodell](BilderVorlesung1/Wasserfallmodell.PNG)
 #### Phasen eines Vorgehensmodells
 * Anforderungsermittlung: Wie findet man heraus, welche Eigenschaften (insbesondere Funktionalität) die zu konstruierende Software haben soll?
@@ -76,11 +76,11 @@ Auftraggeber erstelltes Softwaresystem
     * Definieren und bauen Software
     * in verschiedenen Rollen (d.h. mit verschiedenartigen Aufgaben)
 
-</br>
+<br>
 
 ![Rollen bei Auftragsarbeit](BilderVorlesung1/RolleBeiAuftragsarbeit.PNG) 
 
-</br>
+<br>
 
 ![Rollen in der Softwareentwicklung](BilderVorlesung1/RollenInDerSoftwareentwicklung.PNG)
 
@@ -150,7 +150,7 @@ Auftraggeber erstelltes Softwaresystem
     * Überprüfung des Gesamtsystems
 
     _Abwesenheit von Fehlern kann durch Testen **NICHT** garantiert werden._
-    
+
 ##### **Konﬁgurationsmanager**
 * Aufgabe: kümmert sich um die Festlegung der Regelungen für Konﬁgurations- und Produktverwaltung. 
 * Aktivitäten:
@@ -170,49 +170,49 @@ Auftraggeber erstelltes Softwaresystem
 
 #### Unterschiedliche Projektgrößen
 Die Herstellung großer Softwaresysteme mit Millionen von Codezeilen unterscheidet sich auch qualitativ und nicht nur quantitativ von der Herstellung kleiner Software.
-</br>
+<br>
 Unterschiede:
 * Die  Komplexität  großer  Softwaresysteme  übersteigt  die  von  einem Entwickler zu einem Zeitpunkt zu beherrschende Komplexität
 * Die Wahrscheinlichkeit für die Korrektheit eines Systems von vielen „Modulen“ ist wesentlich kleiner als die Wahrscheinlichkeit für die Korrektheit einzelner „Module“
 * Langlebigkeit und Versionierung großer Softwaresysteme ist problematisch
 * Kommunikation unter vielen beteiligten Personen gestaltet sich schwierig
 
-|Projektgröße|Kriterien|Rollen|Warum?|Beispiele|
-|--|--|--|--|--|
-|Light|Bis zu 6 Personen </br>Monate (PM) : 0-8</br> Anzahl Technologien: <5|Kunde, Mangager, Programmierer, Teseter|Besteht meistens aus nur einer Person, die alle Rollen erfüllt|Rechenprobleme und Algorithmen|
-|Medium|10-30 Personen</br> 9-24 PM</br>Technologien: 5-12|Kunde, Projektleiter, Analytiker, Programmierer, Tester, Controller|Projekt umfangreicher Zusammenarbeit mehrerer Personen notwendig|Buchhaltung und Lagerverwaltung|
-|Heavy|50-100 Personen</br>25-45PM </br>Technologien: 12-20 |Kunde, Management, wirtschaftlicher und technischer Projektleiter, Gruppenleiter, Analytiker, Controller, Programmierer, Tester, Qualitätssicherer| Das Projekt ist für Einzelne nicht mehr überschaubar. Es wird Aufgeteilt in Gruppen mit Struktur des Ganzen.|Compiler und Datenbank|
-|Super Heavy|Ab 100 Personen</br> > 45PM</br>Technologien:  >20 |siehe Heavy| Raumfahrt, Atomkraftwerk</br>elektronische Börse|siehe Heavy|
+| Projektgröße | Kriterien                                | Rollen                                   | Warum?                                   | Beispiele                       |
+| ------------ | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- | ------------------------------- |
+| Light        | Bis zu 6 Personen <br>Monate (PM) : 0-8<br> Anzahl Technologien: <5 | Kunde, Mangager, Programmierer, Teseter  | Besteht meistens aus nur einer Person, die alle Rollen erfüllt | Rechenprobleme und Algorithmen  |
+| Medium       | 10-30 Personen<br> 9-24 PM<br>Technologien: 5-12 | Kunde, Projektleiter, Analytiker, Programmierer, Tester, Controller | Projekt umfangreicher Zusammenarbeit mehrerer Personen notwendig | Buchhaltung und Lagerverwaltung |
+| Heavy        | 50-100 Personen<br>25-45PM <br>Technologien: 12-20 | Kunde, Management, wirtschaftlicher und technischer Projektleiter, Gruppenleiter, Analytiker, Controller, Programmierer, Tester, Qualitätssicherer | Das Projekt ist für Einzelne nicht mehr überschaubar. Es wird Aufgeteilt in Gruppen mit Struktur des Ganzen. | Compiler und Datenbank          |
+| Super Heavy  | Ab 100 Personen<br> > 45PM<br>Technologien:  >20 | siehe Heavy                              | Raumfahrt, Atomkraftwerk<br>elektronische Börse | siehe Heavy                     |
 
 ### Software Qualität
 #### Qualitätsmerkmale für Software
-</br>
+<br>
 
 ![Merkmale der Softwarequalität](BilderVorlesung1/qualitaetsmerkmaleSoftware.png)
 
-</br>
+<br>
 
 #### Perspektive auf Softwarequalität
 
-</br>
+<br>
 
 ![Perpektiven auf Softwarequalität](BilderVorlesung1/perspektivenSoftwarequalität.png)
 
-</br>
+<br>
 
 #### Intressenskonflikte
 * Funktionalität vs. Benutzbarkeit
-	* Je überladener, um so schwerer zu erlernen
+  * Je überladener, um so schwerer zu erlernen
 * Funktionalität vs. schnelle Entwicklung
     * Viel Funktionalität zu implementieren braucht Zeit
 * Kosten vs. Robustheit
-	* Sparen an Qualitätssicherung
+  * Sparen an Qualitätssicherung
 * Kosten vs. Wiederverwendbarkeit
-	* Quick and dirty
+  * Quick and dirty
 * Effizienz vs. Portabilität
-	* Effizienz durch Speziallösung für bestimmtes Betriebssystem, DBMS, ...
+  * Effizienz durch Speziallösung für bestimmtes Betriebssystem, DBMS, ...
 * Abwärtskompatibilität vs. Lesbarkeit
-	* Viele Sonderfälle für Altversionen erschweren die Lesbarkeit
+  * Viele Sonderfälle für Altversionen erschweren die Lesbarkeit
 
 ### Probleme in der Software Entwicklung
 
@@ -293,13 +293,13 @@ Software Engineering ist der Einsatz von Methoden, Werkzeugen und Vorgehensmodel
 - Einhaltung der geforderten Qualitätsmerkmale (Qualitätssicherungsaspekt)
 - Kontrollierte Projektabwicklung (Managementaspekt)
 - Sicherstellung der Wartbarkeit, Erweiterbarkeit und Wiederverwendbarkeit (Wartungsaspekt)
- 
+
 #### Software Engineering
 - Stellt die Qualität in den Mittelpunkt (Kundezufriedenheit, Sicherheit)
 - Basiert auf (agilen) Vorgehensmodellen
 - Entwicklung wird methodisch durchgeführt (OOA/OOD mit UML)
 - Softwarewerkzeuge zur Beherrschung der Komplexität
- 
+
 ### Zusammenfassung
 - Software Engineering ist eine Ingenieur-Disziplin, die sich mit allen Aspekten der Softwareentwicklung und Softwarewartung beschäftigt
 - Ziel des Software Engineerings ist die Erreichung einer hohen Softwarequalität und die Minimierung der Softwarekosten
