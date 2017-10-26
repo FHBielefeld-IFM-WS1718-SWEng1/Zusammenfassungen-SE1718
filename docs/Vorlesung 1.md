@@ -7,7 +7,7 @@ Software ist ein umfassenderer Begriff als „Programm“
 * Software enthält alle Elemente, die für den Betrieb notwendig sind. z.B. Datenbankskripte, Dokumentation, Betriebshandbücher, usw.
 
 *„Programme, zugehörige Daten und Dokumentationen, die es zusammengefasst erlauben, mit Hilfe eines Computers Aufgaben zu erledigen.“*</br>
-![Eisberg der Software](docs/BilderVorlesung1/Eisberg.png)
+![Eisberg der Software](BilderVorlesung1/Eisberg.png)
 #### Softwaresystem
 * Ein Softwaresystem ist ein System, dessen Bestandteile und Elemente aus Software bestehen („innere“ Sicht des Softwareentwicklers)
 
@@ -15,7 +15,7 @@ Software ist ein umfassenderer Begriff als „Programm“
 * Ein Softwareprodukt ist ein für einen 
 Auftraggeber erstelltes Softwaresystem
 („äußere“ Sicht)</br>
-![Software System](docs/BilderVorlesung1/SWSystem.png)
+![Software System](BilderVorlesung1/SWSystem.png)
 #### Softwarearten
 * Systemsoftware(z.B. Betriebssystem)
 * Anwendungssoftware (z.B. Büroanwendungen, Office)
@@ -38,7 +38,7 @@ Auftraggeber erstelltes Softwaresystem
     * Software muss daher diesen Änderungen immer wieder angepasst werden
 
 ### Klassischer Software Lebenszyklus</br>
-![Wasserfallmodell](docs/BilderVorlesung1/Wasserfallmodell.PNG)
+![Wasserfallmodell](BilderVorlesung1/Wasserfallmodell.PNG)
 #### Phasen eines Vorgehensmodells
 * Anforderungsermittlung: Wie findet man heraus, welche Eigenschaften (insbesondere Funktionalität) die zu konstruierende Software haben soll?
 * Analyse: Wie beschreibt man dann diese Eigenschaften?
@@ -78,11 +78,11 @@ Auftraggeber erstelltes Softwaresystem
 
 </br>
 
-![Rollen bei Auftragsarbeit](docs/BilderVorlesung1/RolleBeiAuftragsarbeit.PNG) 
+![Rollen bei Auftragsarbeit](BilderVorlesung1/RolleBeiAuftragsarbeit.PNG) 
 
 </br>
 
-![Rollen in der Softwareentwicklung](docs/BilderVorlesung1/RollenInDerSoftwareentwicklung.PNG)
+![Rollen in der Softwareentwicklung](BilderVorlesung1/RollenInDerSoftwareentwicklung.PNG)
 
 
 ### Rollen aus der Informatik-Persperpektive
@@ -188,7 +188,7 @@ Unterschiede:
 #### Qualitätsmerkmale für Software
 </br>
 
-![Merkmale der Softwarequalität](docs/BilderVorlesung1/qualitaetsmerkmaleSoftware.png)
+![Merkmale der Softwarequalität](BilderVorlesung1/qualitaetsmerkmaleSoftware.png)
 
 </br>
 
@@ -196,7 +196,7 @@ Unterschiede:
 
 </br>
 
-![Perpektiven auf Softwarequalität](docs/BilderVorlesung1/perspektivenSoftwarequalität.png)
+![Perpektiven auf Softwarequalität](BilderVorlesung1/perspektivenSoftwarequalität.png)
 
 </br>
 
@@ -216,13 +216,13 @@ Unterschiede:
 
 ### Probleme in der Software Entwicklung
 
-![Standish Group Chaos Report](docs/BilderVorlesung1/StandishGroupChaosReport.png)
+![Standish Group Chaos Report](BilderVorlesung1/StandishGroupChaosReport.png)
 
 - 18% aller SW-Projekte wurden ohne verwertbares Ergebnis abgebrochen
 - 53% aller SW-Projekte hatten nach Beendigung eine Budget- und/oder Terminüberschreitung von über 60%
 - 29% aller SW-Projekte in "time, quality & money" abgewickelt worden
 
-![Baum Bild](docs/BilderVorlesung1/BaumBild.png)
+![Baum Bild](BilderVorlesung1/BaumBild.png)
 
 #### Ursachen für schlechte Software-Qualität
 - Zu wenig Ressourcen bzw. falsche Schätzung benötigter Ressourcen
@@ -249,7 +249,7 @@ Unterschiede:
 
 **-> Ursachen in Organisation, Technologie, Methodik**
 
-![Schlüsselfaktoren für Projekterfolg](docs/BilderVorlesung1/SchlüsselfaktorenfürProjekterfolg.png)
+![Schlüsselfaktoren für Projekterfolg](BilderVorlesung1/SchlüsselfaktorenfürProjekterfolg.png)
 
 ### Softwarekosten
 
@@ -261,11 +261,11 @@ Unterschiede:
 
 #### Fehlerentstehung und Fehlererkennung in verschiedenen Projektstadien
 
-![Fehler in der Softwareentwicklung in %](docs/BilderVorlesung1/FehlerinderSoftwareentwicklungin%.png)
+![Fehler in der Softwareentwicklung in %](BilderVorlesung1/FehlerinderSoftwareentwicklungin%.png)
 
 #### Verteilung der Fehlerkosten
 
-![Verteilung der Fehlerkosten](docs/BilderVorlesung1/VerteilungderFehlerkosten.png)
+![Verteilung der Fehlerkosten](BilderVorlesung1/VerteilungderFehlerkosten.png)
 
 **-> Je später ein Fehler entdeckt wird, desto teurer ist die Beseitigung**
 
@@ -278,13 +278,13 @@ Software-Engineering soll helfen, diese Probleme nicht entstehen zu lassen oder 
 
 #### Aufbau Informatik
 
-![Aufbau Informatik](docs/BilderVorlesung1/AufbauInformatik.png)
+![Aufbau Informatik](BilderVorlesung1/AufbauInformatik.png)
 
 #### Aufbau Software Engineering
 
-![Aufbau Software Engineering](docs/BilderVorlesung1/AufbauSoftwareEngineering.png)
+![Aufbau Software Engineering](BilderVorlesung1/AufbauSoftwareEngineering.png)
 
-![Software + Engineering](docs/BilderVorlesung1/Software+Engineering.png)
+![Software + Engineering](BilderVorlesung1/Software+Engineering.png)
 
 Software Engineering ist der Einsatz von Methoden, Werkzeugen und Vorgehensmodellen zum Erstellen und Betreiben von Software mit dem Ziel, die Softwarekosten bei der Entwicklung, Wartung und Erweiterung von Programmsystemen zu senken und gleichzeitig eine hohe Qualität zu erreichen.
 
