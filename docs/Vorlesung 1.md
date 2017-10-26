@@ -261,7 +261,7 @@ Unterschiede:
 
 #### Fehlerentstehung und Fehlererkennung in verschiedenen Projektstadien
 
-![Fehler in der Softwareentwicklung in %](BilderVorlesung1/FehlerinderSoftwareentwicklungin%.png)
+![Fehler in der Softwareentwicklung in %](BilderVorlesung1/FehlerinderSoftwareentwicklung.png)
 
 #### Verteilung der Fehlerkosten
 
