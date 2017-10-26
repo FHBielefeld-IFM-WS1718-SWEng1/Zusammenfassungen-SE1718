@@ -9,7 +9,7 @@ Software ist ein umfassenderer Begriff als „Programm“
 *„Programme, zugehörige Daten und Dokumentationen, die es zusammengefasst erlauben, mit Hilfe eines Computers Aufgaben zu erledigen.“*</br>
 ![Eisberg](/BilderVorlesung1/Eisberg.png?raw=true "Eisberg der Software")
 #### Softwaresystem
-* Ein Softwaresystem ist ein System, dessen Bestandteile)und Elemente aus Software bestehen („innere“ Sicht des Softwareentwicklers)
+* Ein Softwaresystem ist ein System, dessen Bestandteile und Elemente aus Software bestehen („innere“ Sicht des Softwareentwicklers)
 
 #### Softwareprodukt
 * Ein Softwareprodukt ist ein für einen 
@@ -261,7 +261,7 @@ Unterschiede:
 
 #### Fehlerentstehung und Fehlererkennung in verschiedenen Projektstadien
 
-![Fehler in der Softwareentwicklung in %](/BilderVorlesung1/Fehlerinder Softwareentwicklungin%.png?raw=true "Fehler in der Softwareentwicklung in %")
+![Fehler in der Softwareentwicklung in %](/BilderVorlesung1/FehlerinderSoftwareentwicklungin%.png?raw=true "Fehler in der Softwareentwicklung in %")
 
 #### Verteilung der Fehlerkosten
 
