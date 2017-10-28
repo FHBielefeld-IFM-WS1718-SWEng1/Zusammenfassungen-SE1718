@@ -1,7 +1,13 @@
+---
+sidebar: false
+---
+
 # Zusammenfassungen-SE1718
 Aufgearbeitete Folien für Software Engineering
 
-Alles im Markdown Format.
+1. [Einleitung](/vorlesung1/vorlesung1)
 
-Um Inhalte beizusteuern, neuen Branch erstellen, Änderungen machen, dann Pullrequest erstellen.
-KEINE ÄNDERUNGEN AUF DEN MASTER BRANCH.
+## Informationen für Contributer:
+Alle beigesteuerten Dokumente nutzen das Markdown Format und die Dateiendung .md
+<br>
+Detailierte Informationen sind dem Dokument [hier](/CONTRIBUTING) zu entnehmen.
