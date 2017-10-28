@@ -1,8 +1,5 @@
----
-sidebar: false
----
-
-# Zusammenfassungen-SE1718
+Zusammenfassungen-SE1718
+========================
 Aufgearbeitete Folien für Software Engineering
 [Docute Darstellung]( https://fhbielefeld-ifm-ws1718-sweng1.github.io/Zusammenfassungen-SE1718/)
 
