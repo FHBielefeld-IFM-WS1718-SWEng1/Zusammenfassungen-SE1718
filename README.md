@@ -1,7 +1,15 @@
-# Zusammenfassungen-SE1718
-Aufgearbeitete Folien für Software Engineering
+Zusammenfassungen-SE1718
+========================
+Aufgearbeitete Folien für Software Engineering<br>
+[Docute Darstellung]( https://fhbielefeld-ifm-ws1718-sweng1.github.io/Zusammenfassungen-SE1718/)
 
-Alles im Markdown Format.
+### Vorlesungen:
+1. [Einleitung](/vorlesung1/vorlesung1.md)
 
-Um Inhalte beizusteuern, neuen Branch erstellen, Änderungen machen, dann Pullrequest erstellen.
-KEINE ÄNDERUNGEN AUF DEN MASTER BRANCH.
+<br>
+Bilder funktionieren in github Darstellung nicht, da die Pfade für docute angepasst sind.
+
+### Informationen für Contributer:
+Alle beigesteuerten Dokumente nutzen das Markdown Format und die Dateiendung .md
+<br>
+Detailierte Informationen sind dem Dokument [hier](/CONTRIBUTING.md) zu entnehmen.
