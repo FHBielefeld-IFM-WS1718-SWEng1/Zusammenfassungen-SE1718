@@ -1,3 +1,2 @@
-# Test
-meine Tests mit GIT  
-## Alles andere
+# Vorlesung 2
+Dateien und Bilder für die Bearbeitung von Vorlesung 2
