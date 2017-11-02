@@ -66,60 +66,7 @@ _Autoren: Diana Kirzhner, Hendrik Schröder_
 ![VM](/VM.jpg?raw=true "Vorgehensmodell")
 -----------------------------------------------------------------------------------------------------------------
 
-#### Anforderungsanalyse
 
-* Möglichst eindeutige Beschreibung des Problems und definition der Umgebungsbedingungen durch Rücksprache und Verhandlung mit dem Kunden
-* Beispiele für Typische Anforderunge sind:
-  * Funktionsumfang
-  * Eingabe und Ausgabe
-  * Dokumentationsanforderung
-  * Qualitätsmerkmale
- 
- #### Systemanamlyse
- 
- * Ziel ist das Verstehen des Problems und des neuen Systems durch untersuchen der technischen und ökonomischen Gegebenheiten
- * Beschreibung der Vorgänge und die Zerlegung in Teilprobleme
- 
-==> **Systemmodel**
-
-#### Softwareentwurf
-
-* Planung
-  * Struktur (von was zu wie)
-  * Schnittstellen der Vorgänge und externer Ereignisse
-  * muss die Anforderungen als "grobes Programm" erfüllen
-  
- ==> Entwurfspezifikation
- 
- #### Implementierung
- 
-Die Entwurfspezifikationen werden zu einem nutzbaren Programm implementiert. Die Tests und die Dokumentation müssen dabei mitentwickelt werden.
-
-==> Programmcode, Dokumentation, Test
-
-#### Test
-
-Es gibt Zwei Arten von Tests:
-
-* Integrationstest
-  * Fehlersuche bei den Schnittstellen
-* Systemtest
-  * Überprufung des Systems gegenüber der Anforderung
-  *Test im intigrierten System, um spezifizierte Anforderungen zzu erfüllen
-  * Leistungsmessung und Optimierung
-  
-==> Testspezifikation und Protokolle
-
-#### Wartung
-
-* Lebensdauer großer Systeme überdauert die Verfügbarkeit der Hardware und der Entwickler
-* Wartungsaufgaben sind:
-  * Fehlerbeseitigung
-  * Optimierung
-  * Anpassung an neue Anforderungen
-  * Austausch von Gerätesystemteilen
-  
-==> Protokolle für das Monitoring von Systemzuständen sowie verbessertes Softwareprodukt  
   
 ### Bekannte Vorgehensmodelle
 
