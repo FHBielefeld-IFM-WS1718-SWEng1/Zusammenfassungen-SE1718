@@ -13,7 +13,7 @@ _Autoren: Diana Kirzhner, Hendrik Schröder_
 * beschreibt Ablauf Softwareentwicklung
 * macht Softwareentwicklungsprozess  
    * transparenter  
-   * planbar   
+   * planbar   
    * nachvollziehbar  
    * kontrollierbar  
    * lehrbar  
@@ -24,13 +24,13 @@ _Autoren: Diana Kirzhner, Hendrik Schröder_
 * besseren Wartbarkeit  
 * schnelleren Fehlerbehebung  
 
-![Bild1](/Bild1.jpg?raw=true "Einfaches Vorgehensmodell")
+![Bild1](vorlesung2/bilder/Bild1.jpg "Einfaches Vorgehensmodell")
 -----------------------------------------------------------------------------------------------------------------
-![Bild2](/Bild2.jpg?raw=true "Verbesertes Vorgehensmodell")
+![Bild2](vorlesung2/bilder/Bild2.jpg "Verbesertes Vorgehensmodell")
 -----------------------------------------------------------------------------------------------------------------
-![Bild3](/Bild3.jpg?raw=true "Noch besseres Vorgehensmodell")
+![Bild3](vorlesung2/bilder/Bild3.jpg "Noch besseres Vorgehensmodell")
 -----------------------------------------------------------------------------------------------------------------
-![Bild4](/Bild4.jpg?raw=true "Noch besseres Vorgehensmodell")
+![Bild4](vorlesung2/bilder/Bild4.jpg "Noch besseres Vorgehensmodell")
 -----------------------------------------------------------------------------------------------------------------
 
 ## „Phasenmodell“ als Beispiel für ein primitives Vorgehensmodell  
@@ -40,13 +40,13 @@ _Autoren: Diana Kirzhner, Hendrik Schröder_
 * Zu einem Zeitpunkt wird genau eine Phase durchlaufen  
 * Anzahl, Dauer und Bezeichnung der Phasen sind nicht fest vorgegeben  
 * streng sequentionell  
-* keine Iterationen  
+* keine Iterationen  
 -----------------------------------------------------------------------------------------------------------------
-![Bild5](/Bild5.jpg?raw=true "Phasenmodell")
+![Bild5](vorlesung2/bilder/Bild5.jpg "Phasenmodell")
 -----------------------------------------------------------------------------------------------------------------
-![Phase](/Phase.jpg?raw=true "Phase")
+![Phase](vorlesung2/bilder/Phase.jpg "Phase")
 -----------------------------------------------------------------------------------------------------------------
-![Bild6](/Bild6.jpg?raw=true "Phase_Bild")
+![Bild6](vorlesung2/bilder/Bild6.jpg "Phase_Bild")
 -----------------------------------------------------------------------------------------------------------------
 
 ## Vorgehensmodelle
@@ -61,9 +61,9 @@ _Autoren: Diana Kirzhner, Hendrik Schröder_
   * Softwaretest
   * Wartung
 
-![Bild7](/Bild7.jpg?raw=true "Phasen der Softwaretechnik: Wasserfallmodell")
+![Bild7](vorlesung2/bilder/Bild7.jpg "Phasen der Softwaretechnik: Wasserfallmodell")
 ----------------------------------------------------------------------------------------------------------------
-![VM](/VM.jpg?raw=true "Vorgehensmodell")
+![VM](vorlesung2/bilder/VM.jpg "Vorgehensmodell")
 -----------------------------------------------------------------------------------------------------------------
 
 
