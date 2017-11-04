@@ -46,13 +46,13 @@ Die Tests werden vor der Implementierung "gegen" ein Interface geschrieben, wodu
 
 #### Scrum Rollen
 
-#####Product-Owner (Auftraggeber)
+##### Product-Owner (Auftraggeber)
 Dieser legt die Anforderungen sowie den Auslieferungstermin fest. Zudem pflegt er das Product-Backlog und das Budget zur Verfügung und akzeptiert beziehungsweise lehnt Arbeitsergebnisse ab. Weiterhin priorisiert er die Anforderungen und passt diese an.
 
-#####Scrum-Master
+##### Scrum-Master
 Der Scrum-Master stellt die Einhaltung der Scrum-Werte und -Techniken sicher. Er sorgt dafür, dass das Entwicklungsteam funktional und produktiv ist und schützt das Entwicklungsteam vor äußeren Störungen. Zudem versucht er das Team anzustoßen, bei der Vorbereitung zu helfen und diverse Hindernisse zu beseitigen. Dazu unterstützt der Scrum-Master die Zusammenarbeit zwischen allen Rollen.
 
-#####Scrum-Team (Entwicklungsteam)
+##### Scrum-Team (Entwicklungsteam)
 Das Scrum-Team besteht aus 5 bis 9 Personen mit unterschiedlichen Fachgebieten die sich untereinander selbst organisieren und eigenständig Aufgaben übernehmen.
 
 #### Scrum Artefakte
