@@ -84,7 +84,7 @@ User Stories können nach Zielen oder nach der MoSCow-Methode (Geschäftswert) o
 
 ![Scrum](vorlesung3/bilder/Bild6.png "Scrum")
 
-####Wireframes/ GUI Mockups
+#### Wireframes/ GUI Mockups
 
 Ein Wireframe oder eine GUI Mockup ist ein skizzenähnlicher Entwurf der grafischen Benutzeroberfläche. Dabei unterscheidet man zwischen:
 - Wireframes:
@@ -93,22 +93,22 @@ Ein Wireframe oder eine GUI Mockup ist ein skizzenähnlicher Entwurf der grafisc
 	- Kann detailliertere Darstellungen mit Bildern enthalten, die auch Farbe enthalten können.
 	- Diese Mockups können auch durch Mockup_Werkzeuge programmiert werden und dadurch interaktiv sein.
 
-####DoR(Definition of Ready)
+#### DoR(Definition of Ready)
 - Ziel und akzeptanzkriterien sind gegeben
 - Story ist geschätz
 - Story ist nicht zu umfangreich
 - Abhängigkeiten und Schnittstellen sind bekannte und geplant
 - Es ist bekannt wer was zu tun hat
 
-####DoD(Definition of Done)
+#### DoD(Definition of Done)
 - Unit Test sind vorhanden
 - Peer Review(Qualitätssicherung mit unabhängigem Gutachter aus selber Gebiet)
 - Die Software ist in der Entwicklungsumgebung "deployed"(fertig) und es gibt einen Build(mobile Anwendung zur Installation auf anderen Systemen)
 
-####Sprint Backlog(Aufgabenliste)
+#### Sprint Backlog(Aufgabenliste)
 Die Aufgabenliste dient zur Detailplanung eines Sprints(Periode in der eine Aufgabe erledigt sein muss) und enthält alle Aufgaben, die zur Erfüllung des Ziels notwendig sind. Dabei entscheidet das Team zu was sie sich in der Implentierung verpflichten können. Der Produkt-Owner kann bei Fragen gefragt werden. Die Aufgaben werden zusammen im Aufwand identifiziert und geschätzt. Die Entwickler suchen sich ihre Aufgaben selbst aus. Es wird nicht zugegewiesen! Jedes Mitglied kann hierbei Taks hinzunehmen, löschen oder ändern. 
 
-####Burndown Chart(Restaufwandsdiagramm)
+#### Burndown Chart(Restaufwandsdiagramm)
 
 Das Burndown Chart zeigt den Fortschritt des Sprints an, indem es den noch zu erbringenden Restaufwand und schon geleistete Arbeit gegenüber stellt. Dieses Diagramm wird täglich, für den besseren Überblick,aktualisiert.
 
@@ -118,13 +118,13 @@ Das Scrum Board zeigt dabei was noch zu tun ist, was momentan ausgeführt ist un
 
 ![ScrumBoard](vorlesung3/bilder/Bild8.png "Scrum Board")
 
-###Scrum Meetings
+### Scrum Meetings
 
-###Sprintplanung
+### Sprintplanung
 - Das Team erstellt zusammen mit dem Scrum Master die Aufgabeliste, indem es Anforderungen und Produktanforderungen auswählt, die es im Sprint erledigen kann. 
 - Die Tasks werden bestimmt und in der Zeit geschätzt. Dabei sind 1-16 Stunden üblich.
 
-###Schätztechniken
+### Schätztechniken
 
 Man muss dabei Artefakte(Also z.B. ein Task) innerhalb des Sprint-Backlogs schätzen. Die Einheit dafür sind abstakte, vergleichende Story Punkte. Um das ganze zu verbessern, muss jedes Mitglied schätzen und von diesen Schätzungen wird ein Mittelwert gebildet. 
 
@@ -138,7 +138,7 @@ Man muss dabei Artefakte(Also z.B. ein Task) innerhalb des Sprint-Backlogs schä
 |8| Sehr großer Aufwand: so groß wie 5 + 3|
 |13| Riesiger Aufwand: So groß wie 8 + 5|
 
-####Daily Scrum(Tägliches Scrum Treffen)
+#### Daily Scrum(Tägliches Scrum Treffen)
 - Parameter
 	- Täglich, Gleicher Ort, gleiche Zeit, <15 Minuten, Stand-Up
 - Jedes Mitglied beantwortet folgende Fragen:
@@ -151,7 +151,7 @@ Man muss dabei Artefakte(Also z.B. ein Task) innerhalb des Sprint-Backlogs schä
 - Es dürfen alle teilnehmen, aber es dürfen nur Mitglieder und der Scrum Master sprechen. 
 - Hindernisliste wird ggf. aufgeüllt
 
-###Sprint 
+### Sprint 
 - Serien von Sprints sorgen für iteratives Vorankommen
 - Ein Sprint dauert typischerweise maximal 30 Tage
 - Das Produkt wird während des Sprints entworden, kodiert und gestestet
@@ -160,22 +160,22 @@ Man muss dabei Artefakte(Also z.B. ein Task) innerhalb des Sprint-Backlogs schä
 ![Sprint](vorlesung3/bilder/Bild8.png "Sprint")
 
 
-###Sprint-Review-Treffen
+### Sprint-Review-Treffen
 - Das Entwicklungsteam stellt die neuen Ergebnisse vor, indem es die neuen Funktionen demonstiert
 - Keine Folien, sondern Softwaredemo
 - Das Team präsentiert, was es erreicht hat
 - Product Owner udn andere geben Feedback
 
-###Sprint-Retrospektive
+### Sprint-Retrospektive
 - Der letze Sprint wird analysiert
 - Entwicklungsteam, Scrum-Master, der Auftraggeber und vielleicht auch der Endkunde nehmen teil. 
 - Was lief gut? 
 - Was kann verbessert werden? 
 - Diskussion der identifizierten Probleme
 
-###Kanban
+### Kanban
 
-####Was ist Kanban? 
+#### Was ist Kanban? 
 
 - Ursprünglich aus em Produktionsbereich von Toyota
 - Ziel: Reduzierung der Lagerbestände druch Finden des Optimalen Arbeitsflusses. ("Just in Time Produktion")
