@@ -82,8 +82,109 @@ User Stories können nach Zielen oder nach der MoSCow-Methode (Geschäftswert) o
 	- COULD bezeichnet Anforderungen die eine geringe Relevanz haben und oft als "nice to have" bezeichnet werden. Sie werden erst berücksichtigt wenn neben der Bearbeitung von MUST und SHOULD noch Kapazitäten vorhanden sind.
 	- WON'T sind Anforderungen die aktuell nicht relevant sind oder eine sehr geringe Priorität haben. Diese Anforderungen könnten zu einem anderen Zeitpunkt wichtig sein. Sie sollten kontinuierlich neu bewertet werden.
 
+![Scrum](vorlesung3/bilder/Bild6.png "Scrum")
+
+####Wireframes/ GUI Mockups
+
+Ein Wireframe oder eine GUI Mockup ist ein skizzenähnlicher Entwurf der grafischen Benutzeroberfläche. Dabei unterscheidet man zwischen:
+- Wireframes:
+	- Beim Wireframe fügt man keine Bilder und keine Farben ein.
+- Mockup:
+	- Kann detailliertere Darstellungen mit Bildern enthalten, die auch Farbe enthalten können.
+	- Diese Mockups können auch durch Mockup_Werkzeuge programmiert werden und dadurch interaktiv sein.
+
+####DoR(Definition of Ready)
+- Ziel und akzeptanzkriterien sind gegeben
+- Story ist geschätz
+- Story ist nicht zu umfangreich
+- Abhängigkeiten und Schnittstellen sind bekannte und geplant
+- Es ist bekannt wer was zu tun hat
+
+####DoD(Definition of Done)
+- Unit Test sind vorhanden
+- Peer Review(Qualitätssicherung mit unabhängigem Gutachter aus selber Gebiet)
+- Die Software ist in der Entwicklungsumgebung "deployed"(fertig) und es gibt einen Build(mobile Anwendung zur Installation auf anderen Systemen)
+
+####Sprint Backlog(Aufgabenliste)
+Die Aufgabenliste dient zur Detailplanung eines Sprints(Periode in der eine Aufgabe erledigt sein muss) und enthält alle Aufgaben, die zur Erfüllung des Ziels notwendig sind. Dabei entscheidet das Team zu was sie sich in der Implentierung verpflichten können. Der Produkt-Owner kann bei Fragen gefragt werden. Die Aufgaben werden zusammen im Aufwand identifiziert und geschätzt. Die Entwickler suchen sich ihre Aufgaben selbst aus. Es wird nicht zugegewiesen! Jedes Mitglied kann hierbei Taks hinzunehmen, löschen oder ändern. 
+
+####Burndown Chart(Restaufwandsdiagramm)
+
+Das Burndown Chart zeigt den Fortschritt des Sprints an, indem es den noch zu erbringenden Restaufwand und schon geleistete Arbeit gegenüber stellt. Dieses Diagramm wird täglich, für den besseren Überblick,aktualisiert.
+
+![BurnboardChart](vorlesung3/bilder/Bild7.png "Burndown Chart")
+
+Das Scrum Board zeigt dabei was noch zu tun ist, was momentan ausgeführt ist und was schon fertig ist. 
+
+![ScrumBoard](vorlesung3/bilder/Bild8.png "Scrum Board")
+
+###Scrum Meetings
+
+###Sprintplanung
+- Das Team erstellt zusammen mit dem Scrum Master die Aufgabeliste, indem es Anforderungen und Produktanforderungen auswählt, die es im Sprint erledigen kann. 
+- Die Tasks werden bestimmt und in der Zeit geschätzt. Dabei sind 1-16 Stunden üblich.
+
+###Schätztechniken
+
+Man muss dabei Artefakte(Also z.B. ein Task) innerhalb des Sprint-Backlogs schätzen. Die Einheit dafür sind abstakte, vergleichende Story Punkte. Um das ganze zu verbessern, muss jedes Mitglied schätzen und von diesen Schätzungen wird ein Mittelwert gebildet. 
+
+| Punktwert | Semantik |
+|--------|--------|--------|
+|    0    |   Kein Aufwand  |
+|	1	|	Sehr kleiner Aufwand |
+|2| kleienr Aufwand:doppelt so groß wie 1|
+|3|mittlerer Aufwand:so groß wie 1 + 2|
+|5| Großer Aufwand: so groß wie 2 + 3|
+|8| Sehr großer Aufwand: so groß wie 5 + 3|
+|13| Riesiger Aufwand: So groß wie 8 + 5|
+
+####Daily Scrum(Tägliches Scrum Treffen)
+- Parameter
+	- Täglich, Gleicher Ort, gleiche Zeit, <15 Minuten, Stand-Up
+- Jedes Mitglied beantwortet folgende Fragen:
+	-  Was hast du seit dem letzen Mal geschafft
+	-  Was willst du bis zum nächsten Mal tun
+	-  Was behindert dich beim Vorwärtskommen
+- Dabei sollen keine Probleme gelöst werden, sondern nur das Team aufeinander abgestimmt werden
+- Das heißt, dass man keine Statusberichte für den Scrum Master macht, sondern nur den Kollegen Informationen für die Abstimmung gibt
+- Falls Diskussionen anfallen, werden diese nach dem Meeting geklärt
+- Es dürfen alle teilnehmen, aber es dürfen nur Mitglieder und der Scrum Master sprechen. 
+- Hindernisliste wird ggf. aufgeüllt
+
+###Sprint 
+- Serien von Sprints sorgen für iteratives Vorankommen
+- Ein Sprint dauert typischerweise maximal 30 Tage
+- Das Produkt wird während des Sprints entworden, kodiert und gestestet
+- Am Ende steht ein auslieferbares Produkt
+
+![Sprint](vorlesung3/bilder/Bild8.png "Sprint")
 
 
+###Sprint-Review-Treffen
+- Das Entwicklungsteam stellt die neuen Ergebnisse vor, indem es die neuen Funktionen demonstiert
+- Keine Folien, sondern Softwaredemo
+- Das Team präsentiert, was es erreicht hat
+- Product Owner udn andere geben Feedback
 
+###Sprint-Retrospektive
+- Der letze Sprint wird analysiert
+- Entwicklungsteam, Scrum-Master, der Auftraggeber und vielleicht auch der Endkunde nehmen teil. 
+- Was lief gut? 
+- Was kann verbessert werden? 
+- Diskussion der identifizierten Probleme
 
+###Kanban
+
+####Was ist Kanban? 
+
+- Ursprünglich aus em Produktionsbereich von Toyota
+- Ziel: Reduzierung der Lagerbestände druch Finden des Optimalen Arbeitsflusses. ("Just in Time Produktion")
+- Ist ein agiles Vorgehensmodell in der Softwareentwicklung
+- Wenig Komplexität und hohe Flexibilität
+- Stetige Verbesserung
+- Fördert Transparenz und Kommunikation im Team
+- Beruht darauf, dass nicht vorgeschrieben ist wie etwas getan werden muss, sondern nur, dass es getan werden muss. 
+- Kein Push- sondern Pull Prinzip
+	- Nur das benötigt wird produzieren. Und auch nur wenn es benötigt wird.
+	- Mitarbeiter wählen Aufgaben selbst
 
