@@ -188,3 +188,74 @@ Man muss dabei Artefakte(Also z.B. ein Task) innerhalb des Sprint-Backlogs schä
 	- Nur das benötigt wird produzieren. Und auch nur wenn es benötigt wird.
 	- Mitarbeiter wählen Aufgaben selbst
 
+####Die Sechs Kernpraktiken von Kanban
+1. Mache Arbeit sichtbar
+2. Limitiere den Work-in-Progress (WiP)
+3. Kontrolliere den Arbeitsfluss
+4. Mache die Prozessregeln explizit
+5. Implementiere Feedback-Mechanismen
+6. Führe gemeinschaftliche Verbesserung durch
+
+#### 1: Mache Arbeit sichtbar
+Durch eine Darstellung des gesamten Prozesses am Kanban-Board hat jeder den kompletten Überblick. Durch die Darstellung werden auch Fehler, Problemquellen und Engpässe leichter erkannt.
+![Zeichnung](vorlesung3/bilder/KanbanBoard.png "KanbanBoard")
+Probleme beim Release legen den ganzen Betrieb lahm, wodurch es oft besser ist, erst den Engpass zu beheben und dann den Betrieb fortzusetzen.
+![Zeichnung](vorlesung3/bilder/KanbanBoardReleaseProblem.png "KanbanBoard")
+
+#### 2: Limitiere den Work-in-Progress (WiP)
+Menschen sind nicht multitaskingfähig und aufgrund dessen benötigt das Wechseln zwischen Tätigkeiten Einarbeitungsaufwand.
+![Zeichnung](vorlesung3/bilder/SequentielleVSParilder.png "Sequentielle vs parallele Arbeit")
+Parallele Arbeit ist langsamer, jedoch geht es erfahrungsgemäß nicht ohne Parallelität. Daher sollte man seine parallelen Tätigkeiten limitieren. Somit gilt : Ist das Limit erreicht, wird keine weitere Aufgabe angefangen. Daraus folgt, dass die Effizienz steigt, man eine bessere Übersicht hat und man weniger Überlastet ist.
+
+#### 3: Kontrolliere den Arbeitsfluss
+Das größte Problem, welches den Arbeitsfluss stören kann, ist ein Engpass. Also versucht man diese zu vermeiden. Dies erreicht man dadruch, dass man seine Aufgaben in Arbeitstypen und Serviceklassen aufteilt.
+- Arbeitstypen: Art der Tätigkeit
+- Serviceklasse: Klassifizierunf der Arbeit aufgrund der Auswirkung auf das Geschäft
+
+Unter Arbeitstypen versteht man zum Beispiel neue Features schreiben, Bugfixes schreiben oder Wartungsarbeiten machen.
+Serviceklassen entscheidet man danach, ob die Aufgabe eine Standardaufgabe ist oder es einen festen Liefertermin gibt oder ob die Priorität höher ist als andere.
+
+#### 4: Mache die Prozessregeln explizit
+Kanban selbst gibt nur wenig Regeln vor, wodurch das Team Regeln bestimmt, die für jeden einsehbar sind.
+Bespiel:
+- "Definition of Done" (ähnlich Scrum)
+- Was genau bedeuten die einzelnen Spalten?
+
+#### 5: Implementiere Feedback-Mechanismen
+Das Ziel von Kanban ist die kontinuierliche Verbesserung durch die Kommunikation der Mitarbeiter. (Schwächen erkennen, Probleme diskutieren, Änderung beschließen)
+Dafür gibt es zum einen das "Daily Standup Meeting" in dem sich das Team täglich trifft, um den Fortschritt zu besprechen.
+Des Weiteren gibt die Retrospektive (analog zu Scrum) in der eine ausführliche Besprechung in größeren Abständen stattfindet.
+Außerdem gibt es noch Operation Reviews, welche zur Besprechung mit Leuten aus anderen Abteilungen dient. Dies hilft dem Team einen genrellen Überblick zu kriegen.
+
+#### 6: Führe gemeinschaftliche Verbesserung durch
+Problemvermeidung im Betriebsverlauf wird lange erforscht und oft ist es sinnvoll auf bewährte Lösung zu setzen.
+
+#### Kanban und Scrum: Gemeinsamkeiten
+- agil und schlank
+- Transparent
+- fördern Kommunikation und Selbstorganisation
+- brechen Aufgaben in Teilaufgaben auf
+- setzen auf inkrementelle Verbesserung
+
+#### Kanban und Scrum: Unterschiede
+![Zeichen](vorlesung3/bilder/KanbanScrumUnterschiede.png "Unterschiede")
+
+#### Kanban oer Scrum?
+Vorteile von Scrum
+- feste Rollenverteilung -> Routine
+- in größeren Gruppen einsetzbar
+
+Vorteile von Kanban
+- mehr Freiheit und weniger Bürokratie
+- keine festen Meeting-Zeiten
+
+#### Zusammenfassung
+- Agile Vorgehensmodelle wie Scrum, XP und Kanban sollen die Softwarequalität erhöhen
+- Aus XP entstammen die Praktiken Pairprogramming und „Test First“
+- Scrum besteht aus den drei Konzepten „Rollen“, „Artefakte“, „Meetings“
+- Bei größeren Teams: mehrere Teilteams durch Scrum Master koordiniert
+- Arbeitsablauf im Team wird vom Team selbst geregelt
+- Projektplanung: Eng mit dem Kunden werden Hauptaufgaben identifiziert („Product backlog“)
+- Scrum Team schätzt Aufwände; wählt mit Kunden aus dem „Product backlog" wichtigste nächste Aufgaben für kommende Iteration (=Sprint, 30 Tage) aus
+- Nach jedem Sprint wird mit dem Kunden analysiert, was erreicht wurde und wie das Projekt verbessert werden kann
+- Kanban enthält sechs Kernpraktiken
