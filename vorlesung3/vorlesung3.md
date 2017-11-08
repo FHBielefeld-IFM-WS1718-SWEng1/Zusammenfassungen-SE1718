@@ -13,7 +13,7 @@ Xtreme Programming ist ein leichtgewichtiges Vorgehensmodell, welches auf der En
 
 ![Vorgehensmodelle](vorlesung3/bilder/Bild2.png "Vorgehensmodelle im Vergleich")
 
-##### XP Paarprogrammierung
+#### XP Paarprogrammierung
 - alle Programmiertätigkeiten werden im Paar ausgeführt
 	- Rollenverteilung Fahrer und Beifahrer
 		- Fahrer denkt an Implementierung der Programm-Logik
