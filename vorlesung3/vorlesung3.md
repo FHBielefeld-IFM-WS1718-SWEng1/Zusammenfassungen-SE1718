@@ -188,7 +188,7 @@ Man muss dabei Artefakte(Also z.B. ein Task) innerhalb des Sprint-Backlogs schä
 	- Nur das benötigt wird produzieren. Und auch nur wenn es benötigt wird.
 	- Mitarbeiter wählen Aufgaben selbst
 
-####Die Sechs Kernpraktiken von Kanban
+#### Die Sechs Kernpraktiken von Kanban
 1. Mache Arbeit sichtbar
 2. Limitiere den Work-in-Progress (WiP)
 3. Kontrolliere den Arbeitsfluss
