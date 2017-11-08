@@ -120,11 +120,11 @@ Das Scrum Board zeigt dabei was noch zu tun ist, was momentan ausgeführt ist un
 
 ### Scrum Meetings
 
-### Sprintplanung
+#### Sprintplanung
 - Das Team erstellt zusammen mit dem Scrum Master die Aufgabeliste, indem es Anforderungen und Produktanforderungen auswählt, die es im Sprint erledigen kann. 
 - Die Tasks werden bestimmt und in der Zeit geschätzt. Dabei sind 1-16 Stunden üblich.
 
-### Schätztechniken
+#### Schätztechniken
 
 Man muss dabei Artefakte(Also z.B. ein Task) innerhalb des Sprint-Backlogs schätzen. Die Einheit dafür sind abstakte, vergleichende Story Punkte. Um das ganze zu verbessern, muss jedes Mitglied schätzen und von diesen Schätzungen wird ein Mittelwert gebildet. 
 
@@ -151,7 +151,7 @@ Man muss dabei Artefakte(Also z.B. ein Task) innerhalb des Sprint-Backlogs schä
 - Es dürfen alle teilnehmen, aber es dürfen nur Mitglieder und der Scrum Master sprechen. 
 - Hindernisliste wird ggf. aufgeüllt
 
-### Sprint 
+#### Sprint 
 - Serien von Sprints sorgen für iteratives Vorankommen
 - Ein Sprint dauert typischerweise maximal 30 Tage
 - Das Produkt wird während des Sprints entworden, kodiert und gestestet
@@ -160,13 +160,13 @@ Man muss dabei Artefakte(Also z.B. ein Task) innerhalb des Sprint-Backlogs schä
 ![Sprint](vorlesung3/bilder/Bild8.png "Sprint")
 
 
-### Sprint-Review-Treffen
+#### Sprint-Review-Treffen
 - Das Entwicklungsteam stellt die neuen Ergebnisse vor, indem es die neuen Funktionen demonstiert
 - Keine Folien, sondern Softwaredemo
 - Das Team präsentiert, was es erreicht hat
 - Product Owner udn andere geben Feedback
 
-### Sprint-Retrospektive
+#### Sprint-Retrospektive
 - Der letze Sprint wird analysiert
 - Entwicklungsteam, Scrum-Master, der Auftraggeber und vielleicht auch der Endkunde nehmen teil. 
 - Was lief gut? 
