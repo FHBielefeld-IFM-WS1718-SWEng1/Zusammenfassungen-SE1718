@@ -164,7 +164,7 @@ Man muss dabei Artefakte(Also z.B. ein Task) innerhalb des Sprint-Backlogs schä
 - Das Entwicklungsteam stellt die neuen Ergebnisse vor, indem es die neuen Funktionen demonstiert
 - Keine Folien, sondern Softwaredemo
 - Das Team präsentiert, was es erreicht hat
-- Product Owner udn andere geben Feedback
+- Product Owner und andere geben Feedback
 
 #### Sprint-Retrospektive
 - Der letze Sprint wird analysiert
@@ -210,7 +210,7 @@ Parallele Arbeit ist langsamer, jedoch geht es erfahrungsgemäß nicht ohne Para
 #### 3: Kontrolliere den Arbeitsfluss
 Das größte Problem, welches den Arbeitsfluss stören kann, ist ein Engpass. Also versucht man diese zu vermeiden. Dies erreicht man dadruch, dass man seine Aufgaben in Arbeitstypen und Serviceklassen aufteilt.
 - Arbeitstypen: Art der Tätigkeit
-- Serviceklasse: Klassifizierunf der Arbeit aufgrund der Auswirkung auf das Geschäft
+- Serviceklasse: Klassifizierung der Arbeit aufgrund der Auswirkung auf das Geschäft
 
 Unter Arbeitstypen versteht man zum Beispiel neue Features schreiben, Bugfixes schreiben oder Wartungsarbeiten machen.
 Serviceklassen entscheidet man danach, ob die Aufgabe eine Standardaufgabe ist oder es einen festen Liefertermin gibt oder ob die Priorität höher ist als andere.
@@ -240,7 +240,7 @@ Problemvermeidung im Betriebsverlauf wird lange erforscht und oft ist es sinnvol
 #### Kanban und Scrum: Unterschiede
 ![Zeichen](vorlesung3/bilder/KanbanScrumUnterschiede.png "Unterschiede")
 
-#### Kanban oer Scrum?
+#### Kanban oder Scrum?
 Vorteile von Scrum
 - feste Rollenverteilung -> Routine
 - in größeren Gruppen einsetzbar
