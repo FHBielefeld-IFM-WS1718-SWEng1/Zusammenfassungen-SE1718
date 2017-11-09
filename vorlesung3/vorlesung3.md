@@ -18,7 +18,7 @@ Xtreme Programming ist ein leichtgewichtiges Vorgehensmodell, welches auf der En
 	- Rollenverteilung Fahrer und Beifahrer
 		- Fahrer denkt an Implementierung der Programm-Logik
 		- Beifahrer denkt strategisch, führt ständige Durchsicht durch
-- führt zu höhrer Qualität
+- führt zu höherer Qualität
 
 #### XP-Ablauf
 
