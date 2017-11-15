@@ -55,19 +55,18 @@ Es enthält verschiedene Diagrammtypen, die sich gegenseitig ergänzen und verschi
 - Besitzt einige Freiheitsgrade bei der Modellierung
 
 ### UML Diagrammtypen
-![UML Diagrammtypen Übersicht](vorlesung5/bilder/Bild.png "Diagrammtypen Übersicht")
+![UML Diagrammtypen Übersicht](vorlesung5/bilder/Bild2.png "Diagrammtypen Übersicht")
 
-![UML Diagrammtypen 1](vorlesung5/bilder/Bild.png "UML Diagrammtypen 1")
+![UML Diagrammtypen 1](vorlesung5/bilder/Bild3.png "UML Diagrammtypen 1")
 ![UML Diagrammtypen 2](vorlesung5/bilder/Bild4.png "UML Diagrammtypen 2")
 ![UML Diagrammtypen 3](vorlesung5/bilder/Bild5.png "UML Diagrammtypen 3")
-![UML Diagrammtypen 4](vorlesung5/bilder/Bild6.png "UML Diagrammtypen 4")
 
 ## Modelle und UML-Diagramme
 UML wird zur Darstellung und Modellierung eines Software-Systems benutzt. Ein (Software-)System lässt sich durch eine Menge von Funktionen, Anwendungsfällen und Diensten modellieren. Auch eine prozessorientierte Darstellung durch eine Menge von Prozessen, Abläufen, Vorgängen und Workflows ist möglich. Ein System kann aber auch nur aus Daten und Objekten bestehen. Die Bezieheungen untereinander und die Straktur stehen dann im Fokus.
 - Ein System kann und soll in Subsysteme zerlegt werden. Dies besteht aus unabhängigen Komponenten.
 - Es wird zwischen statischen und dynamischen Modellen unterschieden.
 - Die "UML-Pyramide" veranschaulicht die Zugehörigkeiten grafisch und ist nicht direkt umzusetzen, sondern soll grob den gesamten Prozess aufzeigen.
-![UML-Pyramide](vorlesung5/bilder/Bild7.png "UML-Pyramide")
+![UML-Pyramide](vorlesung5/bilder/Bild6.png "UML-Pyramide")
 
 Die Diagramme verfeinern sich von oben nach unten auf der Pyramide. Das statische Modell zeigt eine Gesamtsicht auf das Problemfeld und lässt unwesentliche Details weg, während das dynamische Modell das Sysremverhalten darstellt und zeitlicher Ablauf, Zustände und Übergänge im Vordergrund stehen.
 
@@ -91,7 +90,7 @@ In Zustandsübergangsdiagrammen geht es um den Zustand eines einzigen Objekts im 
 - Zuordnung von Software auf Rechnersysteme -> Verteilungsdiagramm
 
 ### Zusammenspiel von UML Diagrammtypen
-![Zusammenspiel von UML Diagrammtypen](vorlesung5/bilder/Bild8.png "Zusammenspiel von UML Diagrammtypen")
+![Zusammenspiel von UML Diagrammtypen](vorlesung5/bilder/Bild7.png "Zusammenspiel von UML Diagrammtypen")
 - Der Ablauf (Workflow) eines Use-Cases wird durch ein Aktivitätsdiagramm modelliert.
 - Szenarien eines Use-Cases werden durch Interaktionsdiagramme (z.B. Sequenzdiagramme) modelliert.
 - Ein Use-Case wird durch Klassendiagramme strukturiert und die Klassen werden in Interaktionsdiagrammen verwendet.
@@ -99,8 +98,8 @@ In Zustandsübergangsdiagrammen geht es um den Zustand eines einzigen Objekts im 
 - Ein Paketdiagramm strukturiert Klassen zu größeren Einheiten.
 
 ## Pragmatisches "Schritt für Schritt" Vorgehensmodell
-![Vorgehensmodell 1](vorlesung5/bilder/Bild9.png "Schritt für Schritt Vorgehensmodell 1")
-![Vorgehensmodell 2](vorlesung5/bilder/Bild10.png "Schritt für Schritt Vorgehensmodell 2")
-![Vorgehensmodell 3](vorlesung5/bilder/Bild11.png "Schritt für Schritt Vorgehensmodell 3")
-![Vorgehensmodell 4](vorlesung5/bilder/Bild12.png "Schritt für Schritt Vorgehensmodell 4")
+![Vorgehensmodell 1](vorlesung5/bilder/Bild8.png "Schritt für Schritt Vorgehensmodell 1")
+![Vorgehensmodell 2](vorlesung5/bilder/Bild9.png "Schritt für Schritt Vorgehensmodell 2")
+![Vorgehensmodell 3](vorlesung5/bilder/Bild10.png "Schritt für Schritt Vorgehensmodell 3")
+![Vorgehensmodell 4](vorlesung5/bilder/Bild11.png "Schritt für Schritt Vorgehensmodell 4")
 ![Vorgehensmodell 5](vorlesung5/bilder/Bild12.png "Schritt für Schritt Vorgehensmodell 5")
