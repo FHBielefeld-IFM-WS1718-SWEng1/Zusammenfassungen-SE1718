@@ -15,7 +15,7 @@
   - prüft durch die Tests, dass einzelnen Inkremente funktionsfähig bleiben
   - Ergebnis wird den jeweiligen Entwicklern zurück gegeben -> Fehler kann sofort behoben werden
   
-  ![CI](vorlesung2/bilder/CI.png "Continuous Integration")
+![CI](vorlesung2/bilder/CI.png "Continuous Integration")
 
 Durch CI ist der integrierte Code noch nicht bereit in Produktion zu gehen. Einzelne Komponenten funktionieren zwar mit einander, jedoch wurde das Produkt (die Software) noch nicht in einer "production-like environment" getestet und verifiziert.
 - Vorteil von CI
@@ -37,4 +37,26 @@ CI ist notwendig um Continuous Delivery durchführen.
 - Unterschiedlich viele Umgebungen
   - hängt ab von Projekt, Team oder Organisation 
   
-  ![CD](vorlesung2/bilder/CD.png "Continuous Delivery")
+![CD](vorlesung2/bilder/CD.png "Continuous Delivery")
+  
+Vor der Podukt-Umgebung werden die drei Umgebungen (Development, Test, Staging) durchlaufen.
+In jeder Umgebung wird der Quelltext unterschiedlich getestet. 
+Mit jeder erfolgreich durchlaufenen Umgebung wächst die Wahrscheinlichkeit, dass der Quelltext auch in der Produktiv-Umgebung lauffähig sein wird.
+
+-----------------------------------------------------------------------------------------------------------------
+
+## Continuous Deployment
+
+Continuous Deployment geht noch einen Schritt weiter und automatisiert ebenfalls die Übergabe in die Produktion.
+- Voraussetzung
+-- erfolgreich Durchlauf alle Schritte aus den Continuous Integration und Delivery
+- Jeder einzelne Commit kann potentiell automatisiert in der Produktion ankommen
+- Zusammengefasst
+  - Commit erfolgreich integriert
+  - alle Tests auf allen implementierten Umgebungen bestehen
+Anschließend muss nicht mehr entschieden werden, ob der Mehrwert (Commit) in der Produktion verwendet werden kann, dies geschieht mit Continuous Deployment ebenfalls automatisiert.
+
+![CD2](vorlesung2/bilder/CD2.png "Continuous Deployment")
+
+
+  
