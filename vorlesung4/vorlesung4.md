@@ -5,7 +5,7 @@
 - Integration der Softwareentwicklung findet am Ende eines Projektes statt
   - Dauer der Integrationsphase liegt bei Wochen oder Monate, je nach Projektgröße und Komplexität
 - "source repository"
-  -zwei Entwickler können unabhängig voneinander Software für das selbe Produkt schreiben
+  - zwei Entwickler können unabhängig voneinander Software für das selbe Produkt schreiben
   - regelmäßige Integration im Repro
   - einzelne Inkremente der Entwickler werden Repro zusammengeführt
   - wird vom CI-Server integriert
