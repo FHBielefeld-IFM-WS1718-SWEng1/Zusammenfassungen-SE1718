@@ -24,3 +24,17 @@ Durch CI ist der integrierte Code noch nicht bereit in Produktion zu gehen. Einz
 CI ist notwendig um Continuous Delivery durchführen.
 
 -----------------------------------------------------------------------------------------------------------------
+
+## Continuous Delivery
+
+- Continuous Delivery
+  - alle Beschriebenen CI Schritte
+  - der integrierte Quelltext automatisiert auf verschiedenen Umgebungen getestet wird. 
+ 
+- Umgebungen sehr ähnlich zu einer potentiellen Produktiv-Umgebung
+- „Deployment pipeline" 
+  - Deployen und Testen auf den verschiedenen Umgebungen
+- Unterschiedlich viele Umgebungen
+  - hängt ab von Projekt, Team oder Organisation 
+  
+  ![CD](vorlesung2/bilder/CD.png "Continuous Delivery")
