@@ -14,3 +14,6 @@
 - CI-Server
   - prüft durch die Tests, dass einzelnen Inkremente funktionsfähig bleiben
   - Ergebnis wird den jeweiligen Entwicklern zurück gegeben -> Fehler kann sofort behoben werden
+  
+  ![CI](vorlesung2/bilder/CI.png "Continuous Integration")
+-----------------------------------------------------------------------------------------------------------------
