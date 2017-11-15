@@ -13,5 +13,4 @@
   - neben Produktiv-Code sind Tests zu entwickeln
 - CI-Server
   - prüft durch die Tests, dass einzelnen Inkremente funktionsfähig bleiben
-  - Ergebnis wird den jeweiligen Entwicklern zurück gegeben
-   - Fehler kann sofort behoben werden
+  - Ergebnis wird den jeweiligen Entwicklern zurück gegeben -> Fehler kann sofort behoben werden
