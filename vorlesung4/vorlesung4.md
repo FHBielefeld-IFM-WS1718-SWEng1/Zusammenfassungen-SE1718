@@ -58,5 +58,19 @@ Anschließend muss nicht mehr entschieden werden, ob der Mehrwert (Commit) in de
 
 ![CD2](vorlesung2/bilder/CD2.png "Continuous Deployment")
 
+-----------------------------------------------------------------------------------------------------------------
 
-  
+## Build Server
+
+- Build Server als zentraler Ort, um den aktuelle Stand (Testergebnisse, kompilierten Artefakten) der Software einzusehen
+- alle Prozesse laufen auf dem Server vollautomatisch
+  - Fehler können durch falsche, ausgelassene oder vertauschte Prozess-Schritte ausgeschlossen werden
+- isolierte Umgebung
+  - garantiert gleiche Konfiguration bei den Entwickler-Rechnern (Tests laufen bei allen gleich ab)
+- Build-Server erfolgreich und Entwickler-Rechner nicht
+  - fehlkonfiguration bei dem Entwickler
+  - da der Build-Servers im Optimalfall möglichst nah an der dem Produktivsystems liegt
+Ein Build-Server kompiliert und testet nicht nur, sondern kann auch zur Durchführung von Continuous Delivery und Deployment verwendet werden.
+Beispiele: Jenkins und Travis CI
+
+ 
