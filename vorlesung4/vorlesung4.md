@@ -70,6 +70,7 @@ Anschließend muss nicht mehr entschieden werden, ob der Mehrwert (Commit) in de
 - Build-Server erfolgreich und Entwickler-Rechner nicht
   - fehlkonfiguration bei dem Entwickler
   - da der Build-Servers im Optimalfall möglichst nah an der dem Produktivsystems liegt
+  
 Ein Build-Server kompiliert und testet nicht nur, sondern kann auch zur Durchführung von Continuous Delivery und Deployment verwendet werden.
 Beispiele: Jenkins und Travis CI
 
