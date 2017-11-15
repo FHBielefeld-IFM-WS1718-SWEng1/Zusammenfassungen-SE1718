@@ -3,14 +3,14 @@
 ## Continuous Integration (CI)
 
 - Integration der Softwareentwicklung findet am Ende eines Projektes statt
--- Dauer der Integrationsphase liegt bei Wochen oder Monate, je nach Projektgröße und Komplexität
+  - Dauer der Integrationsphase liegt bei Wochen oder Monate, je nach Projektgröße und Komplexität
 - "source repository"
--- zwei Entwickler können unabhängig voneinander Software für das selbe Produkt schreiben
--- regelmäßige Integration im Repro
--- einzelne Inkremente der Entwickler werden Repro zusammengeführt
--- wird vom CI-Server integriert
+  -zwei Entwickler können unabhängig voneinander Software für das selbe Produkt schreiben
+  - regelmäßige Integration im Repro
+  - einzelne Inkremente der Entwickler werden Repro zusammengeführt
+  - wird vom CI-Server integriert
 - Voraussetzung
--- neben Produktiv-Code sind Tests zu entwickeln
+  - neben Produktiv-Code sind Tests zu entwickeln
 - CI-Server
--- prüft durch die Tests, dass einzelnen Inkremente funktionsfähig bleiben
--- Ergebnis wird ab jeweiligen Entwicklern zurück gegeben, so kann der Fehler sofort behoben werden
+  - prüft durch die Tests, dass einzelnen Inkremente funktionsfähig bleiben
+  - Ergebnis wird ab jeweiligen Entwicklern zurück gegeben, so kann der Fehler sofort behoben werden
