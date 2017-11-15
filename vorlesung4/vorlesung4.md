@@ -17,3 +17,9 @@
   
   ![CI](vorlesung2/bilder/CI.png "Continuous Integration")
 -----------------------------------------------------------------------------------------------------------------
+
+Durch CI ist der integrierte Code noch nicht bereit in Produktion zu gehen. Einzelne Komponenten funktionieren zwar mit einander, jedoch wurde das Produkt (die Software) noch nicht in einer "production-like environment" getestet und verifiziert.
+- Vorteil von CI
+  - Integration -> täglicher Geschäft
+  - "Big-Bang" Integration einer Entwicklung wird vermieden
+CI ist notwendig um Continuous Delivery durchführen.
