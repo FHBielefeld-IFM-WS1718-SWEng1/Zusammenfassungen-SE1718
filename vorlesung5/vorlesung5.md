@@ -7,7 +7,7 @@
 - Wissen, welche UML-Diagramme in welchen Phasen der Softwareentwicklung eingesetzt werden
 
 ## Modellbildung
-(Bild Folie Seite 7)
+![Modellbildung](vorlesung5/bilder/Bild1.png "Modellbildung")
 
 ## OOA / OOD mit UML
 
@@ -55,6 +55,52 @@ Es enthält verschiedene Diagrammtypen, die sich gegenseitig ergänzen und verschi
 - Besitzt einige Freiheitsgrade bei der Modellierung
 
 ### UML Diagrammtypen
-Markiertes Bild einfügen
+![UML Diagrammtypen Übersicht](vorlesung5/bilder/Bild.png "Diagrammtypen Übersicht")
 
-Bild Folie 18 einfügen
+![UML Diagrammtypen 1](vorlesung5/bilder/Bild.png "UML Diagrammtypen 1")
+![UML Diagrammtypen 2](vorlesung5/bilder/Bild4.png "UML Diagrammtypen 2")
+![UML Diagrammtypen 3](vorlesung5/bilder/Bild5.png "UML Diagrammtypen 3")
+![UML Diagrammtypen 4](vorlesung5/bilder/Bild6.png "UML Diagrammtypen 4")
+
+## Modelle und UML-Diagramme
+UML wird zur Darstellung und Modellierung eines Software-Systems benutzt. Ein (Software-)System lässt sich durch eine Menge von Funktionen, Anwendungsfällen und Diensten modellieren. Auch eine prozessorientierte Darstellung durch eine Menge von Prozessen, Abläufen, Vorgängen und Workflows ist möglich. Ein System kann aber auch nur aus Daten und Objekten bestehen. Die Bezieheungen untereinander und die Straktur stehen dann im Fokus.
+- Ein System kann und soll in Subsysteme zerlegt werden. Dies besteht aus unabhängigen Komponenten.
+- Es wird zwischen statischen und dynamischen Modellen unterschieden.
+- Die "UML-Pyramide" veranschaulicht die Zugehörigkeiten grafisch und ist nicht direkt umzusetzen, sondern soll grob den gesamten Prozess aufzeigen.
+![UML-Pyramide](vorlesung5/bilder/Bild7.png "UML-Pyramide")
+
+Die Diagramme verfeinern sich von oben nach unten auf der Pyramide. Das statische Modell zeigt eine Gesamtsicht auf das Problemfeld und lässt unwesentliche Details weg, während das dynamische Modell das Sysremverhalten darstellt und zeitlicher Ablauf, Zustände und Übergänge im Vordergrund stehen.
+
+Ein Use-Case (Anwendungsfall) beschreibt Anforderungen und bestimmt den Funktionsumfang.
+- Außensicht auf das Produkt
+- Kommunikationsgrundlage mit Kunden
+- Testgrundlage/ Erstellung früher Prototypen
+
+Ein Dynamisches Aktivitätsdiagramm beschreibt genau einen Workflow, wodurch sich bereits erste Klassen, Objekte und Beziehungen untereinander gewinnen lassen.
+Ein statisches Paketdiagramm besteht aus zusammenhängenden Klassen und ist ohne weitere Kenntnis der einzelnen Klassen verstehbar.
+Paket- und Klassendiagramme geben einen Überblick über die Ergebnisse des statischen Softwareentwurfs.
+Sequenz- und Kommunikationsdiagramme werden benutzt wenn das Verhalten im Vordergrund steht. Sie beschreiben den Nachrichtenaustausch in einem System.
+In Zustandsübergangsdiagrammen geht es um den Zustand eines einzigen Objekts im Verlauf. Es dient zum Aufspüren neuer Attribute und Methoden.
+
+## Zuordnung der UML-Diagrammtypen zu Phasen der Softwareentwicklung
+- Anforderungen -> Use-Case Diagramm
+- Geschäftsprotesse -> Aktivitätsdiagramm
+- Statische Softwarestruktur -> Klassendiagramm
+- Dynamisches Verhalten der Software -> Sequenzdiagramm, Zustandsdiagramm
+- Struktur von Softwarekomponenten/ Bibliotheken -> Komponentendiagramm
+- Zuordnung von Software auf Rechnersysteme -> Verteilungsdiagramm
+
+### Zusammenspiel von UML Diagrammtypen
+![Zusammenspiel von UML Diagrammtypen](vorlesung5/bilder/Bild8.png "Zusammenspiel von UML Diagrammtypen")
+- Der Ablauf (Workflow) eines Use-Cases wird durch ein Aktivitätsdiagramm modelliert.
+- Szenarien eines Use-Cases werden durch Interaktionsdiagramme (z.B. Sequenzdiagramme) modelliert.
+- Ein Use-Case wird durch Klassendiagramme strukturiert und die Klassen werden in Interaktionsdiagrammen verwendet.
+- Das Verhalten einer Klasse wird in einem Zustandsdiagramm modelliert.
+- Ein Paketdiagramm strukturiert Klassen zu größeren Einheiten.
+
+## Pragmatisches "Schritt für Schritt" Vorgehensmodell
+![Vorgehensmodell 1](vorlesung5/bilder/Bild9.png "Schritt für Schritt Vorgehensmodell 1")
+![Vorgehensmodell 2](vorlesung5/bilder/Bild10.png "Schritt für Schritt Vorgehensmodell 2")
+![Vorgehensmodell 3](vorlesung5/bilder/Bild11.png "Schritt für Schritt Vorgehensmodell 3")
+![Vorgehensmodell 4](vorlesung5/bilder/Bild12.png "Schritt für Schritt Vorgehensmodell 4")
+![Vorgehensmodell 5](vorlesung5/bilder/Bild12.png "Schritt für Schritt Vorgehensmodell 5")
