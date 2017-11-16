@@ -6,8 +6,8 @@
   - Dauer der Integrationsphase liegt bei Wochen oder Monate, je nach Projektgröße und Komplexität
 - "source repository"
   - zwei Entwickler können unabhängig voneinander Software für das selbe Produkt schreiben
-  - regelmäßige Integration im Repro
-  - einzelne Inkremente der Entwickler werden Repro zusammengeführt
+  - regelmäßige Integration im Repo
+  - einzelne Inkremente der Entwickler werden im Repo zusammengeführt
   - wird vom CI-Server integriert
 - Voraussetzung
   - neben Produktiv-Code sind Tests zu entwickeln
@@ -17,11 +17,11 @@
   
 ![CI](vorlesung2/bilder/CI.png "Continuous Integration")
 
-Durch CI ist der integrierte Code noch nicht bereit in Produktion zu gehen. Einzelne Komponenten funktionieren zwar mit einander, jedoch wurde das Produkt (die Software) noch nicht in einer "production-like environment" getestet und verifiziert.
+Durch CI ist der integrierte Code noch nicht bereit in Produktion zu gehen. Einzelne Komponenten funktionieren zwar miteinander, jedoch wurde das Produkt (die Software) noch nicht in einer "production-like environment" getestet und verifiziert.
 - Vorteil von CI
   - Integration -> täglicher Geschäft
   - "Big-Bang" Integration einer Entwicklung wird vermieden
-CI ist notwendig um Continuous Delivery durchführen.
+CI ist notwendig um Continuous Delivery durchzuführen.
 
 -----------------------------------------------------------------------------------------------------------------
 
@@ -29,7 +29,7 @@ CI ist notwendig um Continuous Delivery durchführen.
 
 - Continuous Delivery
   - alle Beschriebenen CI Schritte
-  - der integrierte Quelltext automatisiert auf verschiedenen Umgebungen getestet wird. 
+  - der integrierte Quelltext kann automatisiert auf verschiedenen Umgebungen getestet wird. 
  
 - Umgebungen sehr ähnlich zu einer potentiellen Produktiv-Umgebung
 - „Deployment pipeline" 
@@ -49,7 +49,7 @@ Mit jeder erfolgreich durchlaufenen Umgebung wächst die Wahrscheinlichkeit, das
 
 Continuous Deployment geht noch einen Schritt weiter und automatisiert ebenfalls die Übergabe in die Produktion.
 - Voraussetzung
--- erfolgreich Durchlauf alle Schritte aus den Continuous Integration und Delivery
+-- erfolgreicher Durchlauf aller Schritte aus den Continuous Integration und Delivery
 - Jeder einzelne Commit kann potentiell automatisiert in der Produktion ankommen
 - Zusammengefasst
   - Commit erfolgreich integriert
@@ -62,14 +62,14 @@ Anschließend muss nicht mehr entschieden werden, ob der Mehrwert (Commit) in de
 
 ## Build Server
 
-- Build Server als zentraler Ort, um den aktuelle Stand (Testergebnisse, kompilierten Artefakten) der Software einzusehen
+- Build Server als zentraler Ort, um den aktuellen Stand (Testergebnisse, kompilierten Artefakten) der Software einzusehen
 - alle Prozesse laufen auf dem Server vollautomatisch
   - Fehler können durch falsche, ausgelassene oder vertauschte Prozess-Schritte ausgeschlossen werden
 - isolierte Umgebung
   - garantiert gleiche Konfiguration bei den Entwickler-Rechnern (Tests laufen bei allen gleich ab)
 - Build-Server erfolgreich und Entwickler-Rechner nicht
-  - fehlkonfiguration bei dem Entwickler
-  - da der Build-Servers im Optimalfall möglichst nah an der dem Produktivsystems liegt
+  - Fehlkonfiguration bei dem Entwickler
+  - da der Build-Servers im Optimalfall möglichst nah an dem Produktivsystems liegt
   
 Ein Build-Server kompiliert und testet nicht nur, sondern kann auch zur Durchführung von Continuous Delivery und Deployment verwendet werden.
 Beispiele: Jenkins und Travis CI
