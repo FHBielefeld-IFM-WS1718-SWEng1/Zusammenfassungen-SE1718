@@ -39,7 +39,7 @@ CI ist notwendig um Continuous Delivery durchzuführen.
   
 ![CD](vorlesung2/bilder/CD.png "Continuous Delivery")
   
-Vor der Podukt-Umgebung werden die drei Umgebungen (Development, Test, Staging) durchlaufen.
+Vor der Produkt-Umgebung werden die drei Umgebungen (Development, Test, Staging) durchlaufen.
 In jeder Umgebung wird der Quelltext unterschiedlich getestet. 
 Mit jeder erfolgreich durchlaufenen Umgebung wächst die Wahrscheinlichkeit, dass der Quelltext auch in der Produktiv-Umgebung lauffähig sein wird.
 
