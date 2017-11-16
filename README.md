@@ -5,6 +5,10 @@ Aufgearbeitete Folien für Software Engineering<br>
 
 ### Vorlesungen:
 1. [Einleitung](/vorlesung1/vorlesung1.md)
+2. [Vorgehensmodelle](/vorlesung2/vorlesung2.md)
+3. [Agile Development](/vorlesung3/vorlesung3.md)
+4. [Agile Workflow](/vorlesung4/vorlesung4.md)
+5. [UML Diagramme](/vorlesung5/vorlesung5.md)
 
 <br>
 Bilder funktionieren in github Darstellung nicht, da die Pfade für docute angepasst sind.
