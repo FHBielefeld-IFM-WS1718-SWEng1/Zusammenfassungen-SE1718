@@ -62,20 +62,20 @@ Es enthält verschiedene Diagrammtypen, die sich gegenseitig ergänzen und verschi
 ![UML Diagrammtypen 3](vorlesung5/bilder/Bild5.png "UML Diagrammtypen 3")
 
 ## Modelle und UML-Diagramme
-UML wird zur Darstellung und Modellierung eines Software-Systems benutzt. Ein (Software-)System lässt sich durch eine Menge von Funktionen, Anwendungsfällen und Diensten modellieren. Auch eine prozessorientierte Darstellung durch eine Menge von Prozessen, Abläufen, Vorgängen und Workflows ist möglich. Ein System kann aber auch nur aus Daten und Objekten bestehen. Die Bezieheungen untereinander und die Straktur stehen dann im Fokus.
+UML wird zur Darstellung und Modellierung eines Software-Systems benutzt. Ein (Software-)System lässt sich durch eine Menge von Funktionen, Anwendungsfällen und Diensten modellieren. Auch eine prozessorientierte Darstellung durch eine Menge von Prozessen, Abläufen, Vorgängen und Workflows ist möglich. Ein System kann aber auch nur aus Daten und Objekten bestehen. Die Bezieheungen untereinander und die Struktur stehen dann im Fokus.
 - Ein System kann und soll in Subsysteme zerlegt werden. Dies besteht aus unabhängigen Komponenten.
 - Es wird zwischen statischen und dynamischen Modellen unterschieden.
 - Die "UML-Pyramide" veranschaulicht die Zugehörigkeiten grafisch und ist nicht direkt umzusetzen, sondern soll grob den gesamten Prozess aufzeigen.
 ![UML-Pyramide](vorlesung5/bilder/Bild6.png "UML-Pyramide")
 
-Die Diagramme verfeinern sich von oben nach unten auf der Pyramide. Das statische Modell zeigt eine Gesamtsicht auf das Problemfeld und lässt unwesentliche Details weg, während das dynamische Modell das Sysremverhalten darstellt und zeitlicher Ablauf, Zustände und Übergänge im Vordergrund stehen.
+Die Diagramme verfeinern sich von oben nach unten auf der Pyramide. Das statische Modell zeigt eine Gesamtsicht auf das Problemfeld und lässt unwesentliche Details weg, während das dynamische Modell das Systemverhalten darstellt und zeitlicher Ablauf, Zustände und Übergänge im Vordergrund stehen.
 
 Ein Use-Case (Anwendungsfall) beschreibt Anforderungen und bestimmt den Funktionsumfang.
 - Außensicht auf das Produkt
 - Kommunikationsgrundlage mit Kunden
 - Testgrundlage/ Erstellung früher Prototypen
 
-Ein Dynamisches Aktivitätsdiagramm beschreibt genau einen Workflow, wodurch sich bereits erste Klassen, Objekte und Beziehungen untereinander gewinnen lassen.
+Ein dynamisches Aktivitätsdiagramm beschreibt genau einen Workflow, wodurch sich bereits erste Klassen, Objekte und Beziehungen untereinander gewinnen lassen.
 Ein statisches Paketdiagramm besteht aus zusammenhängenden Klassen und ist ohne weitere Kenntnis der einzelnen Klassen verstehbar.
 Paket- und Klassendiagramme geben einen Überblick über die Ergebnisse des statischen Softwareentwurfs.
 Sequenz- und Kommunikationsdiagramme werden benutzt wenn das Verhalten im Vordergrund steht. Sie beschreiben den Nachrichtenaustausch in einem System.
@@ -83,7 +83,7 @@ In Zustandsübergangsdiagrammen geht es um den Zustand eines einzigen Objekts im 
 
 ## Zuordnung der UML-Diagrammtypen zu Phasen der Softwareentwicklung
 - Anforderungen -> Use-Case Diagramm
-- Geschäftsprotesse -> Aktivitätsdiagramm
+- Geschäftsprozesse -> Aktivitätsdiagramm
 - Statische Softwarestruktur -> Klassendiagramm
 - Dynamisches Verhalten der Software -> Sequenzdiagramm, Zustandsdiagramm
 - Struktur von Softwarekomponenten/ Bibliotheken -> Komponentendiagramm
