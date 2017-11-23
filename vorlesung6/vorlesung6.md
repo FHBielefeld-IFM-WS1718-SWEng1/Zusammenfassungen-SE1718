@@ -11,11 +11,11 @@
 
 ### Einordnung in den Entwicklungsprozess
 
-![Einordnung in den Entwicklungsprozess](vorlesung6/Bild1.png)
+![Einordnung in den Entwicklungsprozess](vorlesung6/bilder/Bild1.png)
 #### Stakeholder
 Der Stakeholder ist eine wichtige Quelle für Informationen. Dieser hat direkten oder indirekten Einfluss auf die Anforderungen des Systems. Wenn man bei den Anforderungen einen Stakeholder weglässt, kann das dazu führen, dass es Lücken im System gibt. Ein paar wichtige Stakeholder: Kunde, Mitarbeiter, Eigentümer, Zulieferer und andere Dienstleister. 
 
-![Stakeholder](vorlesung6/Bild2.png)
+![Stakeholder](vorlesung6/bilder/Bild2.png)
 
 #### Arten von Anforderungsdefinitionen
 
@@ -55,7 +55,7 @@ Um die Anforderungen herauszufinden ist eine Befragung von zentralen Stakeholder
 - Funktionale Anforderungen: Was soll das System können
 - Nicht funktionale Anforderungen: WWelche Eigenschaften soll das System neben der Funktionalität aufweisen
 
-![Arten von Anforerungen](vorlesung6/Bild3.png)
+![Arten von Anforerungen](vorlesung6/bilder/Bild3.png)
 
 | Funktionale Anforderungen | Nicht funktionale Anforderungen |
 |--------|--------|
@@ -65,11 +65,11 @@ Um die Anforderungen herauszufinden ist eine Befragung von zentralen Stakeholder
 
 
 	
-![Nicht Funktionale Anforderungen](vorlesung6/Bild4.png)
+![Nicht Funktionale Anforderungen](vorlesung6/bilder/Bild4.png)
 
 ### Probleme bei der Anforderungsanalyse
 
-![Arten von Anforerungen](vorlesung6/Bild5.png)
+![Arten von Anforerungen](vorlesung6/bilder/Bild5.png)
 
 Ein großes Problem ist, dass der Kunde eigentlich gar nicht weiß was er eigentlich will. Und diese Anforderungen, die dabei herauskommen, kann man nicht maschinell bearbeiten, also muss man diese per Hand durchgehen. Die unterschiedlichen Leute, die beteiligt sind, haben oft unterschiedliche Ansprüche an das System. Dadruch gibt es widersprüchliche Aussagen. Diese müssen das zusätzlich noch erkannt werden. 
 Anforderungen können sich auch noch während des Prozesses ändern. Experten lassen auch gerne mal ein paar Dinge aus, die für Sie offensichtlich ist. Wenn es Konflikte gibt muss es keine klaren Entscheidungen geben. 
@@ -84,8 +84,8 @@ Anforderungen können sich auch noch während des Prozesses ändern. Experten la
 
 ### Vorgehensweise beim Requirements Enginieering
 
-![Bild6](vorlesung6/Bild6.png)
-![Bild7](vorlesung6/Bild7.png)
+![Bild6](vorlesung6/bilder/Bild6.png)
+![Bild7](vorlesung6/bilder/Bild7.png)
 
 #### Use Case Satzschablone
 
@@ -102,7 +102,7 @@ Zeigt das Verhalten des Sytems gegebenüber Akteuren. Stellt außerdem die Abhä
 
 ### Satzschablonen für die Anforderungsermittlung
 
-![Bild8](vorlesung6/Bild8.png)
+![Bild8](vorlesung6/bilder/Bild8.png)
 
 #### Charakterisierung von Systemaktivitäten
 
@@ -120,15 +120,15 @@ Zeigt das Verhalten des Sytems gegebenüber Akteuren. Stellt außerdem die Abhä
 - Standardisierte Normsprache
 - Hilft Anforderungen aufzunehmen und zu formulieren
 
-![Bild9](vorlesung6/Bild9.png)
+![Bild9](vorlesung6/bilder/Bild9.png)
 
 ##### Beispiele:
 - 	Nach der Kontaktaufnahme durch die Software „Globalview“ muss das System fähig sein, Anfragen nach den Projektnamen, deren Gesamtaufwänden und Fertigstellungsgraden anzunehmen.
 - Das Personalmodul wird fähig sein, Personendaten aus der Datenbank zu importieren
-![Bild10](vorlesung6/Bild10.png)
-![Bild11](vorlesung6/Bild11.png)
-![Bild12](vorlesung6/Bild12.png)
-![Bild13](vorlesung6/Bild13.png)
+![Bild10](vorlesung6/bilder/Bild10.png)
+![Bild11](vorlesung6/bilder/Bild11.png)
+![Bild12](vorlesung6/bilder/Bild12.png)
+![Bild13](vorlesung6/bilder/Bild13.png)
 
 ### Use Case (Anwendungsfall)
 
@@ -176,13 +176,13 @@ Alle Anwendungsfälle zusammen dokumentieren die Möglichkeiten der Benutzung de
   - beschreibt eine abstrakte Interaktion zwischen Akteuren und dem System
   - können mehrere Szenarien existieren
 
-![Vor gehensweise beim  Requirements Engineering](vorlesung6/bbild1.png "Vorgehensweise beim  Requirements Engineering")
+![Vor gehensweise beim  Requirements Engineering](vorlesung6/bilder/bbild1.png "Vorgehensweise beim  Requirements Engineering")
 
 -----------------------------------------------------------------------------------------------------------------
 
 ### Textuelle Use Case Definition 
 
-![Schablone zur textuellen Definition von Use Cases](vorlesung6/bbild2.png "Schablone zur textuellen Definition von Use Cases")
+![Schablone zur textuellen Definition von Use Cases](vorlesung6/bilder/bbild2.png "Schablone zur textuellen Definition von Use Cases")
 
 #### Definition des Ablaufs:
 
@@ -193,19 +193,19 @@ Alle Anwendungsfälle zusammen dokumentieren die Möglichkeiten der Benutzung de
 - die Nummer des Schrittes wird vom Ablauf unverändert übernommen und hinter der Nummer alphabetisch weiter nummeriert
 - Ein einzelner Schritt beginnt immer mit der Nennung des Aktors
 
-![Definition des Ablaufs](vorlesung6/bbild3.png "Definition des Ablaufs")
+![Definition des Ablaufs](vorlesung6/bilder/bbild3.png "Definition des Ablaufs")
 
-![Definition des Ablaufs2](vorlesung6/bbild4.png "Definition des Ablaufs2")
+![Definition des Ablaufs2](vorlesung6/bilder/bbild4.png "Definition des Ablaufs2")
 
-![Definition des Ablaufs3](vorlesung6/bbild5.png "Definition des Ablaufs3")
+![Definition des Ablaufs3](vorlesung6/bilder/bbild5.png "Definition des Ablaufs3")
 
-![Definition des Ablaufs4](vorlesung6/bbild6.png "Definition des Ablaufs4")
+![Definition des Ablaufs4](vorlesung6/bilder/bbild6.png "Definition des Ablaufs4")
 
 -----------------------------------------------------------------------------------------------------------------
 
 ### Notationselemente für Use Case Diagramme
 
-![UML](vorlesung6/bbild7.png "UML")
+![UML](vorlesung6/bilder/bbild7.png "UML")
 
 - Achtung: „Kunde nicht gefunden“ kein geeigneter Use Case
 - UC-Name wie „Kundendaten einsehen“ immer in den Use Case schreiben
@@ -220,7 +220,7 @@ Alle Anwendungsfälle zusammen dokumentieren die Möglichkeiten der Benutzung de
 
 Notation:
 
-![Notation](vorlesung6/nota.png "Notation")
+![Notation](vorlesung6/bilder/nota.png "Notation")
 
 #### Arten von Aktoren
 
@@ -235,19 +235,19 @@ Notation:
 
 Beispiel:
 
-![beispiel](vorlesung6/beispiel.png "beispiel")
+![beispiel](vorlesung6/bilder/beispiel.png "beispiel")
 
-![UML2](vorlesung6/bbild8.png "UML2")
+![UML2](vorlesung6/bilder/bbild8.png "UML2")
 
-![UML3](vorlesung6/bbild9.png "UML3")
+![UML3](vorlesung6/bilder/bbild9.png "UML3")
 
 #### Vererbung bei Akteuren und Kardinalitäten
 
-![Vererbung](bbild10.png "Vererbung")
+![Vererbung](vorlesung6/bilder/bbild10.png "Vererbung")
 
 #### Use-Case-Diagramm – Generalisierung
 
-![DIA](vorlesung6/bbild11.png "DIA")
+![DIA](vorlesung6/bilder/bbild11.png "DIA")
 
 #### Use-Case-Diagramm – <<include>> Beziehung
 
