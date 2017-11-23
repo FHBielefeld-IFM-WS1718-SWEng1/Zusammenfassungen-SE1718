@@ -143,10 +143,10 @@ Alle Anwendungsfälle zusammen dokumentieren die Möglichkeiten der Benutzung de
 ### Use Case vs. User Story
 
 - User Story
- - einfache kurze Beschreibung eines Benutzerziels, um ein Nutzen generieren
- - eignen sich für inkrementelles Vorgehen
- - als Basis, um über Anforderungen zu reden
- - werden als Planungsinstrument eingesetzt und so lange kompakt „kleingeschnitten“, bis sie in einem festgelegten Zeitraum einer Iteration umgesetzt werden können
+  - einfache kurze Beschreibung eines Benutzerziels, um ein Nutzen generieren
+  - eignen sich für inkrementelles Vorgehen
+  - als Basis, um über Anforderungen zu reden
+  - werden als Planungsinstrument eingesetzt und so lange kompakt „kleingeschnitten“, bis sie in einem festgelegten Zeitraum einer Iteration umgesetzt werden können
 
 
 - Use Case
