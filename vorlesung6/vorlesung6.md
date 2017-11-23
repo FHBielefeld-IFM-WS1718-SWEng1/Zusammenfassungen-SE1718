@@ -35,7 +35,7 @@ In der Anforderungsanalyse ermittelt man die Anforderungen an ein System. Man se
 
 #### Ziele des Requirement Engineering
 
-Man sollte dem Auftraggeber beim Erstellen dieser Anforderungen unterstützen. Dem Anforderungsanalytiker sollte man ebenfalls ebi der Aufbereitung unter die Arme greifen.
+Man sollte dem Auftraggeber beim Erstellen dieser Anforderungen unterstützen. Dem Anforderungsanalytiker sollte man ebenfalls bei der Aufbereitung unter die Arme greifen.
 	- Formulieren, Klassifizieren, Hierachisieren, Priorisieren
 
 ### Was sind Anforderungen? 
@@ -53,7 +53,7 @@ Um die Anforderungen herauszufinden ist eine Befragung von zentralen Stakeholder
 
 ### Arten von Anforderungen
 - Funktionale Anforderungen: Was soll das System können
-- Nicht funktionale Anforderungen: WWelche Eigenschaften soll das System neben der Funktionalität aufweisen
+- Nicht funktionale Anforderungen: Welche Eigenschaften soll das System neben der Funktionalität aufweisen
 
 ![Arten von Anforerungen](vorlesung6/bilder/Bild3.png)
 
@@ -82,7 +82,7 @@ Anforderungen können sich auch noch während des Prozesses ändern. Experten la
 | inkonsistent | ein schnelles Auto, ein Oldtimer|
 |unvollständig| 
 
-### Vorgehensweise beim Requirements Enginieering
+### Vorgehensweise beim Requirements engineering
 
 ![Bild6](vorlesung6/bilder/Bild6.png)
 ![Bild7](vorlesung6/bilder/Bild7.png)
@@ -127,7 +127,7 @@ Zeigt das Verhalten des Sytems gegebenüber Akteuren. Stellt außerdem die Abhä
 - Das Personalmodul wird fähig sein, Personendaten aus der Datenbank zu importieren
 ![Bild10](vorlesung6/bilder/Bild10.png)
 ![Bild11](vorlesung6/bilder/Bild11.png)
-![Bild12](vorlesung6/bilder/Bild12.png)
+![Bild12](vorlesung6/bilder/Bild12.png)Bedigung Bedigung Bedigung
 ![Bild13](vorlesung6/bilder/Bild13.png)
 
 ### Use Case (Anwendungsfall)
@@ -264,7 +264,7 @@ Beispiel:
 - Den Zeitpunkt, an dem ein Verhalten eines Use-Case erweitert werden kann, bezeichnet man als Erweiterungspunkt (engl. extension point). 
 - Ein Use-Case darf mehrere Erweiterungspunkte besitzen.
 - Eine Erweiterung kann noch um eine optionale Bedingung ergänzt werden.
-  - wenn die Bedigung erfüllt ist, wird die Erweiterung tatsächlich ausgeführt
+  - wenn die Bedingung erfüllt ist, wird die Erweiterung tatsächlich ausgeführt
 
 ![bild14](vorlesung6/bbild14.png "bild14")
 
