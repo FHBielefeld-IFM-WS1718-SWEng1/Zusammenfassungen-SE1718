@@ -177,13 +177,13 @@ Alle Anwendungsfälle zusammen dokumentieren die Möglichkeiten der Benutzung de
   - beschreibt eine abstrakte Interaktion zwischen Akteuren und dem System
   - können mehrere Szenarien existieren
 
-![Vor gehensweise beim  Requirements Engineering](bild1.png "Vor gehensweise beim  Requirements Engineering")
+![Vor gehensweise beim  Requirements Engineering](bbild1.png "Vor gehensweise beim  Requirements Engineering")
 
 -----------------------------------------------------------------------------------------------------------------
 
 ### Textuelle Use Case Definition 
 
-![Schablone zur textuellen Definition von Use Cases](bild2.png "Schablone zur textuellen Definition von Use Cases")
+![Schablone zur textuellen Definition von Use Cases](bbild2.png "Schablone zur textuellen Definition von Use Cases")
 
 #### Definition des Ablaufs:
 
@@ -194,19 +194,19 @@ Alle Anwendungsfälle zusammen dokumentieren die Möglichkeiten der Benutzung de
 - die Nummer des Schrittes wird vom Ablauf unverändert übernommen und hinter der Nummer alphabetisch weiter nummeriert
 - Ein einzelner Schritt beginnt immer mit der Nennung des Aktors
 
-![Definition des Ablaufs](bild3.png "Definition des Ablaufs")
+![Definition des Ablaufs](bbild3.png "Definition des Ablaufs")
 
-![Definition des Ablaufs2](bild4.png "Definition des Ablaufs2")
+![Definition des Ablaufs2](bbild4.png "Definition des Ablaufs2")
 
-![Definition des Ablaufs3](bild5.png "Definition des Ablaufs3")
+![Definition des Ablaufs3](bbild5.png "Definition des Ablaufs3")
 
-![Definition des Ablaufs4](bild6.png "Definition des Ablaufs4")
+![Definition des Ablaufs4](bbild6.png "Definition des Ablaufs4")
 
 -----------------------------------------------------------------------------------------------------------------
 
 ### Notationselemente für Use Case Diagramme
 
-![UML](bild7.png "UML")
+![UML](bbild7.png "UML")
 
 - Achtung: „Kunde nicht gefunden“ kein geeigneter Use Case
 - UC-Name wie „Kundendaten einsehen“ immer in den Use Case schreiben
@@ -238,28 +238,28 @@ Beispiel:
 
 ![beispiel](beispiel.png "beispiel")
 
-![UML2](bild8.png "UML2")
+![UML2](bbild8.png "UML2")
 
-![UML3](bild9.png "UML3")
+![UML3](bbild9.png "UML3")
 
 #### Vererbung bei Akteuren und Kardinalitäten
 
-![Vererbung](bild10.png "Vererbung")
+![Vererbung](bbild10.png "Vererbung")
 
 #### Use-Case-Diagramm – Generalisierung
 
-![DIA](bild11.png "DIA")
+![DIA](bbild11.png "DIA")
 
 #### Use-Case-Diagramm – <<include>> Beziehung
 
-![bild12](bild12.png "bild12")
+![bild12](bbild12.png "bild12")
 
 - Die «include»-Beziehung visualisiert, dass ein Use-Case (A) das Verhalten eines anderen Use-Case (B) importiert. Die Beziehung ist nicht optional, so dass  das Verhalten immer importiert wird.
 - Erst die Beschreibung der Aktionen definiert, an welcher Stelle der Use-Case B inkludiert wird.
 
 #### Use-Case-Diagramm – <<extend>> Beziehung
 
-![bild13](bild13.png "bild13")
+![bild13](bbild13.png "bild13")
 
 - Die «extend»-Beziehung zeigt an, dass das Verhalten eines Use-Case (A) durch einen anderen Use-Case (B) erweitert werden kann, aber nicht muss.
 - Den Zeitpunkt, an dem ein Verhalten eines Use-Case erweitert werden kann, bezeichnet man als Erweiterungspunkt (engl. extension point). 
@@ -267,11 +267,11 @@ Beispiel:
 - Eine Erweiterung kann noch um eine optionale Bedingung ergänzt werden.
   - wenn die Bedigung erfüllt ist, wird die Erweiterung tatsächlich ausgeführt
 
-![bild14](bild14.png "bild14")
+![bild14](bbild14.png "bild14")
 
-![bild15](bild15.png "bild15")
+![bild15](bbild15.png "bild15")
 
-![bild16](bild16.png "bild16")
+![bild16](bbild16.png "bild16")
 
 -----------------------------------------------------------------------------------------------------------------
 
