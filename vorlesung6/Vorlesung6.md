@@ -130,3 +130,185 @@ Zeigt das Verhalten des Sytems gegebenüber Akteuren dar. Zeigt außerdem die Ab
 ![Bild9](Bild11.png)
 ![Bild9](Bild12.png)
 ![Bild9](Bild13.png)
+
+### Use Case (Anwendungsfall)
+
+Ein Use Case definiert die funktionalsen Hauptaufgaben eines Systems.
+In der Sprache der Stakeholder beschreibt ein Use Case eine konsistente und zielgegerchte Interaktion zwischen Benutzer und System.
+Aus der Sicht des Anwenders beschreibt ein Use Case das gewünschte Systemverhalten und Anforderungen, die das System efüllen soll.
+Außerdem wirde beschrieben, was das System leisten muss, aber nicht, wie es dies leisten soll.
+Um ein Ziel bzw. gewünschtes Ergebnis zu erreichen, führt ein Akteur mehrere zusammenhängende Aufgaben durch.
+Alle Anwendungsfälle zusammen dokumentieren die Möglichkeiten der Benutzung des Softwaresystems und werden in einem Use Case Diagramm dargestellt.
+
+### Use Case vs. User Story
+
+- User Story
+ - einfache kurze Beschreibung eines Benutzerziels, um ein Nutzen generieren
+ - eignen sich für inkrementelles Vorgehen
+ - als Basis, um über Anforderungen zu reden
+ - werden als Planungsinstrument eingesetzt und so lange kompakt „kleingeschnitten“, bis sie in einem festgelegten Zeitraum einer Iteration umgesetzt werden können
+
+
+- Use Case
+ - detaillierte Spezifikation von Funktionalität (Reihenfolge von Systemaktivitäten), um ein gewünschtes Resultat zu erzielen
+ - fokussieren auf Nutzerinteraktionen mit einem System, so dass das Ziel der Nutzer klar wird
+ - enthalten include- und extends-Beziehungen
+ - eignen sich gut für eine Neuentwicklung
+ - als Instrument zur Dokumentation eingesetzt
+
+-----------------------------------------------------------------------------------------------------------------
+
+### Szenario
+
+- Szenario
+ - konkrete Ausprägung eines Anwendungsfalls
+ - ein möglicher Ablauf mit konkreten Werten
+ - ist eine Instanz eines Anwendungsfalls
+ - Beschreibungen des Systems, wie es in der Praxis benutzt wird
+ - hilfreich bei der Anforderungsermittlung, da Personen diese besser verstehen als abstrakte Angaben
+ - können durch Interaktionsdiagramme (Sequenzdiagramm, Kommunikationsdiagramm) dargestellt werden
+
+- Ein Szenario beschreibt eine Abfolge von Schritten, die vom Use Case zu durchlaufen sind. Diese Abläufe werden in Use Case Definitionen detailliert modelliert
+ - Normalabläufe, normaler/erfolgreicher Ablauf
+ - Alternativabläufe, andere Wege zum Ziel als bei Normalabläufe
+ - führen nicht zum Ziel, z.B. infolge eines "fachlichen Fehlers" oder bei einem Abbruch durch den Akteur
+ 
+- Anwendungsfall
+ - beschreibt eine abstrakte Interaktion zwischen Akteuren und dem System
+ - können mehrere Szenarien existieren
+
+![Vor gehensweise beim  Requirements Engineering](bild1.png "Vor gehensweise beim  Requirements Engineering")
+
+-----------------------------------------------------------------------------------------------------------------
+
+### Textuelle Use Case Definition 
+
+![Schablone zur textuellen Definition von Use Cases](bild2.png "Schablone zur textuellen Definition von Use Cases")
+
+#### Definition des Ablaufs:
+
+- In der Zeile „Ablauf“ steht der ganze Ablauf des Use Cases mit allen möglichen Ausnahmen und/oder Varianten
+- Dies sind die Szenarien
+- wird in Schritte unterteilt und jeder Schritt fortlaufend nummeriert
+- eine Ausnahme oder Variante wird unter alternativen Abläufen erwähnt
+- die Nummer des Schrittes wird vom Ablauf unverändert übernommen und hinter der Nummer alphabetisch weiter nummeriert
+- Ein einzelner Schritt beginnt immer mit der Nennung des Aktors
+
+![Definition des Ablaufs](bild3.png "Definition des Ablaufs")
+
+![Definition des Ablaufs2](bild4.png "Definition des Ablaufs2")
+
+![Definition des Ablaufs3](bild5.png "Definition des Ablaufs3")
+
+![Definition des Ablaufs4](bild6.png "Definition des Ablaufs4")
+
+-----------------------------------------------------------------------------------------------------------------
+
+### Notationselemente für Use Case Diagramme
+
+![UML](bild7.png "UML")
+
+- Achtung: „Kunde nicht gefunden“ kein geeigneter Use Case
+- UC-Name wie „Kundendaten einsehen“ immer in den Use Case schreiben
+
+#### Was ist ein Akteur (Aktor)?
+
+- Rolle, die ein Benutzer des Systems spielt
+- Häufig eine Person
+- Kann auch Organisationseinheit oder anderes System sein
+- Befindet sich immer außerhalb des Systems
+- Aktoren können in der Regel aus der Menge der Stakeholder entnommen werden.
+
+Notation:
+
+![Notation](nota.png "Notation")
+
+#### Arten von Aktoren
+
+- Menschlich
+ - z.B. Anfänger, geübter Benutzer, Admin
+- Nicht-menschlich
+ - z.B. Messaging-System, E-Mail-System
+- Primär: Hauptnutznießer der Anwendung
+- Sekundär: notwendig für das Funktionieren des Systems
+- Aktiv: stößt selbst Anwendungsfälle an
+- Passiv: stößt selbst keine Anwendungsfälle an
+
+Beispiel:
+
+![beispiel](beispiel.png "beispiel")
+
+![UML2](bild8.png "UML2")
+
+![UML3](bild9.png "UML3")
+
+#### Vererbung bei Akteuren und Kardinalitäten
+
+![Vererbung](bild10.png "Vererbung")
+
+#### Use-Case-Diagramm – Generalisierung
+
+![DIA](bild11.png "DIA")
+
+#### Use-Case-Diagramm – <<include>> Beziehung
+
+![bild12](bild12.png "bild12")
+
+- Die «include»-Beziehung visualisiert, dass ein Use-Case (A) das Verhalten eines anderen Use-Case (B) importiert. Die Beziehung ist nicht optional, so dass  das Verhalten immer importiert wird.
+- Erst die Beschreibung der Aktionen definiert, an welcher Stelle der Use-Case B inkludiert wird.
+
+#### Use-Case-Diagramm – <<extend>> Beziehung
+
+![bild13](bild13.png "bild13")
+
+- Die «extend»-Beziehung zeigt an, dass das Verhalten eines Use-Case (A) durch einen anderen Use-Case (B) erweitert werden kann, aber nicht muss.
+- Den Zeitpunkt, an dem ein Verhalten eines Use-Case erweitert werden kann, bezeichnet man als Erweiterungspunkt (engl. extension point). 
+- Ein Use-Case darf mehrere Erweiterungspunkte besitzen.
+- Eine Erweiterung kann noch um eine optionale Bedingung ergänzt werden.
+ - wenn die Bedigung erfüllt ist, wird die Erweiterung tatsächlich ausgeführt
+
+![bild14](bild14.png "bild14")
+
+![bild15](bild15.png "bild15")
+
+![bild16](bild16.png "bild16")
+
+-----------------------------------------------------------------------------------------------------------------
+
+### Best Practices
+
+#### Best  Practice  Use  Cases
+
+- für den Use Case eine sinnvolle Bezeichnung, die aus einem Substantiv und einem aktiven Verb bestehen. Beispiele: „Antrag erfassen“, „Report drucken“, „Spiel starten“
+- Konsistenz in der Sprache, standatdsierte Sprache im Use Case
+- Nicht „User Case“, sondern „Use Case“
+- Keine Abläufe modellieren
+ - jeder Use Case enthält selbst einen abgeschlossenen Ablauf
+- Keine Datenflüsse modellieren
+ - wenn „Auftrag anlegen“ und „Auftrag genehmigen“ zu verschiedenen Zeiten und von verschiedenen Personen durchgeführt werden, wird im Use Case-Diagramm keine Beziehung gezeichnet
+- Aktor immer außerhalb des Systems darstellen
+- Kein unterschiedlichen Aktoren mit Zustand (z.B. Benutzer & Registrierter Benutzer)
+- Keine nicht-funktionalen Use Cases modellieren
+- Use Case-Diagramme nicht zu umfangreich
+ - gruppieren verwandter Use Cases in einer Use Case Gruppe und modellieren mehrerer Use Case Diagramme 
+- Wenn das Use Case Diagramm einen zentralen Use Case zeigt, auf den viele andere mit Beziehungen wie „include“, „extends“ oder Generalisierung zeigen, ist dies ein Hinweis auf eine Use Case Gruppe
+- Keine Screenflows mit allen Möglichkeiten modellieren
+- Auf die wichtigsten include- und extend-Beziehungen konzentrieren
+- Große Use Case-Diagramme in mehrere Diagramme aufteilen
+- Use Case mit mehreren Akteuren
+ - Hat ein Use Case mehrere Akteure, so führen diese ihn gemeinsam aus
+ - Soll ein Use Case von unterschiedlichen Akteuren jeweils alleine ausgeführt werden, so erstellt man einen generalisierten Akteur.
+
+#### Best practice: Funktionale Größe eines Use Cases
+
+- keine Vorschriften, wie umfangreich ein Use Case sein soll
+- Use Case so abstrakt wie möglich und so konkret wie nötig
+- Use Cases eignen sich nicht zur funktionalen Zerlegung
+ - ein Use Case beschreibt keine einzelnen Schritte, Operationen oder Transaktionen (beispielsweise "Vertrag drucken", "Kunden-Nr. erzeugen" etc.), sondern relativ große Abläufe (bspw. "Neuen Kunden aufnehmen")
+ - „Name eingeben“ oder „Start drücken“ sind zu klein, da es keine abgeschlossenen Aufgaben sind. „Dienstfahrzeug beschaffen“ ist zu groß, da mehrere Use Cases erforderlich sind (beantragen, genehmigen, Bestellung aufgeben …)
+- „Kunde anlegen“, „Kunde ändern“ und „Kunde löschen“ als drei Use Cases modellieren oder genügt ein Use Case „Kunde bearbeiten“?
+ - hängt davon ab, ob es große Unterschiede zwischen den einzelnen Use Cases gibt, z. B. umfangreiche Prüfungen beim Anlegen, die beim Bearbeiten wegfallen
+ - hängt davon ab, ob es sehr viele Use Cases gibt und das Diagramm unübersichtlich wird
+
+
+
