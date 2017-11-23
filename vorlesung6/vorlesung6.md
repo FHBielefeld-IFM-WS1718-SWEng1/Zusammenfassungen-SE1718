@@ -1,7 +1,6 @@
 ## Anforderungsanalyse mit UML-Use Case Diagramm, Satzschablone und textueller Use Case Definition
 
 ### Lernziele
-- Verstehen was Anforderungen sind
 - Verstehen, was Anforderungen sind
 - Erklären können, was für unterschiedliche Anforderungsarten es gibt
 - Verstehen, wie Anforderungen definiert werden
@@ -12,11 +11,11 @@
 
 ### Einordnung in den Entwicklungsprozess
 
-![Einordnung in den Wntwicklungsprozess](Bild1.png)
+![Einordnung in den Entwicklungsprozess](vorlesung6/Bild1.png)
 #### Stakeholder
 Der Stakeholder ist eine wichtige Quelle für Informationen. Dieser hat direkten oder indirekten Einfluss auf die Anforderungen des Systems. Wenn man bei den Anforderungen einen Stakeholder weglässt, kann das dazu führen, dass es Lücken im System gibt. Ein paar wichtige Stakeholder: Kunde, Mitarbeiter, Eigentümer, Zulieferer und andere Dienstleister. 
 
-![Stakeholder](Bild2.png)
+![Stakeholder](vorlesung6/Bild2.png)
 
 #### Arten von Anforderungsdefinitionen
 
@@ -24,7 +23,7 @@ Der Stakeholder ist eine wichtige Quelle für Informationen. Dieser hat direkten
 	Die Nutzeranforderung, die im Lastenheft steht, beschreibt was der Nutzer oder Kunde haben will. 
 
 - Systemanforderung --------------------------------------Pflichtenheft
-	Das Pflichtenheft ist aus der Sicht desjenigen geschrieben, der das System realisiert. Also ist Dieses etwas technischer und präziser. 
+	Das Pflichtenheft ist aus der Sicht desjenigen geschrieben, der das System realisiert. Also ist dieses etwas technischer und präziser. 
 
 #### Hinweise zu Art und Inhalt von Dokumenten in einem Softwareprojekt
 
@@ -36,29 +35,29 @@ In der Anforderungsanalyse ermittelt man die Anforderungen an ein System. Man se
 
 #### Ziele des Requirement Engineering
 
-Man sollte dem Auftraggeber beim Erstellen dieser Anforderungen untersützen. Ebenfalls dem Anforderungsanalytiker sollte man bei der Aufbereitung dieser Anforderung unter die Arme greifen. 
+Man sollte dem Auftraggeber beim Erstellen dieser Anforderungen unterstützen. Dem Anforderungsanalytiker sollte man ebenfalls ebi der Aufbereitung unter die Arme greifen.
 	- Formulieren, Klassifizieren, Hierachisieren, Priorisieren
 
 ### Was sind Anforderungen? 
 
-- Legen qualitativen und quantitativen Eigenschaften vom Softwareprojekt fest
+- Legen qualitative und quantitative Eigenschaften vom Softwareprojekt fest
 
 #### Was beschreiben Anforderungen
 
-Anforderungen beschreiben die Bedingungen, die man zum Lösen eines Problems einhalten soll. Ebenfalls die Bedingungen, die ein System oder eine Systemkomponente erfüllen muss, beschreibt diese Anforderung. Also: Die Anforderungsbeschreibung legt was was ein Produkt können soll/muss.
+Anforderungen beschreiben die Bedingungen, die man zum Lösen eines Problems einhalten soll. Ebenfalls die Bedingungen, die ein System oder eine Systemkomponente erfüllen muss, beschreibt diese Anforderung. Also: Die Anforderungsbeschreibung legt fest was was ein Produkt können soll/muss.
 
 
 ### Wege zur Anforderug
 
-Um die Anforderungen herauszufinden ist eine Befragung von zentralen Stakeholdern sinnvoll. Man kann auch Interviews führen oder alte Systeme analysieren oder sich Dokumente von Kunden ansehen. 
+Um die Anforderungen herauszufinden ist eine Befragung von zentralen Stakeholdern sinnvoll. Man kann auch Interviews führen, alte Systeme analysieren oder sich Dokumente von Kunden ansehen. 
 
 ### Arten von Anforderungen
 - Funktionale Anforderungen: Was soll das System können
 - Nicht funktionale Anforderungen: WWelche Eigenschaften soll das System neben der Funktionalität aufweisen
 
-![Arten von Anforerungen](Bild3.png)
+![Arten von Anforerungen](vorlesung6/Bild3.png)
 
-| Funktionale Anforderungen | Nicht funktionale Anfordeurngen |
+| Funktionale Anforderungen | Nicht funktionale Anforderungen |
 |--------|--------|
 | Funktionaliäten|   Leistungsanforderungen     |
 |Daten | Qualitätsanforderungen |
@@ -66,14 +65,14 @@ Um die Anforderungen herauszufinden ist eine Befragung von zentralen Stakeholder
 
 
 	
-![Nicht Funktionale Anforderungen](Bild4.png)
+![Nicht Funktionale Anforderungen](vorlesung6/Bild4.png)
 
 ### Probleme bei der Anforderungsanalyse
 
-![Arten von Anforerungen](Bild5.png)
+![Arten von Anforerungen](vorlesung6/Bild5.png)
 
-Ein großes Problem ist, dass der Kunde eigentlich gar nicht weiß was er eigentlich will. Und diese Anforungen, die dabei herauskommen, kann man nicht maschinell bearbeiten, also muss man diese per Hand durchgehen. Die unterschiedlichen Leute, die beteiligt sind, haben oft unterschiedliche Ansprüche an das System. Dadruch gibt es widersprüchliche Aussagen. Diese müssen das zusätzlich noch erkannt werden. 
-Anforderungen können sich auch noch während des Prozesses ändern. Expteren lassen auch gerne mal ein paar Dinge aus, die für Sie offensichtlich ist. Wenn es Konflikte gibt muss es keine klaren Entscheidungen geben. 
+Ein großes Problem ist, dass der Kunde eigentlich gar nicht weiß was er eigentlich will. Und diese Anforderungen, die dabei herauskommen, kann man nicht maschinell bearbeiten, also muss man diese per Hand durchgehen. Die unterschiedlichen Leute, die beteiligt sind, haben oft unterschiedliche Ansprüche an das System. Dadruch gibt es widersprüchliche Aussagen. Diese müssen das zusätzlich noch erkannt werden. 
+Anforderungen können sich auch noch während des Prozesses ändern. Experten lassen auch gerne mal ein paar Dinge aus, die für Sie offensichtlich ist. Wenn es Konflikte gibt muss es keine klaren Entscheidungen geben. 
 
 |Anforderungen sind: | Beispiele |
 |--------|--------|
@@ -85,12 +84,12 @@ Anforderungen können sich auch noch während des Prozesses ändern. Expteren la
 
 ### Vorgehensweise beim Requirements Enginieering
 
-![Bild6](Bild6.png)
-![Bild7](Bild7.png)
+![Bild6](vorlesung6/Bild6.png)
+![Bild7](vorlesung6/Bild7.png)
 
 #### Use Case Satzschablone
 
-Hier präzisiert man die natürlichsprachigen Anforderungen. Die Anforderungen des Kunden werden endeutig und konsistent forumliert.
+Hier präzisiert man die natürlichsprachigen Anforderungen. Die Anforderungen des Kunden werden eindeutig und konsistent formuliert.
 
 #### Textuelle Use Case Definition
 
@@ -99,15 +98,15 @@ Die Beschreibung der Arbeitsabläufe ist natürlichsprachig. Man beschreibt Inte
 #### Use Case Diagramme
 
 
-Zeigt das Verhalten des Sytems gegebenüber Akteuren dar. Zeigt außerdem die Abhängigkeiten zwischen den Anwendungsfällen dar.
+Zeigt das Verhalten des Sytems gegebenüber Akteuren. Stellt außerdem die Abhängigkeiten zwischen den Anwendungsfällen dar.
 
 ### Satzschablonen für die Anforderungsermittlung
 
-![Bild8](Bild8.png)
+![Bild8](vorlesung6/Bild8.png)
 
 #### Charakterisierung von Systemaktivitäten
 
-1. Selbstsändige Systemaktivität
+1. Selbstständige Systemaktivität
 	- Das System führt den Prozess selbstständig durch
 
 2. Benutzerinteraktion
@@ -121,29 +120,29 @@ Zeigt das Verhalten des Sytems gegebenüber Akteuren dar. Zeigt außerdem die Ab
 - Standardisierte Normsprache
 - Hilft Anforderungen aufzunehmen und zu formulieren
 
-![Bild9](Bild9.png)
+![Bild9](vorlesung6/Bild9.png)
 
-#####Beispiele:
+##### Beispiele:
 - 	Nach der Kontaktaufnahme durch die Software „Globalview“ muss das System fähig sein, Anfragen nach den Projektnamen, deren Gesamtaufwänden und Fertigstellungsgraden anzunehmen.
 - Das Personalmodul wird fähig sein, Personendaten aus der Datenbank zu importieren
-![Bild9](Bild10.png)
-![Bild9](Bild11.png)
-![Bild9](Bild12.png)
-![Bild9](Bild13.png)
+![Bild10](vorlesung6/Bild10.png)
+![Bild11](vorlesung6/Bild11.png)
+![Bild12](vorlesung6/Bild12.png)
+![Bild13](vorlesung6/Bild13.png)
 
 ### Use Case (Anwendungsfall)
 
-Ein Use Case definiert die funktionalsen Hauptaufgaben eines Systems.
-In der Sprache der Stakeholder beschreibt ein Use Case eine konsistente und zielgegerchte Interaktion zwischen Benutzer und System.
-Aus der Sicht des Anwenders beschreibt ein Use Case das gewünschte Systemverhalten und Anforderungen, die das System efüllen soll.
-Außerdem wirde beschrieben, was das System leisten muss, aber nicht, wie es dies leisten soll.
+Ein Use Case definiert die funktionalen Hauptaufgaben eines Systems.
+In der Sprache der Stakeholder beschreibt ein Use Case eine konsistente und zielgerichtete Interaktion zwischen Benutzer und System.
+Aus der Sicht des Anwenders beschreibt ein Use Case das gewünschte Systemverhalten und Anforderungen, die das System erfüllen soll.
+Außerdem wird beschrieben, was das System leisten muss, aber nicht, wie es dies leisten soll.
 Um ein Ziel bzw. gewünschtes Ergebnis zu erreichen, führt ein Akteur mehrere zusammenhängende Aufgaben durch.
 Alle Anwendungsfälle zusammen dokumentieren die Möglichkeiten der Benutzung des Softwaresystems und werden in einem Use Case Diagramm dargestellt.
 
 ### Use Case vs. User Story
 
 - User Story
-  - einfache kurze Beschreibung eines Benutzerziels, um ein Nutzen generieren
+  - einfache kurze Beschreibung eines Benutzerziels, um einen Nutzen zu generieren
   - eignen sich für inkrementelles Vorgehen
   - als Basis, um über Anforderungen zu reden
   - werden als Planungsinstrument eingesetzt und so lange kompakt „kleingeschnitten“, bis sie in einem festgelegten Zeitraum einer Iteration umgesetzt werden können
@@ -151,7 +150,7 @@ Alle Anwendungsfälle zusammen dokumentieren die Möglichkeiten der Benutzung de
 
 - Use Case
   - detaillierte Spezifikation von Funktionalität (Reihenfolge von Systemaktivitäten), um ein gewünschtes Resultat zu erzielen
-  - fokussieren auf Nutzerinteraktionen mit einem System, so dass das Ziel der Nutzer klar wird
+  - fokussieren auf Nutzerinteraktionen mit einem System, so dass das Ziel dem Nutzer klar wird
   - enthalten include- und extends-Beziehungen
   - eignen sich gut für eine Neuentwicklung
   - als Instrument zur Dokumentation eingesetzt
@@ -169,7 +168,7 @@ Alle Anwendungsfälle zusammen dokumentieren die Möglichkeiten der Benutzung de
   - können durch Interaktionsdiagramme (Sequenzdiagramm, Kommunikationsdiagramm) dargestellt werden
 
 - Ein Szenario beschreibt eine Abfolge von Schritten, die vom Use Case zu durchlaufen sind. Diese Abläufe werden in Use Case Definitionen detailliert modelliert
-  - Normalabläufe, normaler/erfolgreicher Ablauf
+  - Normalabläufen, normaler/erfolgreicher Ablauf
   - Alternativabläufe, andere Wege zum Ziel als bei Normalabläufe
   - führen nicht zum Ziel, z.B. infolge eines "fachlichen Fehlers" oder bei einem Abbruch durch den Akteur
  
@@ -177,13 +176,13 @@ Alle Anwendungsfälle zusammen dokumentieren die Möglichkeiten der Benutzung de
   - beschreibt eine abstrakte Interaktion zwischen Akteuren und dem System
   - können mehrere Szenarien existieren
 
-![Vor gehensweise beim  Requirements Engineering](bbild1.png "Vor gehensweise beim  Requirements Engineering")
+![Vor gehensweise beim  Requirements Engineering](vorlesung6/bbild1.png "Vorgehensweise beim  Requirements Engineering")
 
 -----------------------------------------------------------------------------------------------------------------
 
 ### Textuelle Use Case Definition 
 
-![Schablone zur textuellen Definition von Use Cases](bbild2.png "Schablone zur textuellen Definition von Use Cases")
+![Schablone zur textuellen Definition von Use Cases](vorlesung6/bbild2.png "Schablone zur textuellen Definition von Use Cases")
 
 #### Definition des Ablaufs:
 
@@ -194,19 +193,19 @@ Alle Anwendungsfälle zusammen dokumentieren die Möglichkeiten der Benutzung de
 - die Nummer des Schrittes wird vom Ablauf unverändert übernommen und hinter der Nummer alphabetisch weiter nummeriert
 - Ein einzelner Schritt beginnt immer mit der Nennung des Aktors
 
-![Definition des Ablaufs](bbild3.png "Definition des Ablaufs")
+![Definition des Ablaufs](vorlesung6/bbild3.png "Definition des Ablaufs")
 
-![Definition des Ablaufs2](bbild4.png "Definition des Ablaufs2")
+![Definition des Ablaufs2](vorlesung6/bbild4.png "Definition des Ablaufs2")
 
-![Definition des Ablaufs3](bbild5.png "Definition des Ablaufs3")
+![Definition des Ablaufs3](vorlesung6/bbild5.png "Definition des Ablaufs3")
 
-![Definition des Ablaufs4](bbild6.png "Definition des Ablaufs4")
+![Definition des Ablaufs4](vorlesung6/bbild6.png "Definition des Ablaufs4")
 
 -----------------------------------------------------------------------------------------------------------------
 
 ### Notationselemente für Use Case Diagramme
 
-![UML](bbild7.png "UML")
+![UML](vorlesung6/bbild7.png "UML")
 
 - Achtung: „Kunde nicht gefunden“ kein geeigneter Use Case
 - UC-Name wie „Kundendaten einsehen“ immer in den Use Case schreiben
@@ -221,7 +220,7 @@ Alle Anwendungsfälle zusammen dokumentieren die Möglichkeiten der Benutzung de
 
 Notation:
 
-![Notation](nota.png "Notation")
+![Notation](vorlesung6/nota.png "Notation")
 
 #### Arten von Aktoren
 
@@ -229,18 +228,18 @@ Notation:
   - z.B. Anfänger, geübter Benutzer, Admin
 - Nicht-menschlich
   - z.B. Messaging-System, E-Mail-System
-- Primär: Hauptnutznießer der Anwendung
+- Primär: Hauptnutzer der Anwendung
 - Sekundär: notwendig für das Funktionieren des Systems
 - Aktiv: stößt selbst Anwendungsfälle an
 - Passiv: stößt selbst keine Anwendungsfälle an
 
 Beispiel:
 
-![beispiel](beispiel.png "beispiel")
+![beispiel](vorlesung6/beispiel.png "beispiel")
 
-![UML2](bbild8.png "UML2")
+![UML2](vorlesung6/bbild8.png "UML2")
 
-![UML3](bbild9.png "UML3")
+![UML3](vorlesung6/bbild9.png "UML3")
 
 #### Vererbung bei Akteuren und Kardinalitäten
 
@@ -248,18 +247,18 @@ Beispiel:
 
 #### Use-Case-Diagramm – Generalisierung
 
-![DIA](bbild11.png "DIA")
+![DIA](vorlesung6/bbild11.png "DIA")
 
 #### Use-Case-Diagramm – <<include>> Beziehung
 
-![bild12](bbild12.png "bild12")
+![bild12](vorlesung6/bbild12.png "bild12")
 
 - Die «include»-Beziehung visualisiert, dass ein Use-Case (A) das Verhalten eines anderen Use-Case (B) importiert. Die Beziehung ist nicht optional, so dass  das Verhalten immer importiert wird.
 - Erst die Beschreibung der Aktionen definiert, an welcher Stelle der Use-Case B inkludiert wird.
 
 #### Use-Case-Diagramm – <<extend>> Beziehung
 
-![bild13](bbild13.png "bild13")
+![bild13](vorlesung6/bbild13.png "bild13")
 
 - Die «extend»-Beziehung zeigt an, dass das Verhalten eines Use-Case (A) durch einen anderen Use-Case (B) erweitert werden kann, aber nicht muss.
 - Den Zeitpunkt, an dem ein Verhalten eines Use-Case erweitert werden kann, bezeichnet man als Erweiterungspunkt (engl. extension point). 
@@ -267,11 +266,11 @@ Beispiel:
 - Eine Erweiterung kann noch um eine optionale Bedingung ergänzt werden.
   - wenn die Bedigung erfüllt ist, wird die Erweiterung tatsächlich ausgeführt
 
-![bild14](bbild14.png "bild14")
+![bild14](vorlesung6/bbild14.png "bild14")
 
-![bild15](bbild15.png "bild15")
+![bild15](vorlesung6/bbild15.png "bild15")
 
-![bild16](bbild16.png "bild16")
+![bild16](vorlesung6/bbild16.png "bild16")
 
 -----------------------------------------------------------------------------------------------------------------
 
@@ -279,8 +278,8 @@ Beispiel:
 
 #### Best  Practice  Use  Cases
 
-- für den Use Case eine sinnvolle Bezeichnung, die aus einem Substantiv und einem aktiven Verb bestehen. Beispiele: „Antrag erfassen“, „Report drucken“, „Spiel starten“
-- Konsistenz in der Sprache, standatdsierte Sprache im Use Case
+- für den Use Case eine sinnvolle Bezeichnung wählen, die aus einem Substantiv und einem aktiven Verb bestehen muss. Beispiele: „Antrag erfassen“, „Report drucken“, „Spiel starten“
+- Konsistenz in der Sprache, standardisierte Sprache im Use Case
 - Nicht „User Case“, sondern „Use Case“
 - Keine Abläufe modellieren
   - jeder Use Case enthält selbst einen abgeschlossenen Ablauf
