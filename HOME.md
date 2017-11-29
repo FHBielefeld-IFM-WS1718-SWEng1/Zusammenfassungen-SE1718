@@ -12,8 +12,8 @@ Aufgearbeitete Folien für Software Engineering
 3. [Agile Development](/vorlesung3/vorlesung3)
 4. [Agile Workflow](/vorlesung4/vorlesung4)
 5. [UML Diagramme](/vorlesung5/vorlesung5)
-6. [Anforderungsanalyse](/vorlesung6/vorlesung6.md)
-7. [Aktivitätsdiagramme](/vorlesung7/vorlesung7.md)
+6. [Anforderungsanalyse](/vorlesung6/vorlesung6)
+7. [Aktivitätsdiagramme](/vorlesung7/vorlesung7)
 
 ### Informationen für Contributer:
 Alle beigesteuerten Dokumente nutzen das Markdown Format und die Dateiendung .md
