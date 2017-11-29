@@ -8,19 +8,19 @@
 
 Unterschieden wird zwischen dem Objekt- und Kontrollfluss. Bei der verkürzten Schreibweise wird der Objektknoten direkt an die Aktion angeheftet. Die Ausgabe einer Aktion ist die Eingabe der nächsten Aktion.
 
-![Bildschirmfoto 2017-11-29 um 18.02.48](vorlesung7/bilder/Bildschirmfoto 2017-11-29 um 18.02.48.png)
+![Bildschirmfoto_2017-11-29_um_18.02.48](vorlesung7/bilder/Bildschirmfoto_2017-11-29_um_18.02.48.png)
 
 
 
 **Verkürzte Schreibweise**
 
-![Bildschirmfoto 2017-11-29 um 18.02.59](vorlesung7/bilder/Bildschirmfoto 2017-11-29 um 18.02.59.png)
+![Bildschirmfoto_2017-11-29_um_18.02.59](vorlesung7/bilder/Bildschirmfoto_2017-11-29_um_18.02.59.png)
 
-![Bildschirmfoto 2017-11-29 um 18.03.15](vorlesung7/bilder/Bildschirmfoto 2017-11-29 um 18.03.15.png)
+![Bildschirmfoto_2017-11-29_um_18.03.15](vorlesung7/bilder/Bildschirmfoto_2017-11-29_um_18.03.15.png)
 
 Die Steuerung der Abläufe in einem Aktivitätsdiagramm erfolgt durch Token (Marken) in Form von Kontrolltoken und Datentoken. Ein Token definiert hierbei den aktuellen Zustand der Verarbeitung. Tokens werden erzeugt, wandern und verarbeitet 
 
-![Bildschirmfoto 2017-11-29 um 18.04.24](vorlesung7/bilder/Bildschirmfoto 2017-11-29 um 18.04.24.png)
+![Bildschirmfoto_2017-11-29_um_18.04.24](vorlesung7/bilder/Bildschirmfoto_2017-11-29_um_18.04.24.png)
 
 Bei der Erzeugung eingangsloser Knoten (Startknoten, Signalempfangsknoten) wird ein Token erzeugt. Bei der Aufspaltung bzw. Synchronisation gibt es einen Token pro ausgehendem Fluss.
 
@@ -28,23 +28,23 @@ Bei der Wanderung entlang einer Kante wird eine Aktion gestartet, der Token trif
 
 Bei Aufspaltung/Synchronisation bzw. bei einem Endknoten werden alle eingehende Token verarbeitet
 
-![Bildschirmfoto 2017-11-29 um 18.05.42](vorlesung7/bilder/Bildschirmfoto 2017-11-29 um 18.05.42.png)
+![Bildschirmfoto_2017-11-29_um_18.05.42](vorlesung7/bilder/Bildschirmfoto_2017-11-29_um_18.05.42.png)
 
-![Bildschirmfoto 2017-11-29 um 18.05.46](vorlesung7/bilder/Bildschirmfoto 2017-11-29 um 18.05.46.png)
+![Bildschirmfoto_2017-11-29_um_18.05.46](vorlesung7/bilder/Bildschirmfoto_2017-11-29_um_18.05.46.png)
 
-![Bildschirmfoto 2017-11-29 um 17.38.56](vorlesung7/bilder/Bildschirmfoto 2017-11-29 um 17.38.56.png)
+![Bildschirmfoto_2017-11-29_um_17.38.56](vorlesung7/bilder/Bildschirmfoto_2017-11-29_um_17.38.56.png)
 
 Die Anordnung erfollt in gekennzeichnenten Bereichen, damit wird beschrieben, wer oder was für eine Menge von Knoten verantwortlich ist oder welche gemeinsame Eigenschaft sie kennzeichnet. Eine horizontale und vertikale Darstellung sowie Matrix oder hierarchisch ist erlaubt.
 
-![Bildschirmfoto 2017-11-29 um 17.41.45](vorlesung7/bilder/Bildschirmfoto 2017-11-29 um 17.41.45.png)
+![Bildschirmfoto_2017-11-29_um_17.41.45](vorlesung7/bilder/Bildschirmfoto_2017-11-29_um_17.41.45.png)
 
-![Bildschirmfoto 2017-11-29 um 17.41.50](vorlesung7/bilder/Bildschirmfoto 2017-11-29 um 17.41.50.png)
+![Bildschirmfoto_2017-11-29_um_17.41.50](vorlesung7/bilder/Bildschirmfoto_2017-11-29_um_17.41.50.png)
 
-![Bildschirmfoto 2017-11-29 um 17.41.56](vorlesung7/bilder/Bildschirmfoto 2017-11-29 um 17.41.56.png)
+![Bildschirmfoto_2017-11-29_um_17.41.56](vorlesung7/bilder/Bildschirmfoto_2017-11-29_um_17.41.56.png)
 
-![Bildschirmfoto 2017-11-29 um 17.42.53](vorlesung7/bilder/Bildschirmfoto 2017-11-29 um 17.42.53.png)
+![Bildschirmfoto_2017-11-29_um_17.42.53](vorlesung7/bilder/Bildschirmfoto_2017-11-29_um_17.42.53.png)
 
-![Bildschirmfoto 2017-11-29 um 17.43.11](vorlesung7/bilder/Bildschirmfoto 2017-11-29 um 17.43.11.png)
+![Bildschirmfoto_2017-11-29_um_17.43.11](vorlesung7/bilder/Bildschirmfoto_2017-11-29_um_17.43.11.png)
 
 ### Signale und Ergeignisse
 
@@ -52,31 +52,31 @@ Die Anordnung erfollt in gekennzeichnenten Bereichen, damit wird beschrieben, we
 
 Aktion, die ein Signal sendet unabhängig vom Zeitpunkt des Auftretens
 
-![Bildschirmfoto 2017-11-29 um 17.45.44](vorlesung7/bilder/Bildschirmfoto 2017-11-29 um 17.45.44.png)
+![Bildschirmfoto_2017-11-29_um_17.45.44](vorlesung7/bilder/Bildschirmfoto_2017-11-29_um_17.45.44.png)
 
-![Bildschirmfoto 2017-11-29 um 17.45.48](vorlesung7/bilder/Bildschirmfoto 2017-11-29 um 17.45.48.png)
+![Bildschirmfoto_2017-11-29_um_17.45.48](vorlesung7/bilder/Bildschirmfoto_2017-11-29_um_17.45.48.png)
 
 **Signa empfangen**´
 
 Aktion, die auf ein Signal wartet unabhängig vom Zeitpunkt des Auftretens. Wenn keine einlaufender Fluss: kann beliebig oft Signale empfangen
 
-![Bildschirmfoto 2017-11-29 um 17.46.39](vorlesung7/bilder/Bildschirmfoto 2017-11-29 um 17.46.39.png)
+![Bildschirmfoto_2017-11-29_um_17.46.39](vorlesung7/bilder/Bildschirmfoto_2017-11-29_um_17.46.39.png)
 
-![Bildschirmfoto 2017-11-29 um 17.46.43](vorlesung7/bilder/Bildschirmfoto 2017-11-29 um 17.46.43.png)
+![Bildschirmfoto_2017-11-29_um_17.46.43](vorlesung7/bilder/Bildschirmfoto_2017-11-29_um_17.46.43.png)
 
 **Zeitereignis empfangen**
 
 Aktion, die ein Signal sendet unabhängig vom Zeitpunkt des Auftretens
 
-![Bildschirmfoto 2017-11-29 um 17.46.57](vorlesung7/bilder/Bildschirmfoto 2017-11-29 um 17.46.57.png)
+![Bildschirmfoto_2017-11-29_um_17.46.57](vorlesung7/bilder/Bildschirmfoto_2017-11-29_um_17.46.57.png)
 
-![Bildschirmfoto 2017-11-29 um 17.47.13](vorlesung7/bilder/Bildschirmfoto 2017-11-29 um 17.47.30.png)
+![Bildschirmfoto_2017-11-29_um_17.47.13](vorlesung7/bilder/Bildschirmfoto_2017-11-29_um_17.47.30.png)
 
-![Bildschirmfoto 2017-11-29 um 17.47.45](vorlesung7/bilder/Bildschirmfoto 2017-11-29 um 17.47.57.png)
+![Bildschirmfoto_2017-11-29_um_17.47.45](vorlesung7/bilder/Bildschirmfoto_2017-11-29_um_17.47.57.png)
 
 ###  Unterbrechungsbereich
 
-![Bildschirmfoto 2017-11-29 um 17.51.11](vorlesung7/bilder/Bildschirmfoto 2017-11-29 um 17.51.11.png)
+![Bildschirmfoto_2017-11-29_um_17.51.11](vorlesung7/bilder/Bildschirmfoto_2017-11-29_um_17.51.11.png)
 
 **Motivation:** Dadurch können Exceptions modelliert oder das Verhalten von Fehlerzuständen visualisiert werden.
 
@@ -86,9 +86,9 @@ Aktion, die ein Signal sendet unabhängig vom Zeitpunkt des Auftretens
 
 Die Anordnung der Aktionen in gekennzeichnete Bereiche. Der Exception Handler beschreibt, wer oder was für eine Menge von Knoten verantwortlich ist oder welche gemeinsame Eigenschaft sie kennzeichnet. Dabei sind horizontale und vertikale Darstellung sowie Matrix oder hierarchisch ist erlaubt.
 
-![Bildschirmfoto 2017-11-29 um 17.52.29](vorlesung7/bilder/Bildschirmfoto 2017-11-29 um 17.52.29.png)
+![Bildschirmfoto_2017-11-29_um_17.52.29](vorlesung7/bilder/Bildschirmfoto_2017-11-29_um_17.52.29.png)
 
-![Bildschirmfoto 2017-11-29 um 17.52.44](vorlesung7/bilder/Bildschirmfoto 2017-11-29 um 17.52.44.png)
+![Bildschirmfoto_2017-11-29_um_17.52.44](vorlesung7/bilder/Bildschirmfoto_2017-11-29_um_17.52.44.png)
 
 
 
@@ -96,11 +96,11 @@ Die Anordnung der Aktionen in gekennzeichnete Bereiche. Der Exception Handler be
 
 #### Aktivitätsdiagramme mit Objektfluss
 
-![Bildschirmfoto 2017-11-29 um 17.53.31](vorlesung7/bilder/Bildschirmfoto 2017-11-29 um 17.53.31.png)
+![Bildschirmfoto_2017-11-29_um_17.53.31](vorlesung7/bilder/Bildschirmfoto_2017-11-29_um_17.53.31.png)
 
-![Bildschirmfoto 2017-11-29 um 17.54.04](vorlesung7/bilder/Bildschirmfoto 2017-11-29 um 17.54.04.png)
+![Bildschirmfoto_2017-11-29_um_17.54.04](vorlesung7/bilder/Bildschirmfoto_2017-11-29_um_17.54.04.png)
 
-![Bildschirmfoto 2017-11-29 um 17.54.14](vorlesung7/bilder/Bildschirmfoto 2017-11-29 um 17.54.14.png)
+![Bildschirmfoto_2017-11-29_um_17.54.14](vorlesung7/bilder/Bildschirmfoto_2017-11-29_um_17.54.14.png)
 
 ### Best practices
 
@@ -112,32 +112,32 @@ Ausserdem sollten die Bedingungen eindeutig identifiziert und die Menge der Bedi
 
 **Falsch**
 
-![Bildschirmfoto 2017-11-29 um 17.55.58](vorlesung7/bilder/Bildschirmfoto 2017-11-29 um 17.55.58.png)
+![Bildschirmfoto_2017-11-29_um_17.55.58](vorlesung7/bilder/Bildschirmfoto_2017-11-29_um_17.55.58.png)
 
 **Richtig**
 
-![Bildschirmfoto 2017-11-29 um 17.56.01](vorlesung7/bilder/Bildschirmfoto 2017-11-29 um 17.56.01.png)
+![Bildschirmfoto_2017-11-29_um_17.56.01](vorlesung7/bilder/Bildschirmfoto_2017-11-29_um_17.56.01.png)
 
 **Falsch**
 
-![Bildschirmfoto 2017-11-29 um 17.56.23](vorlesung7/bilder/Bildschirmfoto 2017-11-29 um 17.56.23.png)
+![Bildschirmfoto_2017-11-29_um_17.56.23](vorlesung7/bilder/Bildschirmfoto_2017-11-29_um_17.56.23.png)
 
 **Richtig**
 
-![Bildschirmfoto 2017-11-29 um 17.56.26](vorlesung7/bilder/Bildschirmfoto 2017-11-29 um 17.56.26.png)
+![Bildschirmfoto_2017-11-29_um_17.56.26](vorlesung7/bilder/Bildschirmfoto_2017-11-29_um_17.56.26.png)
 
-#### **Synchronisieren** von parrallelen Kanten
+#### **synchronisieren** von parrallelen Kanten
 
-![Bildschirmfoto 2017-11-29 um 17.57.25](vorlesung7/bilder/Bildschirmfoto 2017-11-29 um 17.57.25.png)
+![Bildschirmfoto_2017-11-29_um_17.57.25](vorlesung7/bilder/Bildschirmfoto_2017-11-29_um_17.57.25.png)
 
 #### Alternative Abläufe zusammenführen
 
-![Bildschirmfoto 2017-11-29 um 17.57.50](vorlesung7/bilder/Bildschirmfoto 2017-11-29 um 17.57.50.png)
+![Bildschirmfoto_2017-11-29_um_17.57.50](vorlesung7/bilder/Bildschirmfoto_2017-11-29_um_17.57.50.png)
 
-![Bildschirmfoto 2017-11-29 um 17.57.54](vorlesung7/bilder/Bildschirmfoto 2017-11-29 um 17.57.54.png)
+![Bildschirmfoto_2017-11-29_um_17.57.54](vorlesung7/bilder/Bildschirmfoto_2017-11-29_um_17.57.54.png)
 
 ### Zusammenfassung
 
-![Bildschirmfoto 2017-11-29 um 17.58.17](vorlesung7/bilder/Bildschirmfoto 2017-11-29 um 17.58.17.png)
+![Bildschirmfoto_2017-11-29_um_17.58.17](vorlesung7/bilder/Bildschirmfoto_2017-11-29_um_17.58.17.png)
 
-![Bildschirmfoto 2017-11-29 um 17.58.21](vorlesung7/bilder/Bildschirmfoto 2017-11-29 um 17.58.21.png)
+![Bildschirmfoto_2017-11-29_um_17.58.21](vorlesung7/bilder/Bildschirmfoto_2017-11-29_um_17.58.21.png)
