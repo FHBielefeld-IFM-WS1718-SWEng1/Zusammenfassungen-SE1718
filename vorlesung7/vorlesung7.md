@@ -1,8 +1,176 @@
-# Systemanalyse mit UML-Aktivitätsdiagrammen
+## Systemanalyse mit UML-Aktivitätsdiagrammen
 
-## Pragmatisches Schritt für Schritt Vorgehensmodell
+### Pragmatisches Schritt für Schritt Vorgehensmodell
 
 ![Pragmatisches Schritt für Schritt Vorgehensmodell](vorlesung7/bilder/schrittfuerschritt.png)
+
+### Lernziele
+
+- Wissen, was man unter der Aktivität „Systemanalyse" versteht
+- UML-Aktivitätsdiagramme modellieren können
+
+###  Grundlagen
+
+#### Einordnung in den Entwicklungsprozess
+
+![img1](Vorlesung7/Bilder/img1.PNG)
+
+
+
+![img2](Vorlesung7/Bilder/img2.PNG)
+
+#### Die Anforderungsanalyse
+
+Die Anforderungsanalyse beschreibt Anwendungsfälle und Akteur, spezifiziert Geschäftsvorfälle mit Text und definiert die GUI.
+
+#### Die Systemanalyse
+
+Dient dem detailierten Verständnis des Softwaresystems bevor das System realisiert wird, um Probleme im Vorfeld zu entdecken. Präzisiert was Auftraggeber und Anwender wirklich wollen, dabei wird zwischen Anforderung und Implementierung klar getrennt. (Systemanalyse vs. Softwareentwurf)
+
+Dies schafft ein einheitliches Verständnis zwischen Kunden und Entwicklern sowie innerhalb des Entwicklungsteams. Ermöglicht Priorisierung der Anforderungen und Entscheidung über ihre Realisierung.
+
+#### Bsp für eine Systemanalysemodell
+
+- Die Systemarchitektur wird visuell auf abstraktem Niveau zum Beispiel als Client-Server-Architektur oder als Peer-to-Peer Architektur in Form eines „Box-and-arrows“-Diagramms.
+
+  ​
+
+  ![img3](Vorlesung7/Bilder/img3.PNG)
+
+  ​
+
+- Einordnung der Systemanalyse in Analogie zu einem Hausbau
+
+  ​
+
+![img4](Vorlesung7/Bilder/img4.PNG)
+
+
+
+#### UML-Modelle in der Objektorientierten Systemanalyse
+
+1. Anforderungsdefinition (insbesondere Use Cases)
+2. Analyseklassendiagramm (Domain Object Model)
+   1. Vollständige Darstellung der fachlichen Daten-Anforderungen an das System
+   2. Ausgangsmodell für die Entwicklung des OOD-Klassendiagramms
+3. Ausgangspunkt der Aktivitätsdiagramme sind Use Case-Diagramme und textuelle Use Case–Beschreibungen
+   1. Textuelle Use Cases Definitionen werden mittels Aktivitätsdiagrammen visualisiert, diese dienen auch der Spezifikation von Testfällen und damit zur Systemvalidierung
+4. Mögliche Einsatzgebiete von Aktivitätsdiagrammen sind 
+   1. Die Beschreibung Use Case-übergreifender Abläufe	
+   2. Die Spezifikation des Ablaufs innerhalb eines Use Cases
+   3. Die Dokumentation des Kontrollflusses einer Operation
+
+### Aktivitätsdiagramme
+
+#### Aufgaben, Zwecke und Einsatzgebiete
+
+Aktivitätsdiagramme dienen der modellierung von Abläufen in Datenflüssen eines Systems, Generierung von Testfällen und der Geschäftsprozessmodellierung. Die Darstellung übergreifender Abläufe über Use Cases hinweg (Geschäftsvorfall) kann visualisiert werden. Damit können sowohl sequentielle als auch parallele Abläufe modelliert werden. Die Darstellung von zeitlich-logischen Abläufen in Form von aufeinanderfolgenden Aktivitäten inklusive Verzweigungen und parallelen Vorgängen werden kenntlich gemacht. 
+
+Die Diagramme stellen quasi den Algorithmus einer Operation dar.
+
+![img5](Vorlesung7/Bilder/img5.PNG)
+
+
+
+#### Von Use Case zum Aktivitätsdiagramm
+
+Zu jedem Use Case genau ein Aktivitätsdiagramm modellieren
+
+- Erzeugen Sie aus den Use Case-Schritten Aktionen.
+- Zerlegen Sie die Aktionen ggfs. mit einem Aktivitätsdiagramm, so dass sie stets genau einen fachlichen Arbeitsschritt repräsentieren.
+- Ergänzen Sie den Ablauf um alle bekannten fachlichen Ausnahmen und fachlichen Ablaufvarianten, so dass das Diagramm eine vollständige Beschreibung aller zulässigen Ablaufmöglichkeiten darstellt
+
+Modellierung des Objektflusses
+
+- Beschreiben Sie zu jeder Aktion die zu verarbeitenden und die resultierenden Geschäftsobjekte.
+- Beschreiben Sie, bei welchen ausgehenden Transitionen bzw. Bedingungen welche Objekte bzw. Objektzustände resultieren.
+
+### Notationselemente für Aktivitätsdiagramme
+
+#### Grundlegende Elemente
+
+![img6](Vorlesung7/Bilder/img6.PNG)
+
+
+
+![img14](Vorlesung7/Bilder/img14.PNG)
+
+
+
+- Eine Aktion ist zentrales Element innerhalb eines Aktivitätsdiagramms
+
+- Modelliert einen einzelnen Schritt einer Aktivität
+
+- Über Kanten mit anderen Elementen verbunden
+
+  ​
+
+![img10](Vorlesung7/Bilder/img10.PNG)
+
+
+
+![img8](Vorlesung7/Bilder/img8.PNG)
+
+
+
+![img7](Vorlesung7/Bilder/img7.PNG)
+
+
+
+![img9](Vorlesung7/Bilder/img9.PNG)
+
+
+
+- Startknoten (Initialknoten)
+  - Startpunkt eines Ablaufs in einem Aktivitätsdiagramm
+  - Pro Diagramm muss mindestens ein Startknoten oder ein Start über Objektknoten existieren
+  - Mehrere Startknoten sind erlaubt
+- Endknoten (Aktivitätsendknoten)
+  - Beendet den beschriebenen Ablauf (d.h. alle Aktionen und Kontrollflüsse)
+  - Pro Diagramm muss wenigstens ein Endknoten oder ein Ende über ein Objektknoten existieren
+- Ablaufende
+  - Beendet einen einzelnen Kontrollfluss
+  - Konsumiert ein einzelnes Token
+
+![img11](Vorlesung7/Bilder/img11.PNG)
+
+
+
+- Entscheidungsknoten / Entscheidung (Decision)
+  - Verzweigung des Kontrollflusses
+  - Hat ein oder mehrere ausgehende Kanten versehen mit Bedingungen (Guards)
+  - Hat genau einen Eingang
+- Vereinigungsknoten (Merge) Syncronisationsknoten (Merge)
+  - Führt mehrere eingehende Kanten zu einer ausgehenden Kante zusammen
+  - Decision u. Merge treten immer paarweise auf
+  - Alle Pfade aus einer Decision müssen im selben Merge-Knoten zusammenkommen
+- Paralleisierungsknoten / Teilung (Fork)
+  - Der eingehende Kontrollfluss wird auf mehrere ausgehende, nebenläufige Kontrollflüsse aufgeteilt
+  - Ohne Bedingung
+  - Erlaubt die parallele Ausführung mehrere Kontrollflüsse
+- Synchronisationsknoten / Synchronisation (Join)
+  - Wartet auf alle eingehende Kontrollflüsse bevor mit dem ausgehenden Kontrollfluss fortgefahren wird
+  - Synchronisiert parallele Kontrollflüsse
+
+
+
+![img13](Vorlesung7/Bilder/img13.PNG)
+
+
+
+Beispiel 
+
+![img15](Vorlesung7/Bilder/img15.PNG)
+
+
+
+- Durch die Aktion „Auftrag erfassen wird ein Objekt vom Typ „Auftrag“ als Ergebnis geliefert.
+- Dieser gelieferte Auftrag wird in der Folgeaktion „Aufträge drucken“ als Eingabeparameter benutzt
+
+#### Softwareentwicklungsprozess
+
+![img12](Vorlesung7/Bilder/img12.PNG)
+
 
 ### Kanten (Kontrollfluss / Objektfluss)
 
