@@ -25,7 +25,7 @@ Die Anforderungsanalyse beschreibt Anwendungsfälle und Akteur, spezifiziert Ges
 
 #### Die Systemanalyse
 
-Dient dem detailierten Verständnis des Softwaresystems bevor das System realisiert wird, um Probleme im Vorfeld zu entdecken. Präzisiert was Auftraggeber und Anwender wirklich wollen, dabei wird zwischen Anforderung und Implementierung klar getrennt. (Systemanalyse vs. Softwareentwurf)
+Dient dem detaillierten Verständnis des Softwaresystems bevor das System realisiert wird, um Probleme im Vorfeld zu entdecken. Präzisiert was Auftraggeber und Anwender wirklich wollen, dabei wird zwischen Anforderung und Implementierung klar getrennt. (Systemanalyse vs. Softwareentwurf)
 
 Dies schafft ein einheitliches Verständnis zwischen Kunden und Entwicklern sowie innerhalb des Entwicklungsteams. Ermöglicht Priorisierung der Anforderungen und Entscheidung über ihre Realisierung.
 
@@ -64,7 +64,7 @@ Dies schafft ein einheitliches Verständnis zwischen Kunden und Entwicklern sowi
 
 #### Aufgaben, Zwecke und Einsatzgebiete
 
-Aktivitätsdiagramme dienen der modellierung von Abläufen in Datenflüssen eines Systems, Generierung von Testfällen und der Geschäftsprozessmodellierung. Die Darstellung übergreifender Abläufe über Use Cases hinweg (Geschäftsvorfall) kann visualisiert werden. Damit können sowohl sequentielle als auch parallele Abläufe modelliert werden. Die Darstellung von zeitlich-logischen Abläufen in Form von aufeinanderfolgenden Aktivitäten inklusive Verzweigungen und parallelen Vorgängen werden kenntlich gemacht. 
+Aktivitätsdiagramme dienen der Modellierung von Abläufen in Datenflüssen eines Systems, Generierung von Testfällen und der Geschäftsprozessmodellierung. Die Darstellung übergreifender Abläufe über Use Cases hinweg (Geschäftsvorfall) kann visualisiert werden. Damit können sowohl sequentielle als auch parallele Abläufe modelliert werden. Die Darstellung von zeitlich-logischen Abläufen in Form von aufeinanderfolgenden Aktivitäten inklusive Verzweigungen und parallelen Vorgängen werden kenntlich gemacht. 
 
 Die Diagramme stellen quasi den Algorithmus einer Operation dar.
 
@@ -144,7 +144,7 @@ Modellierung des Objektflusses
   - Führt mehrere eingehende Kanten zu einer ausgehenden Kante zusammen
   - Decision u. Merge treten immer paarweise auf
   - Alle Pfade aus einer Decision müssen im selben Merge-Knoten zusammenkommen
-- Paralleisierungsknoten / Teilung (Fork)
+- Parallelisierungsknoten / Teilung (Fork)
   - Der eingehende Kontrollfluss wird auf mehrere ausgehende, nebenläufige Kontrollflüsse aufgeteilt
   - Ohne Bedingung
   - Erlaubt die parallele Ausführung mehrere Kontrollflüsse
@@ -164,7 +164,7 @@ Beispiel
 
 
 
-- Durch die Aktion „Auftrag erfassen wird ein Objekt vom Typ „Auftrag“ als Ergebnis geliefert.
+- Durch die Aktion „Auftrag erfassen“ wird ein Objekt vom Typ „Auftrag“ als Ergebnis geliefert.
 - Dieser gelieferte Auftrag wird in der Folgeaktion „Aufträge drucken“ als Eingabeparameter benutzt
 
 #### Softwareentwicklungsprozess
@@ -186,7 +186,7 @@ Unterschieden wird zwischen dem Objekt- und Kontrollfluss. Bei der verkürzten S
 
 ![Bildschirmfoto_2017-11-29_um_18.03.15](vorlesung7/bilder/Bildschirmfoto_2017-11-29_um_18.03.15.png)
 
-Die Steuerung der Abläufe in einem Aktivitätsdiagramm erfolgt durch Token (Marken) in Form von Kontrolltoken und Datentoken. Ein Token definiert hierbei den aktuellen Zustand der Verarbeitung. Tokens werden erzeugt, wandern und verarbeitet 
+Die Steuerung der Abläufe in einem Aktivitätsdiagramm erfolgt durch Token (Marken) in Form von Kontrolltoken und Datentoken. Ein Token definiert hierbei den aktuellen Zustand der Verarbeitung. Tokens werden erzeugt, wandern und werden verarbeitet. 
 
 ![Bildschirmfoto_2017-11-29_um_18.04.24](vorlesung7/bilder/Bildschirmfoto_2017-11-29_um_18.04.24.png)
 
@@ -194,7 +194,7 @@ Bei der Erzeugung eingangsloser Knoten (Startknoten, Signalempfangsknoten) wird 
 
 Bei der Wanderung entlang einer Kante wird eine Aktion gestartet, der Token trifft ein und wandert weiter. Ist die Aktion beendet, wählt der Token einen ausgehenden Fluss.
 
-Bei Aufspaltung/Synchronisation bzw. bei einem Endknoten werden alle eingehende Token verarbeitet
+Bei Aufspaltung/Synchronisation bzw. bei einem Endknoten werden alle eingehenden Token verarbeitet.
 
 ![Bildschirmfoto_2017-11-29_um_18.05.42](vorlesung7/bilder/Bildschirmfoto_2017-11-29_um_18.05.42.png)
 
@@ -202,7 +202,7 @@ Bei Aufspaltung/Synchronisation bzw. bei einem Endknoten werden alle eingehende 
 
 ![Bildschirmfoto_2017-11-29_um_17.38.56](vorlesung7/bilder/Bildschirmfoto_2017-11-29_um_17.38.56.png)
 
-Die Anordnung erfollt in gekennzeichnenten Bereichen, damit wird beschrieben, wer oder was für eine Menge von Knoten verantwortlich ist oder welche gemeinsame Eigenschaft sie kennzeichnet. Eine horizontale und vertikale Darstellung sowie Matrix oder hierarchisch ist erlaubt.
+Die Anordnung erfolgt in gekennzeichneten Bereichen. Damit wird beschrieben, wer oder was für eine Menge von Knoten verantwortlich ist oder welche gemeinsame Eigenschaft sie kennzeichnet. Eine horizontale und vertikale Darstellung sowie Matrix oder hierarchisch ist erlaubt.
 
 ![Bildschirmfoto_2017-11-29_um_17.41.45](vorlesung7/bilder/Bildschirmfoto_2017-11-29_um_17.41.45.png)
 
@@ -214,7 +214,7 @@ Die Anordnung erfollt in gekennzeichnenten Bereichen, damit wird beschrieben, we
 
 ![Bildschirmfoto_2017-11-29_um_17.43.11](vorlesung7/bilder/Bildschirmfoto_2017-11-29_um_17.43.11.png)
 
-### Signale und Ergeignisse
+### Signale und Ereignisse
 
 **Signal senden**
 
@@ -224,9 +224,9 @@ Aktion, die ein Signal sendet unabhängig vom Zeitpunkt des Auftretens
 
 ![Bildschirmfoto_2017-11-29_um_17.45.48](vorlesung7/bilder/Bildschirmfoto_2017-11-29_um_17.45.48.png)
 
-**Signa empfangen**´
+**Signal empfangen**
 
-Aktion, die auf ein Signal wartet unabhängig vom Zeitpunkt des Auftretens. Wenn keine einlaufender Fluss: kann beliebig oft Signale empfangen
+Aktion, die auf ein Signal wartet unabhängig vom Zeitpunkt des Auftretens. Wenn kein einlaufender Fluss: kann beliebig oft Signale empfangen.
 
 ![Bildschirmfoto_2017-11-29_um_17.46.39](vorlesung7/bilder/Bildschirmfoto_2017-11-29_um_17.46.39.png)
 
@@ -294,7 +294,7 @@ Ausserdem sollten die Bedingungen eindeutig identifiziert und die Menge der Bedi
 
 ![Bildschirmfoto_2017-11-29_um_17.56.26](vorlesung7/bilder/Bildschirmfoto_2017-11-29_um_17.56.26.png)
 
-#### **synchronisieren** von parrallelen Kanten
+#### **Synchronisieren** von parallelen Kanten
 
 ![Bildschirmfoto_2017-11-29_um_17.57.25](vorlesung7/bilder/Bildschirmfoto_2017-11-29_um_17.57.25.png)
 
@@ -309,3 +309,4 @@ Ausserdem sollten die Bedingungen eindeutig identifiziert und die Menge der Bedi
 ![Bildschirmfoto_2017-11-29_um_17.58.17](vorlesung7/bilder/Bildschirmfoto_2017-11-29_um_17.58.17.png)
 
 ![Bildschirmfoto_2017-11-29_um_17.58.21](vorlesung7/bilder/Bildschirmfoto_2017-11-29_um_17.58.21.png)
+
