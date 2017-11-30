@@ -9,6 +9,8 @@ Aufgearbeitete Folien für Software Engineering<br>
 3. [Agile Development](/vorlesung3/vorlesung3.md)
 4. [Agile Workflow](/vorlesung4/vorlesung4.md)
 5. [UML Diagramme](/vorlesung5/vorlesung5.md)
+6. [Anforderungsanalyse](/vorlesung6/vorlesung6)
+7. [Aktivitätsdiagramme](/vorlesung7/vorlesung7)
 
 <br>
 Bilder funktionieren in github Darstellung nicht, da die Pfade für docute angepasst sind.

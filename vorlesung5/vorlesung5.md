@@ -103,3 +103,4 @@ In Zustandsübergangsdiagrammen geht es um den Zustand eines einzigen Objekts im
 ![Vorgehensmodell 3](vorlesung5/bilder/Bild10.png "Schritt für Schritt Vorgehensmodell 3")
 ![Vorgehensmodell 4](vorlesung5/bilder/Bild11.png "Schritt für Schritt Vorgehensmodell 4")
 ![Vorgehensmodell 5](vorlesung5/bilder/Bild12.png "Schritt für Schritt Vorgehensmodell 5")
+![Vorgehensmodell 5](vorlesung5/bilder/Bild13.png "Schritt für Schritt Vorgehensmodell 6")
