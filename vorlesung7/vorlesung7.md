@@ -1,6 +1,7 @@
 ## Systemanalyse mit UML-Aktivitätsdiagrammen
 
-*Autoren: Alexander Bergmann, Dario Leunig, Jonas Raddatz*
+**Autoren**:  
+Alexander Bergmann, Dario Leunig, Jonas Raddatz
 
 ### Pragmatisches Schritt für Schritt Vorgehensmodell
 

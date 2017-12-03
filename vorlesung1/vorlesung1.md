@@ -1,4 +1,8 @@
 ﻿# Software Engineering
+
+**Autoren**:  
+Andre K., Tim, Malte
+
 ## Einleitung
 "Software Engineering" = "Softwaretechnik"
 ### Was ist Software?
