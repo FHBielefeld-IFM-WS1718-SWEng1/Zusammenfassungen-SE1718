@@ -1,6 +1,8 @@
 ## Systemanalyse mit Analyseklassendiagrammen
 
-*Autoren: Jendrik Müller, Patrick Poppe*
+**Autoren:**
+
+ Jendrik Müller, Patrick Poppe
 
 ### Logisch-statische Sicht auf ein Softwaresystem mit Analyseklassendiagrammen in der Systemanalyse
 
@@ -74,3 +76,114 @@ Der Text der Anforderungen dient als Grundlage zum Finden erster Klassen. Dabei 
 
 
 
+#### Instanzvariablen und Methoden
+
+Auf Eigenschaften, sprich Instanzvariablen, wird durch Adjektive und auf Operadionen duch  Verben hingewiese. Nun müssen den Instanzvariablen noch geeignete Datentypen zugewiesen werden, wobei man bei komplexeren Instanzvariablen auch Klassen als Typ verwenden kann. Man muss darauf achten, dass die Instanzvariablen keine Implementierungs- und Entwurfdetails beschreiben und, dass die Methoden und Instanzvariablen eine Sichtbarkeit enthalten. Im zu analysierenden Text können auch Objekte identifiziert werden, die zur Veranschaulichung in einem Objektdiagramm dargestellt werden können. 
+
+
+
+#### Assoziation
+
+Zur Bestimmung einer Assoziation ist zunächst die Kardinalität und die Rolle der beteiligten Klassen zu beachten. Zusätzlich ist noch die Richtung und Navigierbarkeit der Assoziation zu beachten und man muss Assoziationen und Rollen bennenen. Abschließend muss man noch festlegen, was für eine Art von Beziehung(Aggregation oder Komposition) vorliegt und ob die Kardinalitäten 0..* oder 0..* sind.
+
+#### Vererbung 
+
+Wenn Objekte verschiedener Klassen große Gemeinsamkeiten haben, kann Vererbung genutzt werden. Dazu bildet man aus den gleichartigen Klassen eine neue Oberklasse.
+
+Prüfen auf gute Vererbung:
+
+- [ ] das Verständnis des Modells wird verbessert
+- [ ] es liegt eine "is-a"-Beziehung vor
+- [ ] Maximal drei bis fünf Hierarchiestufen
+- [ ] Vererbung ist sinnvoller als Komposition
+
+
+
+### Best practices
+
+#### Klassendiagramme Best practices
+
+- Weniger ist mehr: nur das Notwendige.Verständlich für den Auftraggeber
+- Gute Analysenklassendiagramme besitzen folgende Merkmale:
+  - Klassen repräsentieren die fachlichen Konzepte der Anwendungsdomäne
+  - Keine Entwurfs- oder Implementierungsdetails
+  - Nicht aus jedem Detail eine Klasse modellieren
+- Aussagefähige Klassenname: Substantiv im Singular
+- Keine überkreuzenden Assoziationslinien
+- Orthogonalität: Nur gerade (horizontal, vertikal)Assoziationslinien
+- Oberklassen nach oben
+- Fachlich hängt die grafische Benutzeroberfläche (GUI, Graphical User Interface) eng mit dem unterliegendem Geschäftsklassenmodell zusammen
+- Möglicher Ansatz: „Mache alle Objekte an der Oberfläche sichtbar, die ein Nutzer ändern oder für dessenInhalte er sich interessieren kann.“
+
+
+
+### Beispiel 1
+
+#### Anforderungen
+
+- In einer Hochschulverwaltung sind mehrere Personengruppen tätig.
+- Die Hochschule hat Angestellte, die Professoren, Labor-Ingenieure, Lehrbeauftragte, Sekretärinnen oder Tutoren sein können. 
+- An einer Hochschule studieren Studenten, die auch als Tutoren in einzelnen Lehrveranstaltungen eingesetzt werden können.
+- Jede Person hat einen Namen, Geburtsdatum und Geburtsort. 
+- Alle Angestellten verfügen über ein Gehaltskonto.
+- Dozenten haben einen akademischen Titel und leisten pro Semester eine bestimmte Anzahl Semesterwochenstunden (SWS).
+- Jeder Student hat eine identifizierende Matrikelnummer.
+
+
+
+Zur Identifizierung der Klassenkadidaten werden nun alle Substantiver markiert und zu einem Glossar zusammengetragen. Alternativ reich hierbei auch das Zusammentragen zu einer einfachen Liste, wobei beim Erstellen eines Glossars deutlicher auffällt, welche Substantive redundant, irrelevant oder Attribute sind und wie die Beziehung unter ihnen ist.
+
+
+
+| Eintrag               | Beschreibung                             |
+| --------------------- | ---------------------------------------- |
+| Hochschulverwaltung   | besteht aus mehreren Personenguppen      |
+| Personengruppe        | gruppierung von Personen                 |
+| Hochschule            | hat Angestellte                          |
+| Angestellter          | arbeiter an einer Hochschule und lässt sich in verschiedene Gruppierungen unterteilen |
+| Professor             | ist eine Art von Angestellter an einer Hochschule, mit einem akademischen Titel |
+| Labor-Ingenier        | ist eine Art von Angestellter an einer Hochschule |
+| Lehrbeauftragter      | ist eine Art von Angestellter an einer Hochschule, mit einem akademischen Titel |
+| Sekretärinn           | ist eine Art von Angestellter an einer Hochschule |
+| Tutor                 | ist eine Art von Angestellten an einer Hochschule, bei dem es sich gleichzeitig auch um einen Studenten handeln kann |
+| Student               | studierender an einer Hochschule         |
+| Person                | ist ein Student oder Angestellter        |
+| Name                  | Benennung einer Person                   |
+| Geburtdatum           | Tag der Geburt einer Person              |
+| Dozent                | ist ein Angestellter, der einen akademischen Titel hat |
+| Titel                 | Namenszusatz eines Dozenten              |
+| Semester              | sechs Monate                             |
+| Anzahl                | Zahl oder Menge von etwas                |
+| Semesterwochenstunden | kurz SWS, ein Dozent muss diese leisten  |
+| Matriekelnummer       | identifiziert einen Studenten            |
+
+
+
+Als nächstes folg die Eliminierung der Begriffe, bei denen aufgefallen ist, dass sie refundant oder irrelevant sind:
+
+- Hochschulverwaltung, Personengruppen, Hochschule, Semester, Anzahl
+
+Die folgenden Begriffe werden als Klassenkandidaten eliminiert, weil sie Eigenschaften (Attribute) anderer Substantive (Klassenkandidaten) bezeichnen:
+
+- Namen, Geburtsdatum, Geburtsort, Gehaltskonto, Titel, Semesterwochenstunden, Matrikelnummer.
+
+Aus diesen Informationen kann man nun eine Tabelle der Klassen und ihrer Attribute erstellen, wobei zu beachten ist, dass in dieser Projektphase der Analyse noch nicht für alle Klassen die Attribute vorliegen. Deswegen werden die Attribute für diese Klaasen zunächst noch offen gelassen und in späteren Projektphasen ergänzt. Hierbei handelt es sich um einen iterativen Entwicklungsprozess.
+
+| Klasse              | Attribute                      |
+| ------------------- | ------------------------------ |
+| Person              | Name, Geburtsdatum, Geburtsort |
+| Student             | Martikelnummer                 |
+| Angestellter        | Gehaltskonto                   |
+| Tutor               |                                |
+| Dozent              | Titel, Semesterwochenstunden   |
+| Sekretärin          |                                |
+| Labor-Ingenieur     |                                |
+| Professor           |                                |
+| Lehrbeauftragter    |                                |
+| Studentischer Tutor |                                |
+
+
+
+Abschließend lässt sich das folgende Klassendiagramm erstellen:
+
+![Klassendiagramm](vorlesung8/Bilder/Beispiel1_Klassendiagramm)
