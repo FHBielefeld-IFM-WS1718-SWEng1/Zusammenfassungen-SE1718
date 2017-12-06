@@ -4,6 +4,64 @@
 
  Jendrik Müller, Patrick Poppe
 
+### Klassendiagramme
+
+![Klassendiagramm](vorlesung8/Bilder/Klassendiagramm.png)
+
+In einem Klassendiagramm gibt es unterschiedliche Elemente. 
+
+Zum einen gibt es natürlich Klassen. Diese können auch abstrakt sein. Auf jedenfall enthalten Sie aber Attribute und Methoden, sowie einen Klassennamen. Zwischen den Klassen bestehen Beziehungen. Diese werden Assoziationen genannt. Was genau Assoziationen sind, wird später noch geklärt. In dem Diagramm werden an den Assoziationen jedoch auch Namen und Multiplizitäten geschrieben. Diese beschreiben die Beziehungen genauer. 
+
+Grafisch wird das dann so dargestellt:
+
+
+
+![Klassendiagramm mit den Elementen](vorlesung8/Bilder/Klassendiagrammobjekte.png)
+
+#### Sichtbarkeiten
+
+Für die Atrribute und Methoden werden zusätzlich noch Sichtbarkeiten mit angegeben. Ein "+" bedeutet public und heißt, dass dies für alle Elemente sichtbar ist.  Ein "-" kennzeichnet das Attribut als private, heißt es ist nur für Instanzen dieser Klasse sichtbar. Die "#" bedeutet protected und kennzeichnet das Attribut für alle Instanzen des Objektes und abgeleitete Instanzen als sichtbar. Der Defaultwert, welcher auch verwendet wird, wenn nichts angegeben wird, ist jedoch "~" (package). Dann ist das Attribut für alle objekte im gleichen Paket sichtbar.
+
+
+
+Abgeleitete Attribute werden mit einem "/" vor dem Namen dargestellt. Die Sichtbarkeit kann zusätzlich angegeben werden. 
+
+Abstrakte Klassen und Methoden werden kursiv geschrieben.
+
+#### Generalisierung
+
+![Diagramm zur Generalisierung](vorlesung8/Bilder/generalisierung.png)
+
+In dem Diagramm sieht man die Vererbungsidee. Je mehr Klassen von einer Klasse erben, destso generalisierter, also allgemeiner, ist sie. Erbt eine Klasse von vielen anderen Klassen zuvor, ist sie spezialisiert.
+
+
+
+Mehrfachvererbung ist in UML-Diagrammen zulässig.
+
+
+
+![Klassendiagramm mit den Elementen](vorlesung8/Bilder/vererbung.png)
+
+In diesem Diagramm sieht man ebenfalls noch einmal ein Beispiel für Vererbung. Die abstrakte Klasse "Message", erkennbar am kursiven Klassennamen, implementiert das Interface "Serializible". Die drei Unterklassen wiederum erben von der Klasse "Message".
+
+
+
+#### Stereotypen
+
+Über dem Klassennamen können noch verschiedene Stereotypen angegeben werden. Diese können dann bei der Umsetzung des Diagrammes speziell behandelt werden. Dies können zum Beispiel "interface" oder "enumeration" sein. Stereotypen werden in doppelten spitzen Klammern angegeben.
+
+
+
+#### Merkmale
+
+![Klassendiagramm mit den Elementen](vorlesung8/Bilder/merkmale.png)
+
+Ein Merkmal wird normalerweise in der Form {name = wert} notiert. Eigene Merkmale können für Klassen und Attribute definiert werden.
+
+#### Verantwortlichkeiten
+
+Verwantwortlichkeiten sind die Verfplichtung einer Klasse, einen Bestimmten Dienst auszuführen. Diese Verfplichtungen stehen im Klassendiagramm noch unter den Methoden, werden jedoch nur selten verwendet.
+
 ### Logisch-statische Sicht auf ein Softwaresystem mit Analyseklassendiagrammen in der Systemanalyse
 
 #### Einordnung in den Entwicklungsprozess
