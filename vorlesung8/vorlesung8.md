@@ -62,6 +62,69 @@ Ein Merkmal wird normalerweise in der Form {name = wert} notiert. Eigene Merkmal
 
 Verwantwortlichkeiten sind die Verfplichtung einer Klasse, einen Bestimmten Dienst auszuführen. Diese Verfplichtungen stehen im Klassendiagramm noch unter den Methoden, werden jedoch nur selten verwendet.
 
+### Assoziationen
+
+In einem Klassendiagramm gibt es verschiedene Arten von Assoziationen. Diese modellieren alle, mit Ausßnahme von Vererbung und Implementierung, die Beziehung zwischen Objekten und nicht zwischen Klassen.
+
+- einfache Assoziation
+  - "kennt"-Beziehung
+  - gerichtet oder ungerichtet
+- Aggregation
+  - "enthält"-Beziehung
+  - gelesen vom Teil zum Ganzen
+  - schwache Aggregation
+- Komposition
+  - "besteht aus"-Beziehung
+  - gelesen vom Teil zum Ganzen
+  - starke Aggregation
+- Vererbung
+  - "erbt von"-Beziehung
+- Implementierung
+  - "implementiert"-Beziehung
+- Abhängigkeit
+  - "ist abhängig von"-Beziehung
+
+Die unteren Diagramme bildet die zeichnerische Realisierung da.
+
+![Assoziationen](vorlesung8/Bilder/assoziationen.png)
+
+#### Navigierbarkeit
+
+![Navigierbarkeit](vorlesung8/Bilder/navigierbarkeit.png)
+
+#### Kardinalitäten
+
+- 1 = zwingend genau eins
+- *=  0 oder mehr
+- 1..*=eins oder mehr
+- 0..1=keins oder eins
+- 2..4=spezifizierter Bereich
+- 2,4..6,8=verschiedene Bereiche
+
+
+
+Jede Assoziation besitzt noch einen Assoziationsname, dieser ist optional. Auch Rollen können unter der Kardinalität eingetragen werden. Beide dienen dazu, die Assoziation genauer zu beschreiben.
+
+![Rollen](vorlesung8/Bilder/rollen.png)
+
+![XOR-Beziehungen](vorlesung8/Bilder/xOr.png)
+
+#### Assoziationsklassen
+
+Eine Assoziationsklasse beschreibt die Assoziation zwischen zwei anderen Klassen über eigene Methoden und Attribute.
+
+![Assoziationsklasse](vorlesung8/Bilder/assklasse.png)
+
+#### Aggregation
+
+Eine Aggregation wird immer vom Ganzen zum Teil gelesen, z.B. "Ein Auto hat einen Motor". Es handelt sich um eine schwache Assoziation, da der Motor zwar fest installiert ist, jedoch ausgetauscht werden kann.
+
+Es ist jegliche Art von Multiplizitäten erlaubt. Wenn keine angegeben ist, gilt die Kardinalität 1.
+
+#### Komposition
+
+Eine Komposition ist eine starke Assoziation.  Das bedeutet, dass das Teil nicht ohne das Ganze existieren kann. Erlaubte Kardinalitäten sind hier 0,0..1 oder 1. Ein Teil kann immer nur ein Ganzes haben, ein Ganzes aber beliebig viele Teile.
+
 ### Logisch-statische Sicht auf ein Softwaresystem mit Analyseklassendiagrammen in der Systemanalyse
 
 #### Einordnung in den Entwicklungsprozess
