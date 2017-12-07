@@ -185,7 +185,7 @@ Zur Konstruktion des Analyseklassendiagramms dien eine Grammatische Analyse anha
 
 #### Klassen
 
-Der Text der Anforderungen dient als Grundlage zum Finden erster Klassen. Dabei werden alle Substantive in Anforerungen und Glossar betrachtet, bei denen es sich um Klassen oder Attribute handeln kann.
+Der Text der Anforderungen dient als Grundlage zum Finden erster Klassen. Dabei werden alle Substantive in Anforderungen und Glossar betrachtet, bei denen es sich um Klassen oder Attribute handeln kann.
 
 | Klassen                                  | Attribute                                |
 | ---------------------------------------- | ---------------------------------------- |
