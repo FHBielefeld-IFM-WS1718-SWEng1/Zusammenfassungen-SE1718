@@ -10,7 +10,7 @@
 
 In einem Klassendiagramm gibt es unterschiedliche Elemente. 
 
-Zum einen gibt es natürlich Klassen. Diese können auch abstrakt sein. Auf jedenfall enthalten Sie aber Attribute und Methoden, sowie einen Klassennamen. Zwischen den Klassen bestehen Beziehungen. Diese werden Assoziationen genannt. Was genau Assoziationen sind, wird später noch geklärt. In dem Diagramm werden an den Assoziationen jedoch auch Namen und Multiplizitäten geschrieben. Diese beschreiben die Beziehungen genauer. 
+Zum einen gibt es natürlich Klassen. Diese können auch abstrakt sein. Auf jeden Fall enthalten Sie aber Attribute und Methoden, sowie einen Klassennamen. Zwischen den Klassen bestehen Beziehungen. Diese werden Assoziationen genannt. Was genau Assoziationen sind, wird später noch geklärt. In dem Diagramm werden an die Assoziationen jedoch auch Namen und Multiplizitäten geschrieben. Diese beschreiben die Beziehungen genauer. 
 
 Grafisch wird das dann so dargestellt:
 
@@ -48,7 +48,7 @@ In diesem Diagramm sieht man ebenfalls noch einmal ein Beispiel für Vererbung. 
 
 #### Stereotypen
 
-Über dem Klassennamen können noch verschiedene Stereotypen angegeben werden. Diese können dann bei der Umsetzung des Diagrammes speziell behandelt werden. Dies können zum Beispiel "interface" oder "enumeration" sein. Stereotypen werden in doppelten spitzen Klammern angegeben.
+Über dem Klassennamen können noch verschiedene Stereotypen angegeben werden. Diese können dann bei der Umsetzung des Diagramms speziell behandelt werden. Dies können zum Beispiel "interface" oder "enumeration" sein. Stereotypen werden in doppelten spitzen Klammern angegeben.
 
 
 
@@ -84,7 +84,7 @@ In einem Klassendiagramm gibt es verschiedene Arten von Assoziationen. Diese mod
 - Abhängigkeit
   - "ist abhängig von"-Beziehung
 
-Die unteren Diagramme bildet die zeichnerische Realisierung da.
+Die unteren Diagramme bilden die zeichnerische Realisierung ab.
 
 ![Assoziationen](vorlesung8/Bilder/assoziationen.png)
 
@@ -103,7 +103,7 @@ Die unteren Diagramme bildet die zeichnerische Realisierung da.
 
 
 
-Jede Assoziation besitzt noch einen Assoziationsname, dieser ist optional. Auch Rollen können unter der Kardinalität eingetragen werden. Beide dienen dazu, die Assoziation genauer zu beschreiben.
+Jede Assoziation besitzt noch einen Assoziationsnamen, dieser ist optional. Auch Rollen können unter der Kardinalität eingetragen werden. Beide dienen dazu, die Assoziation genauer zu beschreiben.
 
 ![Rollen](vorlesung8/Bilder/rollen.png)
 
@@ -154,7 +154,7 @@ Das Analyseklassendiagramm stellt die statische Struktur eines Systems dar und i
 
 ##### Substantivmethode
 
-Der amerikanische Informatiker James Rumbaugh empfahl 1991die Substantivmethode zur Identifikation von Klassen. Dabei werden aus den Anforderungsdefinitionen an ein geplantes System alle Substantive markiert. Diese werden nun zu einem Glossar zusammen getragen das weiter Analysiert wird. Dabei ist jeder Eintrag ein Klassenkandidat.
+Der amerikanische Informatiker James Rumbaugh empfahl 1991die Substantivmethode zur Identifikation von Klassen. Dabei werden aus den Anforderungsdefinitionen an ein geplantes System alle Substantive markiert. Diese werden nun zu einem Glossar zusammengetragen, das weiter analysiert wird. Dabei ist jeder Eintrag ein Klassenkandidat.
 
 ##### CRC-Methode(Class, Responsibility, Collaboration)
 
@@ -170,7 +170,7 @@ Bei dieser Technik wird für jede potentielle Klasse eine Karteikarte angelegt, 
 | Postfach       | Jeder Account verfügt über ein Postfach zum Empfangen und Senden von Nachrichten. |
 | Präferenzen    | Eine Liste von Vorlieben, die ein Benutzer für die Suche nach anderen Benutzern anlegt |
 | Präferenzliste | Eine vom System bereitgestellte Liste, die auf die Präferenzen des Benutzers zutreffende andere Benutzer anzeigt |
-| Vorschläge     | Eine vom System bereitgestellte Liste mit möglicherweise für den Benutzerinteressanten anderen Benutzern. |
+| Vorschläge     | Eine vom System bereitgestellte Liste mit möglicherweise für den Benutzer interessanten anderen Benutzern. |
 | Freunde        | Andere Benutzer, die der Benutzer als Freunde deklariert hat. |
 | Admin          | Jemand der administrative Arbeiten am System durchführt. |
 | Fakeuser       | Eine Art Super-Admin, der mehrere Benutzer löschen und beliebig viele Postfächereinsehen kann. |
@@ -179,7 +179,7 @@ Bei dieser Technik wird für jede potentielle Klasse eine Karteikarte angelegt, 
 
 #### Analyseklassendiagramme - Konstruktion
 
-Zur Konstruktion des Analyseklassendiagramms dien eine Grammatische Analyse anhand von Beschreibungen, wie zum Beispiel dem Glossar, Use-Cases-Beschreibungen, und sonstige Dokumente, des zu erstellenden Systems in natürlicher Sprache. Dabei gilt es Klassen, Attribute Assoziationen, Vererbung und Operationen zu finden.
+Zur Konstruktion des Analyseklassendiagramms dient eine Grammatische Analyse anhand von Beschreibungen, wie zum Beispiel dem Glossar, Use-Case-Beschreibungen, und sonstigen Dokumente, des zu erstellenden Systems in natürlicher Sprache. Dabei gilt es Klassen, Attribute, Assoziationen, Vererbung und Operationen zu finden.
 
 
 
@@ -224,12 +224,13 @@ Prüfen auf gute Vererbung:
 
 #### Klassendiagramme Best practices
 
-- Weniger ist mehr: nur das Notwendige.Verständlich für den Auftraggeber
+- Weniger ist mehr: nur das Notwendige
+- Verständlich für den Auftraggeber
 - Gute Analysenklassendiagramme besitzen folgende Merkmale:
   - Klassen repräsentieren die fachlichen Konzepte der Anwendungsdomäne
   - Keine Entwurfs- oder Implementierungsdetails
   - Nicht aus jedem Detail eine Klasse modellieren
-- Aussagefähige Klassenname: Substantiv im Singular
+- Aussagefähige Klassennamen: Substantiv im Singular
 - Keine überkreuzenden Assoziationslinien
 - Orthogonalität: Nur gerade (horizontal, vertikal)Assoziationslinien
 - Oberklassen nach oben
@@ -252,22 +253,22 @@ Prüfen auf gute Vererbung:
 
 
 
-Zur Identifizierung der Kandidaten für Klassen, werden nun alle Substantiver markiert und zu einem Glossar zusammengetragen. Alternativ reich hierbei auch das Zusammentragen zu einer einfachen Liste, wobei beim Erstellen eines Glossars deutlicher auffällt, welche Substantive redundant, irrelevant oder Attribute sind und wie die Beziehung unter ihnen ist.
+Zur Identifizierung der Kandidaten für Klassen, werden nun alle Substantive markiert und zu einem Glossar zusammengetragen. Alternativ reicht hierbei auch das Zusammentragen zu einer einfachen Liste, wobei beim Erstellen eines Glossars deutlicher auffällt, welche Substantive redundant, irrelevant oder Attribute sind und wie die Beziehung unter ihnen ist.
 
 
 
 | Eintrag               | Beschreibung                             |
 | --------------------- | ---------------------------------------- |
 | Hochschulverwaltung   | besteht aus mehreren Personengruppen     |
-| Personengruppe        | gruppierung von Personen                 |
+| Personengruppe        | Gruppierung von Personen                 |
 | Hochschule            | hat Angestellte                          |
 | Angestellter          | Arbeiter an einer Hochschule und lässt sich in verschiedene Gruppierungen unterteilen |
 | Professor             | ist eine Art von Angestellter an einer Hochschule, mit einem akademischen Titel |
 | Labor-Ingenier        | ist eine Art von Angestellter an einer Hochschule |
 | Lehrbeauftragter      | ist eine Art von Angestellter an einer Hochschule, mit einem akademischen Titel |
 | Sekretärin            | ist eine Art von Angestellter an einer Hochschule |
-| Tutor                 | ist eine Art von Angestellten an einer Hochschule, bei dem es sich gleichzeitig auch um einen Studenten handeln kann |
-| Student               | studierender an einer Hochschule         |
+| Tutor                 | ist eine Art von Angestellter an einer Hochschule, bei dem es sich gleichzeitig auch um einen Studenten handeln kann |
+| Student               | Studierender an einer Hochschule         |
 | Person                | ist ein Student oder Angestellter        |
 | Name                  | Benennung einer Person                   |
 | Geburtsdatum          | Tag der Geburt einer Person              |
