@@ -14,6 +14,7 @@ Aufgearbeitete Folien für Software Engineering
 5. [UML Diagramme](/vorlesung5/vorlesung5)
 6. [Anforderungsanalyse](/vorlesung6/vorlesung6)
 7. [Aktivitätsdiagramme](/vorlesung7/vorlesung7)
+8. [Systemanalyse mit Klassendiagrammen](/vorlesung8/vorlesung8)
 
 ### Informationen für Contributer:
 Alle beigesteuerten Dokumente nutzen das Markdown Format und die Dateiendung .md
