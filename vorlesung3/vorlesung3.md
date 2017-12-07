@@ -1,4 +1,8 @@
 ## Agile Vorgehensmodelle (XP, Scrum, Kanban)
+
+**Autoren**:  
+Michael, Florian.W, Jan.A
+
 ### Lernziele
 - die agilen Vorgehensmodelle kennenlernen
 - User Stories und Mockups

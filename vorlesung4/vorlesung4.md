@@ -1,5 +1,8 @@
 # Agile Workflows und Tools
 
+**Autoren**:  
+Jan T., Florian B. und Marc
+
 ## Continuous Integration (CI)
 
 - Integration der Softwareentwicklung findet am Ende eines Projektes statt

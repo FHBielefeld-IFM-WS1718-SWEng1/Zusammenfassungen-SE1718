@@ -1,5 +1,8 @@
 # OOA/OOD mit UML-Diagrammen
 
+**Autoren**:  
+Jan T., Florian B. und Marc
+
 ## Lernziele
 - Objektorientierte Modellierung kennenlernen
 - Objektorientierte Analyse (OOA) & Objektorientiertes Design (OOD) kennenlernen

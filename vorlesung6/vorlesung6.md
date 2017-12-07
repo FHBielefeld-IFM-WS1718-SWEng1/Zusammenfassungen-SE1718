@@ -1,5 +1,8 @@
 ## Anforderungsanalyse mit UML-Use Case Diagramm, Satzschablone und textueller Use Case Definition
 
+**Autoren**:
+Florian B., Florian W.
+
 ### Lernziele
 - Verstehen, was Anforderungen sind
 - Erklären können, was für unterschiedliche Anforderungsarten es gibt

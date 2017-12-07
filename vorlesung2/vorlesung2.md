@@ -1,5 +1,6 @@
 ## Bekannte Vorgehensmodelle # Software Engineering  
-_Autoren: Diana Kirzhner, Hendrik Schröder_
+**Autoren**:  
+Diana Kirzhner, Hendrik Schröder 
 
 ## Lernziele  
 * Was ist ein Vorgehensmodell für die Softwareentwicklung  
