@@ -28,7 +28,9 @@ Der dritte Schritt ist speziell bei der Interaktion verschiedener Module wichtig
 
 ### Aufbau und Notationselemente
 
-![Sequenzdiagramm Beispiel](vorlesung8/Bilder/sequenzdiagramm_beispiel1.png)
+![Sequenzdiagramm Beispiel 1](vorlesung9/Bilder/sequenzdiagramm_beispiel1.png)
+
+![Sequenzdiagramm Beispiel 2](vorlesung9/Bilder/sequenzdiagramm_beispiel2.png)
 
 Hier dargestellt sind zwei einfache Beispiele für Sequenzdiagramme.
 Diese Diagramme werden von links nach rechts , oben nach unten gelesen, wobei die vertikale Achse den zeitlichen Ablauf repräsentiert.
