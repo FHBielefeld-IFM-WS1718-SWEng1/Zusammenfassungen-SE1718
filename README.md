@@ -12,6 +12,7 @@ Aufgearbeitete Folien für Software Engineering<br>
 6. [Anforderungsanalyse](/vorlesung6/vorlesung6.md)
 7. [Aktivitätsdiagramme](/vorlesung7/vorlesung7.md)
 8. [Systemanalyse mit Klassendiagrammen](/vorlesung8/vorlesung8.md)
+9. [Sequenzdiagramme](/vorlesung9/vorlesung9.md)
 
 <br>
 Bilder funktionieren in github Darstellung nicht, da die Pfade für docute angepasst sind.
