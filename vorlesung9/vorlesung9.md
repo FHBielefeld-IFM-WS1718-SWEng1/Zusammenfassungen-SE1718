@@ -2,7 +2,7 @@
 
 **Autoren:**
 
- Nikita Loetkemann, André Matutat, Daniel Räder
+ Nikita Lötkemann, André Matutat, Daniel Räder
 
 ### Was sind Sequenzdiagramme?
 
@@ -40,6 +40,40 @@ Objekte werden dort zuerst eingezeichnet wo sie erstellt werden, in unseren Beis
 - Die gestrichelte **Lebenslinie** unter einem Objekt zeigt seinen Lebenslauf, an ihrem Ende steht ein X, als Kennzeichen für die Zerstörung des Objekts
 - Vertikale Balken entlang dieser Lebenslinie, sogenannte **Aktivierungsbalken** repräsentieren die Abarbeitung einer Methode des Objekt
 - Diese Balken können leicht versetzt sein, wenn es sich um Aufrufe von Unter-Methoden im gleichen Objekt handelt
+- Ein Aktivierungsbalken zeigt an, ob ein Objekt aktiv ist, die Länge des Balkens zeigt die aktive Zeit des Prozesses
 - Der Aufruf dieser Methoden geschieht über horizontale Pfeile, **Botschaften**, welche zwischen Objekten eingezeichnet werden, diese werden mit dem Namen der Methode beschriftet
 - Die Rückgabe der Funktion kennzeichnet ein *gestrichelter* Pfeil in entgegengesetzter Richtung.
 - Diese Botschaften können des weiteren mit **\*** und/oder **[condition]** markiert sein, um einen wiederholenden oder konditionalen Aufruf zu kennzeichnen
+- Die Zeitlinie gilt für alle Objekte gleichzeitig, d.h. alle schreiten zur gleichen Zeit voran
+
+####Nachrichten
+ #####Synchrone Nachricht
+ - Die Interaktion gilt zur gleichen Zeit für den Sender und den Empfänger
+ - es geschieht alles ohne Verzögerung
+ - wird dargestellt durch einen Pfeil mit ausgefüllter Spitze
+#####Antwortnachricht für synchrone Nachrichten
+- wird dargestellt durch einen gestrichelten Pfeil ohne ausgefüllter Spitze
+
+#####Asynchrone Nachricht
+ - es wird hier unterschieden zwischen Senden und Empfangen der Nachricht
+ - Nachricht wird nicht direkt zugestellt, es kann Verzögerung geben
+ - Empfänger muss nicht zwangsläufig bereit sein
+ - wird dargestellt durch einen Pfeil ohne ausgefüllter Spitze
+
+##### Methodenaufrufe
+
+
+
+![methodenaufruf](./Bilder\methodenaufruf.PNG)
+
+- Jeder Methodenaufruf ist eine Nachricht, mit Bedingungen und Anweisungen
+- Methodenaufrufe sind die Kommunikation zwischen den Objekten und verbindet die Objekte mit einem Pfeil und einer Markierung
+- Die Markierung besteht aus einer Bedingung, einer Variable, Name der Botschaft, den Argumenten und dem Typ: 
+- (['Bedingung']')[Variable:=]NameBotschaft'('[Argumente]')' :Typ
+- Die Variable nimmt das Ergebnis auf
+- Der Pfeil zurück signalisiert, dass der Kontrollfluss an Aufrufer zurück geht
+- Asynchrone Nachrichten haben keine Returns
+- steht ein * vor einem Methodenaufruf(Nachricht), geht die Nachricht an alle Objekte, der entsprechenden Klasse
+
+### Steuerungsoperatoren
+
