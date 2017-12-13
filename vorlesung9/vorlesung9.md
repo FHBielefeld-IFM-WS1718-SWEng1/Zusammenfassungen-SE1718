@@ -104,12 +104,12 @@ Objekte werden dort zuerst eingezeichnet wo sie erstellt werden, in unseren Beis
 #####Bedingte Ausführung
 - das Rechteck wird durch gestrichelte Linien in eine oder mehrere Bereiche aufgeteilt und enthält eine Bedingung in eckigen Klammern. Wenn mehrere Bedingungen wahr sind, werden alle ausgeführt. Falls alle Bedingungen falsch sind, werden die Ausführungen des Operators übergangen.
 
-![loop](vorlesung9/Bilder/alt.PNG)
+![lalt](vorlesung9/Bilder/alt.PNG)
 
 #####Optionale Ausführung
 - stellt eine Vereinfachung der bedingten Ausführung mit nur einem Unterbereich dar.
 
-![loop](vorlesung9/Bilder/opt.PNG)
+![lopt](vorlesung9/Bilder/opt.PNG)
 
 
 #### Beispiel: Reklamation
