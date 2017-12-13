@@ -75,5 +75,71 @@ Objekte werden dort zuerst eingezeichnet wo sie erstellt werden, in unseren Beis
 - Asynchrone Nachrichten haben keine Returns
 - steht ein * vor einem Methodenaufruf(Nachricht), geht die Nachricht an alle Objekte, der entsprechenden Klasse
 
-### Steuerungsoperatoren
+###Steuerungsoperatoren (kombinierte Fragmente)
+
+#### Übersichtüber alle Steuerungsoperatoren 
+
+|                             | Operator                             | Zweck                                    |
+| --------------------------- | ------------------------------------ | ---------------------------------------- |
+| Verzweigung und Schleifen   | alt<br>opt <br> loop <br>break       | Alternative Interaktion <br>Optionale Interaktion <br>Iterative Interaktion <br>Ausnahme-Interkation |
+| Nebenläufigkeit und Ordnung | seq <br>strict<br>par<br>critical    | Schwache Ordnung <br>Strenge Ordnung <br>Nebenläufigkeit Interaktion <br>Atomare Interaktion |
+| Filterung und Zusicherungen | ignore <br>consider<br>assert<br>neg | Irrelevante Interaktionsteile<br>Relevante Interatkionsteile <br>Zugesicherte Interaktion<br>Ungültige Interaktion |
+
+#### Steuerungsoperatoren
+
+#####Parallele Ausführung 
+
+- Nebenläufig Abläufe
+
+![par](vorlesung9/Bilder/par.PNG)
+
+#####Iterative Ausführung
+
+- die Operationen werden wiederholt
+
+![loop](vorlesung9/Bilder/loop.PNG)
+
+
+
+#####Bedingte Ausführung
+- das Rechteck wird durch gestrichelte Linien in eine oder mehrere Bereiche aufgeteilt und enthält eine Bedingung in eckigen Klammern. Wenn mehrere Bedingungen wahr sind, werden alle ausgeführt. Falls alle Bedingungen falsch sind, werden die Ausführungen des Operators übergangen.
+
+![loop](vorlesung9/Bilder/alt.PNG)
+
+#####Optionale Ausführung
+- stellt eine Vereinfachung der bedingten Ausführung mit nur einem Unterbereich dar.
+
+![loop](vorlesung9/Bilder/opt.PNG)
+
+
+#### Beispiel: Reklamation
+
+![BeispielDiagramm](vorlesung9/Bilder/BeispielDiagramm.png)
+
+###Best practices
+
+- Indem **Sequenzdiagramm** steht die **zeitliche Abfolge** und die **Dynamik** im Vordergrund
+
+- Zurbesseren Lesbarkeit werden Objekte mit den Lebenslinien und Nachrichten so angeordnet, dass das Diagramm von oben nach unten (wegen der Zeit) und vonl inks nach rechts (wegen der Schachtelung der Aufrufe) gelesen werden kann
+
+- Steuerungsoperatoren **nur dann** verwenden, wenn der Ablaufkompliziert ist und Wiederholungen bzw. optionale oder parallele Ausführungen enthält
+
+
+### Kommunikationsdiagramme
+
+- Alternative zum Sequenzdiagramm
+- beschreiben und visualisieren das grundsätzliche Zusammenspiel und die Beziehungen zwischen den Kommunikationspartnern (=Objekten)
+
+#### Kommunitkationsdiagramm Beispiel
+
+![KommunikationsdiagrammBeispiel](vorlesung9/Bilder/KommunikationsdiagrammBeispiel.png)
+
+- Hinweis: Nummerierung: 1.1.a und 1.1.b markieren parallele Abläufe
+
+### Zusammenfassung
+  ![ZusammenfassungBild1](vorlesung9/Bilder/ZusammenfassungBild1.png)
+
+  ![ZusammenfassungBild1](vorlesung9/Bilder/ZusammenfassungBild2.png)
+
+
 
