@@ -46,15 +46,15 @@ Objekte werden dort zuerst eingezeichnet wo sie erstellt werden, in unseren Beis
 - Diese Botschaften können des weiteren mit **\*** und/oder **[condition]** markiert sein, um einen wiederholenden oder konditionalen Aufruf zu kennzeichnen
 - Die Zeitlinie gilt für alle Objekte gleichzeitig, d.h. alle schreiten zur gleichen Zeit voran
 
-####Nachrichten
- #####Synchrone Nachricht
+#### Nachrichten
+ ##### Synchrone Nachricht
  - Die Interaktion gilt zur gleichen Zeit für den Sender und den Empfänger
  - es geschieht alles ohne Verzögerung
  - wird dargestellt durch einen Pfeil mit ausgefüllter Spitze
-#####Antwortnachricht für synchrone Nachrichten
+##### Antwortnachricht für synchrone Nachrichten
 - wird dargestellt durch einen gestrichelten Pfeil ohne ausgefüllter Spitze
 
-#####Asynchrone Nachricht
+##### Asynchrone Nachricht
  - es wird hier unterschieden zwischen Senden und Empfangen der Nachricht
  - Nachricht wird nicht direkt zugestellt, es kann Verzögerung geben
  - Empfänger muss nicht zwangsläufig bereit sein
@@ -75,7 +75,7 @@ Objekte werden dort zuerst eingezeichnet wo sie erstellt werden, in unseren Beis
 - Asynchrone Nachrichten haben keine Returns
 - steht ein * vor einem Methodenaufruf(Nachricht), geht die Nachricht an alle Objekte, der entsprechenden Klasse
 
-###Steuerungsoperatoren (kombinierte Fragmente)
+### Steuerungsoperatoren (kombinierte Fragmente)
 
 #### Übersichtüber alle Steuerungsoperatoren 
 
@@ -87,13 +87,13 @@ Objekte werden dort zuerst eingezeichnet wo sie erstellt werden, in unseren Beis
 
 #### Steuerungsoperatoren
 
-#####Parallele Ausführung 
+##### Parallele Ausführung 
 
 - Nebenläufig Abläufe
 
 ![par](vorlesung9/Bilder/par.PNG)
 
-#####Iterative Ausführung
+##### Iterative Ausführung
 
 - die Operationen werden wiederholt
 
@@ -101,12 +101,12 @@ Objekte werden dort zuerst eingezeichnet wo sie erstellt werden, in unseren Beis
 
 
 
-#####Bedingte Ausführung
+##### Bedingte Ausführung
 - das Rechteck wird durch gestrichelte Linien in eine oder mehrere Bereiche aufgeteilt und enthält eine Bedingung in eckigen Klammern. Wenn mehrere Bedingungen wahr sind, werden alle ausgeführt. Falls alle Bedingungen falsch sind, werden die Ausführungen des Operators übergangen.
 
 ![lalt](vorlesung9/Bilder/alt.PNG)
 
-#####Optionale Ausführung
+##### Optionale Ausführung
 - stellt eine Vereinfachung der bedingten Ausführung mit nur einem Unterbereich dar.
 
 ![lopt](vorlesung9/Bilder/opt.PNG)
@@ -116,7 +116,7 @@ Objekte werden dort zuerst eingezeichnet wo sie erstellt werden, in unseren Beis
 
 ![BeispielDiagramm](vorlesung9/Bilder/BeispielDiagramm.png)
 
-###Best practices
+### Best practices
 
 - Indem **Sequenzdiagramm** steht die **zeitliche Abfolge** und die **Dynamik** im Vordergrund
 
@@ -143,3 +143,4 @@ Objekte werden dort zuerst eingezeichnet wo sie erstellt werden, in unseren Beis
 
 
 
+x
