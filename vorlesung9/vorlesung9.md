@@ -13,14 +13,14 @@ Die Diagramme dokumentieren hierfür die Interaktion von einzelnen Objekten mit 
 ### Szenarien
 
 Entscheidend ist, dass ein jedes Sequenzdiagramm immer nur für ein bestimmtes **Szenario** gilt, das heißt, eine spezifische, beispielhafte, Abfolge von Funktionen und Interaktionen in einem System.
-Zu jedem Szenario gehört ein eigenes Diagramm, und dienen der Festlegung von Testfällen auf Basis welcher, im späteren Verlauf der Entwicklung, Integrationstests erstellt werden können.
+Diese Szenarios dienen der Festlegung von Testfällen auf Basis welcher, im späteren Verlauf der Entwicklung, Integrationstests erstellt werden können.
 
 Szenarien basieren zumeist auf zuvor beschriebenen Use-Case-Definitionen und lassen sich somit in *Normalfälle* und *Ausnahmefälle* unterteilen
 - Normalfälle (und ggf. Alternativfälle) dienen zur Diskussion mit Anwendern und anderen Mitgliedern des Projekts
 - Ausnahmefälle finden mehr Verwendung bei den Entwicklern um mögliche Fehlerquellen zu identifizieren und abzufangen
 
 Um aus einem Szenario ein Sequenzdiagramm abzuleiten folgt man einem einfachen Dreischrittprinzip:
-1. Beteiligte Klassen Ermitteln
+1. Beteiligte Klassen ermitteln
 2. Aufgaben des Szenarios in Methoden abbilden/zerlegen
 3. Reihenfolge der Operationen überprüfen und gewährleisten
 
@@ -43,7 +43,7 @@ Objekte werden dort zuerst eingezeichnet wo sie erstellt werden, in unseren Beis
 - Ein Aktivierungsbalken zeigt an, ob ein Objekt aktiv ist, die Länge des Balkens zeigt die aktive Zeit des Prozesses
 - Der Aufruf dieser Methoden geschieht über horizontale Pfeile, **Botschaften**, welche zwischen Objekten eingezeichnet werden, diese werden mit dem Namen der Methode beschriftet
 - Die Rückgabe der Funktion kennzeichnet ein *gestrichelter* Pfeil in entgegengesetzter Richtung.
-- Diese Botschaften können des weiteren mit **\*** und/oder **[condition]** markiert sein, um einen wiederholenden oder konditionalen Aufruf zu kennzeichnen
+- Diese Botschaften können des Weiteren mit **\*** und/oder **[condition]** markiert sein, um einen wiederholenden oder konditionalen Aufruf zu kennzeichnen
 - Die Zeitlinie gilt für alle Objekte gleichzeitig, d.h. alle schreiten zur gleichen Zeit voran
 
 #### Nachrichten
@@ -52,13 +52,13 @@ Objekte werden dort zuerst eingezeichnet wo sie erstellt werden, in unseren Beis
  - es geschieht alles ohne Verzögerung
  - wird dargestellt durch einen Pfeil mit ausgefüllter Spitze
 ##### Antwortnachricht für synchrone Nachrichten
-- wird dargestellt durch einen gestrichelten Pfeil ohne ausgefüllter Spitze
+- wird dargestellt durch einen gestrichelten Pfeil ohne ausgefüllte Spitze
 
 ##### Asynchrone Nachricht
  - es wird hier unterschieden zwischen Senden und Empfangen der Nachricht
  - Nachricht wird nicht direkt zugestellt, es kann Verzögerung geben
  - Empfänger muss nicht zwangsläufig bereit sein
- - wird dargestellt durch einen Pfeil ohne ausgefüllter Spitze
+ - wird dargestellt durch einen Pfeil ohne ausgefüllte Spitze
 
 ##### Methodenaufrufe
 
@@ -71,9 +71,9 @@ Objekte werden dort zuerst eingezeichnet wo sie erstellt werden, in unseren Beis
 - Die Markierung besteht aus einer Bedingung, einer Variable, Name der Botschaft, den Argumenten und dem Typ: 
 - (['Bedingung']')[Variable:=]NameBotschaft'('[Argumente]')' :Typ
 - Die Variable nimmt das Ergebnis auf
-- Der Pfeil zurück signalisiert, dass der Kontrollfluss an Aufrufer zurück geht
+- Der Pfeil zurück signalisiert, dass der Kontrollfluss an den Aufrufer zurück geht
 - Asynchrone Nachrichten haben keine Returns
-- steht ein * vor einem Methodenaufruf(Nachricht), geht die Nachricht an alle Objekte, der entsprechenden Klasse
+- steht ein * vor einem Methodenaufruf(Nachricht), geht die Nachricht an alle Objekte der entsprechenden Klasse
 
 ### Steuerungsoperatoren (kombinierte Fragmente)
 
@@ -81,15 +81,15 @@ Objekte werden dort zuerst eingezeichnet wo sie erstellt werden, in unseren Beis
 
 |                             | Operator                             | Zweck                                    |
 | --------------------------- | ------------------------------------ | ---------------------------------------- |
-| Verzweigung und Schleifen   | alt<br>opt <br> loop <br>break       | Alternative Interaktion <br>Optionale Interaktion <br>Iterative Interaktion <br>Ausnahme-Interkation |
+| Verzweigung und Schleifen   | alt<br>opt <br> loop <br>break       | Alternative Interaktion <br>Optionale Interaktion <br>Iterative Interaktion <br>Ausnahme-Interaktion |
 | Nebenläufigkeit und Ordnung | seq <br>strict<br>par<br>critical    | Schwache Ordnung <br>Strenge Ordnung <br>Nebenläufigkeit Interaktion <br>Atomare Interaktion |
-| Filterung und Zusicherungen | ignore <br>consider<br>assert<br>neg | Irrelevante Interaktionsteile<br>Relevante Interatkionsteile <br>Zugesicherte Interaktion<br>Ungültige Interaktion |
+| Filterung und Zusicherungen | ignore <br>consider<br>assert<br>neg | Irrelevante Interaktionsteile<br>Relevante Interaktionsteile <br>Zugesicherte Interaktion<br>Ungültige Interaktion |
 
 #### Steuerungsoperatoren
 
 ##### Parallele Ausführung 
 
-- Nebenläufig Abläufe
+- Nebenläufige Abläufe
 
 ![par](vorlesung9/Bilder/par.PNG)
 
@@ -118,11 +118,11 @@ Objekte werden dort zuerst eingezeichnet wo sie erstellt werden, in unseren Beis
 
 ### Best practices
 
-- Indem **Sequenzdiagramm** steht die **zeitliche Abfolge** und die **Dynamik** im Vordergrund
+- In dem **Sequenzdiagramm** steht die **zeitliche Abfolge** und die **Dynamik** im Vordergrund
 
-- Zurbesseren Lesbarkeit werden Objekte mit den Lebenslinien und Nachrichten so angeordnet, dass das Diagramm von oben nach unten (wegen der Zeit) und vonl inks nach rechts (wegen der Schachtelung der Aufrufe) gelesen werden kann
+- Zur besseren Lesbarkeit werden Objekte mit den Lebenslinien und Nachrichten so angeordnet, dass das Diagramm von oben nach unten (wegen der Zeit) und vonl inks nach rechts (wegen der Schachtelung der Aufrufe) gelesen werden kann
 
-- Steuerungsoperatoren **nur dann** verwenden, wenn der Ablaufkompliziert ist und Wiederholungen bzw. optionale oder parallele Ausführungen enthält
+- Steuerungsoperatoren **nur dann** verwenden, wenn der Ablauf kompliziert ist und Wiederholungen bzw. optionale oder parallele Ausführungen enthält
 
 
 ### Kommunikationsdiagramme
@@ -130,7 +130,7 @@ Objekte werden dort zuerst eingezeichnet wo sie erstellt werden, in unseren Beis
 - Alternative zum Sequenzdiagramm
 - beschreiben und visualisieren das grundsätzliche Zusammenspiel und die Beziehungen zwischen den Kommunikationspartnern (=Objekten)
 
-#### Kommunitkationsdiagramm Beispiel
+#### Kommunikationsdiagramm Beispiel
 
 ![KommunikationsdiagrammBeispiel](vorlesung9/Bilder/KommunikationsdiagrammBeispiel.png)
 
