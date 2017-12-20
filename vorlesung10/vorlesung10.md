@@ -59,7 +59,22 @@
 - Eine Komponente definiert eine Einheit der Wiederverwendung, indem nur minimale Angaben über die Umgebung gemacht werden
 - Komponenten können andere Komponenten enthalten, indem neue Komponenten aus bestehenden Komponenten zusammensetzt werdeb (komponieren)
 
+### Komponentendiagramme
 
+- Komponentendiagramme zeigen, aus welchen Komponenten ein System besteht, welche Schnittstellen die Komponenten bereitstellen bzw. erfordern und wie die Teile eines Systems zusammenarbeiten
+-Im Entwurf werden die Aufgaben des Gesamtsystems auf kleinere Subsysteme verteilt. Nachdem die einzelnen Komponenten mit ihren Aufgaben und der Kommunikation zwischen den Komponenten definiert wurden, kann die Entwicklungsarbeit aufgeteilt werden.
+- Die Dokumentation von Softwarekomponenten und Schnittstellen kann in der Testphase als Grundlage von Integrationstests verwendet werden.
+
+![kompoDia](vorlesung10/Bilder/kompoDia.png)
+
+![kompoDia2](vorlesung10/Bilder/kompoDia2.png)
+
+- Black Box
+  - provided + required interface
+- White Box
+  - realization (Klassen, die die Komponente realisieren) + artifacts (Datei, die die Implementierung der Komponente enthält)
+
+![whiteBlack](vorlesung10/Bilder/whiteBlack.png)
  
  ### Paketdiagramme
 
