@@ -8,8 +8,8 @@
  Ein Objektdiagramm wird die Instanziierung der Klassen eines Klassendiagramms und die zugehörige Belegung der Attribute dargestellt.
 
  - Objektdiagramm
- -- zeigt eine Momentaufnahme des Systemzustands zur Laufzeit an
- -- zeigt die Ausprägungen von Klassen, Assoziationen und Attributen an
+  -- zeigt eine Momentaufnahme des Systemzustands zur Laufzeit an
+  -- zeigt die Ausprägungen von Klassen, Assoziationen und Attributen an
  
  ![objDia](vorlesung10/Bilder/objDia.png)
  
@@ -54,7 +54,7 @@
  
  - Eine Komponente exportiert eine oder mehrere Schnittstellen, dabei werden Schnittstellen als Verträge aufgefasst.
  - Eine Komponente importiert andere Schnittstellen
- -- Die Komponente benutzt die Methoden der importierten Schnittstelle, dabei ist die Komponente erst lauffähig, wenn alle importierten Schnittstellen zur Verfügung stehen. Die Komponente ist unabhängig von der Implementierung der importierten Schnittstellen
+  -- Die Komponente benutzt die Methoden der importierten Schnittstelle, dabei ist die Komponente erst lauffähig, wenn alle importierten Schnittstellen zur Verfügung stehen. Die Komponente ist unabhängig von der Implementierung der importierten Schnittstellen
 
  
  ### Paketdiagramme
