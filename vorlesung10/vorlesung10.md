@@ -7,9 +7,9 @@
  
  Ein Objektdiagramm wird die Instanziierung der Klassen eines Klassendiagramms und die zugehörige Belegung der Attribute dargestellt.
 
- - Objektdiagramm
-  - zeigt eine Momentaufnahme des Systemzustands zur Laufzeit an
-  - zeigt die Ausprägungen von Klassen, Assoziationen und Attributen an
+- Objektdiagramm
+ - zeigt eine Momentaufnahme des Systemzustands zur Laufzeit an
+ - zeigt die Ausprägungen von Klassen, Assoziationen und Attributen an
  
  ![objDia](vorlesung10/Bilder/objDia.png)
  
