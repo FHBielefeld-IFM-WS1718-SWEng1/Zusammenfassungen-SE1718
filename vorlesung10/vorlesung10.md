@@ -55,6 +55,10 @@
 - Eine Komponente exportiert eine oder mehrere Schnittstellen, dabei werden Schnittstellen als Verträge aufgefasst.
 - Eine Komponente importiert andere Schnittstellen
   - Die Komponente benutzt die Methoden der importierten Schnittstelle, dabei ist die Komponente erst lauffähig, wenn alle importierten Schnittstellen zur Verfügung stehen. Die Komponente ist unabhängig von der Implementierung der importierten Schnittstellen
+- Eine Komponente versteckt die Implementierung und kann durch andere Implemtierungen ersetzt werden
+- Eine Komponente definiert eine Einheit der Wiederverwendung, indem nur minimale Angaben über die Umgebung gemacht werden
+- Komponenten können andere Komponenten enthalten, indem neue Komponenten aus bestehenden Komponenten zusammensetzt werdeb (komponieren)
+
 
  
  ### Paketdiagramme
