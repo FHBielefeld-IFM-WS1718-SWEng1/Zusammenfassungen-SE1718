@@ -127,3 +127,96 @@ Beispiel für ein komplexeres Verteilungsdiagramm:
 ### Zustandsdiagramme
 
 Zustandsdiagramme stellen das Klassenverhalten durch Zustände und Übergänge zwischen Zuständen dar. Das Verhalten hängt vom internen Zustand der Klasse ab. Zustandsdiagramme beantworten die Frage: "Wie verhält sich das System in einem bestimmten Zustand bei gewissen Ereignissen?".
+
+![zustandsdiagramm1](vorlesung10/Bilder/zustandsdiagramm1.png)
+
+![zustandsdiagramm2](vorlesung10/Bilder/zustandsdiagramm2.png)
+
+#### Notationselemente
+
+![notationselemente](vorlesung10/Bilder/notationselemente.png)
+
+#### Aktivitäten innerhalb eines Zustands
+
+![aktivitaeten](vorlesung10/Bilder/aktivitaeten.png)
+
+- entry / aktivität
+	- Wird beim Eingang in den Zustand ausgeführt
+	
+- exit / aktivität
+	- Wird beim Verlassen des Zustands ausgeführt
+	
+- do / aktivität
+	- Wird ausgeführt, Parameter sind erlaubt
+	
+- event / aktivität
+  Aktivität behandelt Ereignis innerhalb des Zustands
+	- Wird ausgeführt, wenn sich das System in dem Zustand befindet und das Ereignis eintritt
+
+#### Transition
+
+![aktivitaeten2](vorlesung10/Bilder/aktivitaeten2.png)
+
+- Schaft den Übergang von Ausgang- zu Zielzustand
+- Ausgangszustand = Zielzustand -> Selbstransition
+- Beschriftung an der Transition enthält
+	- Ereignis[Bedingung]/Aktivität
+Transition wird ausgeführt wenn:
+	- Das zugehörige Ereignis eintritt
+	- Die Bedingung wahr ist
+Dabei wird die Aktivität ausgeführt.
+
+#### Syntax von Zustandsübergängen
+
+- Ereignisse, Bedingungen und Aktivitäten möglich
+- Notation: Ereignis(Argumente) [Bedingung] / Aktivität
+	- Aktivität kann aus mehreren Aktionen bestehen
+	- Speziele Aktivität: Nachricht an anderes Objekt senden -> send empfänger.nachricht()
+	
+- Beispiel:
+
+![beispielSyntax](vorlesung10/Bilder/beispielSyntax.png)
+
+### Zustandsübergang: Ereignistypen
+
+- CallEvent
+Empfang einer Nachricht (Operationsaufruf)
+	- Bsp.: stornieren(), kollidiertMit(Termin)
+
+- SignalEvent
+Empfang eines Signals
+	- Bsp.: right-mouse-button-down, ok-Taste-gedrueckt
+	
+- ChangeEvent
+Eine Bedingung wird wahr
+	- Bsp.: when(x<y), when(a=1), when(terminBestaetigt)
+
+- TimeEvent
+	- Bsp.: after(5 sec.), when(date=31.01.2008)
+
+- Unterschied ChangeEvent & Bedingung:
+
+	- ChangeEvent:
+		- Geprüft: Permanent
+		- wenn Bedingung wahr ist, kann zugehöriger Zustandsübergang ausgelöst werden (falls nicht durch zugehörige Überwachungsbedingung blockiert)
+	
+	- Bedingung
+		- Geprüft: Wenn zugeordnetes Ereignis eintritt
+		- kann selbst keinen Zustandsübergang auslösen
+
+![ereignistypen](vorlesung10/Bilder/ereignistypen.png)		
+
+### Zwei Beispiele für komplexe Zustände
+
+![komplex](vorlesung10/Bilder/komplex.png)
+
+### Zustandsdiagramme Beispiele
+
+![beispiel1](vorlesung10/Bilder/beispiel1.png)
+
+![beispiel2](vorlesung10/Bilder/beispiel2.png)
+
+![beispiel3](vorlesung10/Bilder/beispiel3.png)
+
+![beispiel4](vorlesung10/Bilder/beispiel4.png)
+
