@@ -171,13 +171,13 @@ Dabei wird die Aktivität ausgeführt.
 - Ereignisse, Bedingungen und Aktivitäten möglich
 - Notation: Ereignis(Argumente) [Bedingung] / Aktivität
 	- Aktivität kann aus mehreren Aktionen bestehen
-	- Speziele Aktivität: Nachricht an anderes Objekt senden -> send empfänger.nachricht()
+	- Spezielle Aktivität: Nachricht an anderes Objekt senden -> send empfänger.nachricht()
 	
 - Beispiel:
 
 ![beispielSyntax](vorlesung10/Bilder/beispielSyntax.png)
 
-### Zustandsübergang: Ereignistypen
+#### Zustandsübergang: Ereignistypen
 
 - CallEvent
 Empfang einer Nachricht (Operationsaufruf)
@@ -206,11 +206,11 @@ Eine Bedingung wird wahr
 
 ![ereignistypen](vorlesung10/Bilder/ereignistypen.png)		
 
-### Zwei Beispiele für komplexe Zustände
+#### Zwei Beispiele für komplexe Zustände
 
 ![komplex](vorlesung10/Bilder/komplex.png)
 
-### Zustandsdiagramme Beispiele
+#### Zustandsdiagramme Beispiele
 
 ![beispiel1](vorlesung10/Bilder/beispiel1.png)
 
