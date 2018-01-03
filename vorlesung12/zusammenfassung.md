@@ -28,11 +28,13 @@ Eingabe -> Verarbeitung -> Ausgabe
 Eingabe -> Verarbeitung -> Datenbank -> Verarbeitung -> Ausgabe  
 Um ein gutes Programm zu schreiben ist eine saubere Trennung dieser Bausteine notwendig!    
 
-Beispiel für „ungute“
-​	Softwarestruktur bzw. Aufteilung der Programmlogik: GUI enthält Button.
-​	Event-Listener für Button wird in der GUI-Klasse implementiert (Callback). Dort
-​	wird dann Geschäftslogik implementiert. Geschäftslogik ist dann nicht benutzbar
-​	für andere Teile des Softwaresystems und nicht testbar.
+Beispiel für „ungute“ Softwarestruktur bzw. Aufteilung der Programmlogik: 
+
+- GUI enthält Button.
+- Event-Listener für Button wird in der GUI-Klasse implementiert (Callback). 
+- Dort wird dann Geschäftslogik implementiert.
+
+Geschäftslogik ist damit nicht benutzbar für andere Teile des Softwaresystems und nicht testbar.
 
 
 
@@ -141,10 +143,12 @@ Die beiden unterscheiden sich nur in der Synchronisierung der Daten von Model un
 
 ### MVC in verteilten Systemen (hier Web)
 
-MVC wurde Desktop-Anwendungen entwickelt, bei dem die Software auf einem Computer in einem Prozess läuft  
-Als das WWW aufkam, wurde MVC für Webanwendungen genutzt  
-HTTP ist zustandslos. Notwendigkeit von Sessions zwischen Client und Server  
-MVC in verteilten Systemen:„VCM-Architektur“,Controller enthält Steuerungslogik
+- MVC wurde für Desktop-Anwendungen entwickelt, 
+  - die Software läuft auf einem Computer in einem Prozess 
+- Als das WWW aufkam, wurde MVC für Webanwendungen genutzt  
+- HTTP ist zustandslos. Notwendigkeit von Sessions zwischen Client und Server  
+- MVC in verteilten Systemen wird „VCM-Architektur“ genannt.
+- der Controller enthält Steuerungslogik
 
 ![](vorlesung12/bilder/bild8.png)
 
