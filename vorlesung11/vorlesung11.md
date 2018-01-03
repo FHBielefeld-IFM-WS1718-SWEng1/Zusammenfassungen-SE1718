@@ -6,7 +6,7 @@ Jonas Raddatz
 ## Lernziele
 
 - Ziele des Softwareentwurfs erklären können
-- Wissen,was eineSoftwarearchitektur ist
+- Wissen,was eine Softwarearchitektur ist
 - Bestandteile einer "guten" Softwarearchitektur kennen
 
 
@@ -22,7 +22,7 @@ Jonas Raddatz
 | ---------------------- | ---------------------------------------- | --------------------------------- |
 | Use Case Sicht         | Anwendungsfälle                          | Use Case Diagramm                 |
 | logische Sicht         | Anforderungen an das System              | Paket- und Komponentendiagramme   |
-| Prozess SIcht          | dynamische Aspekte des Systems, <br>Interaktion von Systemkomponenten zur Laufzeit | Interaktionsdiagramme             |
+| Prozess Sicht          | dynamische Aspekte des Systems, <br>Interaktion von Systemkomponenten zur Laufzeit | Interaktionsdiagramme             |
 | Implementierungs Sicht | statische Eigenschaften des Systems      | Klassen- und Komponentendiagramme |
 | Deployment Sicht       | physikalische Verteilung zwischen Rechnerknoten | Verteilungsdiagramm               |
 
