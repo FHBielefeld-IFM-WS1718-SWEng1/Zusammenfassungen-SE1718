@@ -11,7 +11,7 @@ Wie strukturiert und organisiert man (große) Softwaresysteme in geeigneter Weis
 
 **Entwurfsmuster** sind Richtlinien, wie man gängige Probleme bei der Implementierung eines Softwaresystems löst.
 
-**Architekturmuster** sind Richtlinien, um Struktur und Verhalten von Softwaresystemen abstrakt zu modellieren. außerdem Richtlinien, wie die Interaktion zwischen zwischenTeilen des Softwaresystems(Pakete,Subsystemen,Server, Clients, Datenbanken) stattfinden soll.
+**Architekturmuster** sind Richtlinien, um Struktur und Verhalten von Softwaresystemen abstrakt zu modellieren. Außerdem Richtlinien, wie die Interaktion zwischen Teilen des Softwaresystems(Pakete,Subsystemen,Server, Clients, Datenbanken) stattfinden soll.
 
 ## Interaktive Softwaresysteme mit GUI
 
@@ -23,10 +23,10 @@ In den meisten Fällen besteht eine Benutzerschnittstelle aus 2-3 Grundbausteine
 
 ![](vorlesung12/bilder/Bild1.png)
 
-Mögliche ablaufe könnten sein  
+Mögliche Abläufe könnten sein  
 Eingabe -> Verarbeitung -> Ausgabe  
 Eingabe -> Verarbeitung -> Datenbank -> Verarbeitung -> Ausgabe  
-Um ein gutes Programm zuschreiben ist eine Saubere Trennung dieser Bausteine notwendig!    
+Um ein gutes Programm zu schreiben ist eine saubere Trennung dieser Bausteine notwendig!    
 
 Beispiel für „ungute“
 ​	Softwarestruktur bzw. Aufteilung der Programmlogik: GUI enthält Button.
@@ -72,7 +72,7 @@ MV*-Vorteile
 - Statusänderung der View über Abfrage am Model 
 - Implementierung von Logik in der View (=GUI-Logik)
   - Animation, Formatierung, Validierung, Aus/Einblenden von Feldern in Abhängigkeit des Zustands
-- Fehlerbei der Implementierung von Logik
+- Fehler bei der Implementierung von Logik
   - Implementierung von Geschäftslogik in der View
   - Aufrufe von Speicherfunktionen des Models
 
@@ -84,7 +84,7 @@ MV*-Vorteile
 
 #### Controller
 
-- Verbindet als Zwischenschicht das View und Model. Enthält Steuerungslogik. Enthält keine Geschäftslogik.
+- Verbindet als Zwischenschicht die View und Model. Enthält Steuerungslogik. Enthält keine Geschäftslogik.
 - Reagiert auf Nutzereingaben (Tastatureingaben, Mausklicks, etc.)
 - Ruft Geschäftslogik vom Model (Delegation) auf und selektiert Views
 - Ein Controller kann für verschiedene Views verwendet werden
@@ -105,7 +105,7 @@ Die beiden unterscheiden sich nur in der Synchronisierung der Daten von Model un
 ##### Ablauf Active MVC
 
 - In der View tritt ein Ereignis auf. Der Controller wird informiert.
-- Controller steuert Änderungen des Modells
+- Controller steuert Änderungen des Models
 - Model teilt allen Views mit, dass eine Änderung aufgetreten ist
 - Views stellen den aktuellen Zustand dar
 
@@ -116,7 +116,7 @@ Die beiden unterscheiden sich nur in der Synchronisierung der Daten von Model un
 - Das Model und die View implementieren das Beobachter-Muster(Publish-Subscribe)
 - Das Model ist das beobachtete Objekt und die Beobachter (Views) können sich beim Model registrieren
 - Das Model hat 1...n Beobachter, nämlich die Views
-- Datenänderung über update-Methode der Views
+- Datenänderung über Update-Methode der Views
 
 ![](vorlesung12/bilder/bild5.png)
 
@@ -125,7 +125,7 @@ Die beiden unterscheiden sich nur in der Synchronisierung der Daten von Model un
 ##### Ablauf passive MVC
 
 - In der View tritt ein Ereignis aus. Der Controller wird informiert.
-- Controller steuert Änderungen des Modells
+- Controller steuert Änderungen des Models
 - Controller teilt den Views mit, dass eine Änderung aufgetreten ist
 - Views stellen den aktuellen zustand dar
 
@@ -192,15 +192,15 @@ MVP beseitigt diese Probleme
 - Mehrere Views möglich. Jede View hat einen Presenter
 - Kann von einem „GUI-Designer“ separat entwickelt werden
 - GUI-Event-Listener, der „Klick“-Ereignisse etc. an den Presenter weiterleitet (Im MVC ist dies Aufgabe des Controllers)
-- Interface der View sollte keine „get“-Methodenenthalten, sondern die Werte als Parameter bei Methodenaufrufen an den Presentergeben
+- Interface der View sollte keine „get“-Methoden enthalten, sondern die Werte als Parameter bei Methodenaufrufen an den Presentergeben
 - Interface enthält „set“-und „add“-Methoden zum Setzen von anzuzeigenden Werten
 
 #### Presenter
 
-- Hält Referenz auf Model und View. Presenteragiert als „Mediator“. 
+- Hält Referenz auf Model und View. Presenter agiert als „Mediator“. 
 - Macht sich bei der View bekannt („setPresenter()“)
-- Enthält Steuerungslogik und „holt“ Datenaus dem Model
-- Formatiert Daten für die GUI und ändertdie View
+- Enthält Steuerungslogik und „holt“ Daten aus dem Model
+- Formatiert Daten für die GUI und ändert die View
 - In der Regel gibt es einen Presenter für eine View. Komplexe Views können mehrere Presenter besitzen.
 
 ![](vorlesung12/bilder/bild13.png)
@@ -211,7 +211,7 @@ MVP beseitigt diese Probleme
 
 ### MVP-Varianten
 
-1. MVP Passive View: „dumme“ View, die nur zur Anzeigedient. Presenter ruft Methoden der View auf, umgeänderte Model-Daten anzuzeigen. Interaktion mit Model ausschließlich durchden Presenter. Die View ist ausschließlich durch Presenter geändert.  
+1. MVP Passive View: „dumme“ View, die nur zur Anzeige dient. Presenter ruft Methoden der View auf, umgeänderte Model-Daten anzuzeigen. Interaktion mit Model ausschließlich durch den Presenter. Die View ist ausschließlich durch Presenter geändert.  
   ![MVP Passive View](vorlesung12/bilder/bild16.png)
 2. MVP Supervising Presenter: Intelligentere View, die auf das Model zugreifen kann. Presenter kann bei komplexeren Updates aber immer noch auf die View zugreifen. Die View wird durch den Presenter und durch simples Databinding zwischen View und Model geändert.  
   ![MVP Supervising Presenter](vorlesung12/bilder/bild17.png)
@@ -231,7 +231,7 @@ MVP beseitigt diese Probleme
 
 ## MVVM
 
-MVVM erlaubt dem GUI-Designer eigene Programmierung durch ereignisgesteuerte und deklarativer Programmierung.
+MVVM erlaubt dem GUI-Designer eigene Programmierung durch ereignisgesteuerte und deklarative Programmierung.
 
 das ViewModel stellt Datenströme zur Verfügung, an denen sich die View binden kann.
 
@@ -239,7 +239,7 @@ Das ViewModel kennt ein oder mehrere Models, aber keine View, denn die View „b
 
 Das ViewModel ist nicht View abhängig und besitzt daher keine Referenz zu einer View. (somit werden zur Implementierung auch keine Interfaces mehr benötigt)
 
-Die View kennt nur das ViewModel und keine Modele.
+Die View kennt nur das ViewModel und keine Models.
 
 Das ViewModel speichert auch den UI-Zustand
 
@@ -260,14 +260,14 @@ Daten werden im ViewModel geändert und dann durch Databinding in der View darge
 - Nicht visuelle Klasse, die die Präsentations-Logik enthält
 - Hält keine direkte Referenz auf die View 
 - Koordiniert die Interaktion der View mit dem Model
-- Kann Datenvalidierungen und Fehler reporting vornehmen
-- Änderungen im Model werden durch das ViewModel in derView synchronisiert und umgekehrt
+- Kann Datenvalidierungen und Fehler Reporting vornehmen
+- Änderungen im Model werden durch das ViewModel in der View synchronisiert und umgekehrt
 - Das ViewModel speichert auch den Zustand der View und enthält UI-Logik, wodurch die Logik in der View minimiert wird
 - Das ViewModel holt Daten aus dem Model und führt darauf UI-Logik durch
 
 #### Model
 
-- Nicht-visuelle Klasse, diedie Daten und die Geschäftslogik der Anwendung kapselt 
+- Nicht-visuelle Klasse, die die Daten und die Geschäftslogik der Anwendung kapselt 
 - Kennt weder das ViewModel noch die View 
 - Sollte keine Use-Case-spezifische Logik enthalten
 - Teilt anderen Teilen des Softwaresystems mit, wenn sich der Modelzustand ändert
@@ -281,9 +281,9 @@ Daten werden im ViewModel geändert und dann durch Databinding in der View darge
 
 ### Databinding im Detail
 
-Was ist Data Binding?
+Was ist Databinding?
 Als databinding wird die automatische Weitergabe von Daten zwischen Objekten bezeichnet.  
-Wenn sich also bei dem Quell Objekt der Wert ändert wird automatisch diese Änderung auch an die Objekte verteilt welche mit dieser Quelle verbunden sind. Dies wird verwendet um Werte automatisch in die UI zu bringen, wenn es Änderungen gab. 
+Wenn sich also bei dem Quellobjekt der Wert ändert wird automatisch diese Änderung auch an die Objekte verteilt, welche mit dieser Quelle verbunden sind. Dies wird verwendet um Werte automatisch in die UI zu bringen, wenn es Änderungen gab. 
 
 ![Databinding](vorlesung12/bilder/bild21.png)
 
@@ -317,17 +317,17 @@ Wenn sich also bei dem Quell Objekt der Wert ändert wird automatisch diese Änd
 
 **Presenter**
 
-- 1-zu-1 Beziehung zwischen View undPresenter
+- 1-zu-1 Beziehung zwischen View und Presenter
 - Jede View implementiert ein Interface, durch das der Presenter mit der View interagieren kann. Jede View hat eine Referenz zum Presenter und kann dort Steuerungslogik initiieren.
 
 **ViewModel** 
 
-- n-zu-1 Beziehung zwischen View undViewModel
-- Views interagiert mit dem ViewModel durch Bindung an Attribute und Funktionen
+- n-zu-1 Beziehung zwischen View und ViewModel
+- View interagiert mit dem ViewModel durch Bindung an Attribute und Funktionen
 
 **Controller**
 
-- n-zu-1-Beziehung zwischen View undController
+- n-zu-1-Beziehung zwischen View und Controller
 - In der Passive Model-Variante wird die Kommunikation von View und Model komplett durch den Controller geschleust.
 - In der Active-Model-Variante werden die Updates durch das Observer-Pattern abgehandelt.
 
