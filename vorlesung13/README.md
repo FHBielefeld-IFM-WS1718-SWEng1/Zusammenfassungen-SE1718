@@ -1,5 +1,81 @@
 # Entwurfsmuster
 
+### Command
+Bei einer Textverarbeitung können viele Funktionen von unterschiedlichen Stellen aus aufgerufen werden, z.B Menü, Button, Popup-Menü bei Rechtsklick, Tastaturkürzel. Diese Funktionen sollen nicht immer neu implementiert werden und zudem rückgängig gemacht werden können. Außerdem soll man die Funktionen mehrfach ausführen können.
+
+**Lösung:**
+- Den Befehl in einer Klasse kapseln
+- Ein und derselbe Befehl kann von mehreren Stellen aus aufgerufen werden
+- Operationen als Objekte mit Methoden execute()/undo() darstellen
+- Befehlsobjekte in einer Befehlsgeschichte speichern
+
+![Beispielanwendung-Command](vorlesung13/bilder/Bild14.png)
+
+#### Verbindung von Observer und Command in Java
+
+- Observer 
+	- Buttons, Menü-Einträge und Tasten generieren "ActionEvents"
+	- Interface "ActionListener" ist vordefiniert
+
+- Das "ActionListener"-Interface implementieren und dann Instanzen davon bei Buttons, MenuItems etc. registrieren
+
+Elegante Verbindung von Observer und Command
+
+- Commands sind **ActionListener** von Buttons, Menüs, etc.
+	- Einheitlicher Aufruf via **actionPerformed(ActionEvent evt)
+- Buttons und Menüs sind **PropertyChangeListener** von Commands
+	- Aktivierung/Deaktivierung
+
+- Wiederverwendung
+	- gleiche **Action** für Menü, Button, Key
+
+![Verbindung von Observer und Command](vorlesung13/bilder/Bild15.png)
+
+![Beispielverbindung](vorlesung13/bilder/Bild16.png)
+
+#### GoF-Pattern Übersicht
+
+![GoF-Pattern Übersicht](vorlesung13/bilder/Bild17.png)
+
+### Adapter
+
+#### Adapter-Zweck
+
+Ein Adapter (Synonym: Wrapper) passt die Schnittstelle einer Klasse an eine andere Schnittstelle an, die von ihren Klienten erwartet wird. Das Adaptermuster lässt Klassen zusammenarbeiten, die wegen inkompatibler Schnittstellen ansonsten dazu nicht in der Lage wären.
+
+![Adapter](vorlesung13/bilder/Bild17.png)
+
+- "Adapter" erbt von und verhält sich wie "Ziel" und benutzt die "AdaptierteKlasse"
+- Adapter leitet Aufruf der gewünschten Funktionalität an die adaptierte Klasse weiter
+
+#### Objekt-Adapter - Beispiel
+
+![](vorlesung13/bilder/Bild18.png)
+
+#### Klassen-Adapter
+
+![](vorlesung13/bilder/Bild19.png)
+
+### Bridge
+
+Eine Brücke findet Anwendung, wenn
+- Abstraktion un Implementierung erweiterbar sein sollen
+- eine dauerhafte Verbindung zwischen Abstraktion und Implementierung verhindert werden soll
+- Änderungen der Implementierung ohne Auswirkung für den Klienten sein sollen und die Implementierung vor dem Klienten verborben bleiben soll
+- die Implementierung gleichzeitig genutzt werden soll
+
+![Bridge-Beispiel](vorlesung13/bilder/Bild22.png)
+
+### Factory Method
+
+Die Schnittstelle zur Erstellung eines Objektes ist eine (abstrakte) Methode einer Oberklasse. Die konkrete Implementierung der Erzeugung neuer Objekte findet jedoch nicht in der Oberklasse statt, sondern in von ihr abgeleiteten Unterklassen, die die besagte abstrakte Methode implementieren.
+
+![Factory Method](vorlesung13/bilder/Bild23.png)
+
+![Framework-Applikation Veranschaulichung](vorlesung13/bilder/Bild24.png)
+
+![Parameterized Factory Method](vorlesung13/bilder/Bild26.png)
+
 ### Abstract Factory
 
 Eine Abstract Factory entkoppelt den Aufrufer von der Implementierung konkreter Produkt-Klassen.
