@@ -50,11 +50,11 @@ Ein Adapter (Synonym: Wrapper) passt die Schnittstelle einer Klasse an eine ande
 
 #### Objekt-Adapter - Beispiel
 
-![](vorlesung13/bilder/Bild18.png)
+![Objekt-Adapter](vorlesung13/bilder/Bild18.png)
 
 #### Klassen-Adapter
 
-![](vorlesung13/bilder/Bild19.png)
+![Klassen-Adapter](vorlesung13/bilder/Bild19.png)
 
 ### Bridge
 
