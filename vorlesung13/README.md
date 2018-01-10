@@ -1,6 +1,375 @@
 # Entwurfsmuster
 
+### Abstract Factory
 
+Eine Abstract Factory entkoppelt den Aufrufer von der Implementierung konkreter Produkt-Klassen.
+
+#### Nachteil
+
+Es sind mehr Klassen nötig als beim „Factory Method“-Pattern.
+
+#### Zweck
+
+Sie bietet eine Schnittstelle zum Erzeugen von Familien verwandter Objekte, ohne ihre konkreten Klassen zu benennen.
+
+#### Anwendbarkeit
+
+- Wenn ein System unabhängig davon sein soll, wie seine Produkte erzeugt werden. 
+- Wenn ein System mit einer von mehreren Produktfamilien konfiguriert werden soll. 
+
+#### Abstract Factory Pattern
+
+![Abstract Factory Pattern](vorlesung13/bilder/Bild27.png)
+
+#### Abstract Factory Beispiel
+
+![Abstract Factory Beispiel](vorlesung13/bilder/Bild28.png)
+
+```java
+class Factory {
+ 	public static final int CAR = 0;
+ 	public static final int MOTORCYCLE = 1;
+
+	public Vehicle createVehicle(int i) {
+   		switch(i) {
+			case CAR:
+    			return new Car();
+   			case MOTORCYCLE:
+    	 		return new Motorcycle();
+    		default:
+       			throw new IllegalArgumentException("Wrong vehicle number!");
+		}
+	}
+}
+```
+
+```java
+interface Vehicle {
+    public int getCountOfTires();
+    public String getName();
+}
+```
+
+```java
+class Car implements Vehicle {
+  	public int getCountOfTires() {
+    	return 4;
+	}
+	public String getName() {
+    	return "Car";
+  	}
+}
+```
+
+```java
+class Motorcycle implements Vehicle {
+  	public int getCountOfTires() {
+		return 2;
+	}
+	public String getName() {
+		return "Motorcycle";
+	}  
+}
+```
+
+```java
+public class FactoryPattern {
+	public static void main(String[] args) {
+		Factory f = new Factory();
+		Vehicle newCar = f.createVehicle(Factory.CAR);
+		Vehicle newMotorcycle = f.createVehicle(Factory.MOTORCYCLE);
+	}
+}
+```
+
+
+
+#### Komplexeres Beispiel
+
+![Abstract Factory komplexeres Beispiel](vorlesung13/bilder/Bild29.png)
+
+```java
+public class Verpackung {
+ 	private Spielefabrik fabrik;
+ 	private Spielbrett brett;  
+ 	private Spielfigur figur;
+ 	
+ 	public Verpackung(Spielefabrik sf) {
+   		fabrik = sf;
+   		brett = fabrik.getSpielbrett();
+   		figur = fabrik.getSpielfigur();
+  	}
+ ...
+ 
+ 	public int berechneVolumen() {
+   		return brett.getFlaeche() * figur.getHoehe();
+  	}
+ ...
+}
+```
+
+- **Vorteil**: Leichte Ergänzung neuer Spiele mit Spielbrettern und Spielfiguren
+- **Nachteil**: Aufwändig, neue Objektart (z. B. Spielanleitung) zu ergänzen
+
+### Proxy
+
+Ein Proxy fungiert als Stellvertreter zu einem anderen Ding. Der Client kommuniziert nur über eine Schnittstelle mit dem Proxy bzw. realen Subjekt und nutzt den Proxy wie die eigentliche Klasse. Der Zugriff auf die "wertvolle Ressource" wird so durch eine vorgeschaltete Klasse gesteuert.
+
+![Proxy](vorlesung13/bilder/Bild30.png)
+
+#### Beispiel: Remote-Proxy
+
+- Ein Objekt liegt auf einem anderen Rechner. Der Remote-Proxy dient als Schnittstelle zum entfernt liegenden Objekt.
+- Ein Remote-Proxy ist ein lokaler Stellvertreter für ein Objekt in einem anderen Adressraum. Er wird beispielsweise in Netzwerkanwendungen verwendet.
+
+![Proxy Beispiel](vorlesung13/bilder/Bild31.png)
+
+#### Andere Proxy-Beispiele
+
+- Ein **virtueller Proxy** dient der Verzögerung "teurer" Operationen auf den Zeitpunkt des tatsächlichen Bedarfs.
+- Ein **Schutzproxy** setzt Zugriffsrechte auf ein Objekt durch.
+
+![Proxy Implementierung](vorlesung13/bilder/Bild32.png)
+
+#### Implementierungsmöglichkeit #1
+
+```java
+public interface KlasseMitWertvollemInhalt {
+  	public int anfrage(String details);
+}
+```
+
+------
+
+```java
+public class RealeKlasse implements KlasseMitWertvollemInhalt {
+  	private Verbindung verbindung;
+	public RealeKlasse(String verbindungsdaten) {
+  		verbindung = new Verbindung(verbindungsdaten);
+	}
+	public int anfrage(String details) {
+  		return verbindung.befragen(details);
+  	}
+}
+```
+
+#### Implementierungsmöglichkeit #2
+
+```java
+public class Proxy implements KlasseMitWertvollemInhalt {
+  	private static RealeKlasse realesObjekt; 
+  	public Proxy() {
+  		if(realesObjekt == null)
+    		realesObjekt = new RealeKlasse("Spezialinfos");
+	}
+	public int anfrage(String details) {
+  		return realesObjekt.anfrage(details);
+  	}
+}
+```
+
+
+
+------
+
+```java
+public class Nutzer {
+  	public int proxyNutzen(String anfrage) {
+  		KlasseMitWertvollemInhalt k = new Proxy();
+  		return k.anfrage(anfrage);
+  	}
+  	public static void main(String[] s) {
+  		Nutzer n = new Nutzer();
+  		System.out.println(n.proxyNutzen("gib41"));
+  	}
+}
+```
+
+
+
+#### Unterschied Bridge vs. Adapter
+
+- Ein Adapter
+  - wird benutzt, nachdem die Software von unterschiedlichen Parteien nacheinander implementiert wurde
+  - dient dazu, voneinander unabhängigen Code “zusammenzuschweißen”
+  - löst das Problem, wenn externe Bibliotheken zu einem Softwaresystem hinzugefügt werden
+- Eine Brücke 
+  - wird bereits vor der Implementierung “angedacht” und benutzt, so dass die Abstraktion und Implementierung unabhängig voneinander entwickelt und die Implementierung ausgetauscht werden kann
+
+#### Unterschied Proxy / Adapter / Fassade / Brücke
+
+- Proxy
+  - hat dieselbe Schnittstelle wie das „reale Subjekt“
+  - macht einen Zugriff auf eine Implementation über die gleiche Abstraktion mittelbar über ein anderes Objekt (z.B. wegen Remote, Cache, Logging, Locking, Zugriffsrecht, etc.)
+- Adapter
+  - Ein Adapter kann eine andere Schnittstelle besitzen
+  - passt eine vorgegebene Implementation an eine nicht kompatible Abstraktion an
+- Brücke
+  - trennt Implementation von Abstraktion (=Interface), um beide unabhängig voneinander variieren zu können
+- Fassade
+  - fasst mehrere Schnittstellen zusammen
+
+### State
+
+Ein Objekt soll sein Verhalten zur Laufzeit ändern, wenn es seinen internen Zustand ändert. Dies kann beispielsweise durch Vererbung geschehen.
+
+![State](vorlesung13/bilder/Bild33.png)
+
+#### State Pattern als UML-Diagramm
+
+State Pattern sind eine andere Möglichkeit für States und funktionieren ohne Vererbungen. 
+
+Der zustandsabhängige Code wird in Zustandsklassen gekapselt und statt Verberbungen werden Kompositionen verwendet.
+
+![State Pattern UML](vorlesung13/bilder/Bild34.png)
+
+#### Beispielhafte Implementierung
+
+![State Pattern Implementierung](vorlesung13/bilder/Bild35.png)
+
+```java
+public abstract class Zustand {
+  	protected int x;
+  	public abstract Zustand setX(int x);
+  	public abstract String status();
+  	protected Zustand(int x) {
+  		this.x = x;
+  	}
+}
+```
+
+
+
+------
+
+```java
+public class ZustandOK extends Zustand {
+  	public ZustandOK(int x) {
+  		super(x);
+	}
+	public Zustand setX(int x) {
+  		this.x = x;
+  		if (x >= 42) return new ZustandKritisch(x);
+  		return this;
+    }
+  	public String status() { return "allesok"; }
+}
+```
+
+
+
+------
+
+```java
+public class Messstation {
+  	private String standort = "City";
+  	private Zustand z = new ZustandOK(0);
+  	public void zustandAendern(int wert) {
+  		z =z.setX(wert);
+  	}
+  	public void ausgeben() {
+   		System.out.println(standort + " Zustand: " +z.status());
+  	}
+}
+```
+
+
+
+### Singleton
+
+#### Zweck
+
+Absichern, dass eine Klasse genau eine Objektinstanz besitzt und durch einen globalen Zugriffspunkt bereitgestellt wird.
+
+#### Beispiel
+
+Logging oder gemeinsamer Zugriff auf Ressourcen (z.B. Drucker, Cache)
+
+#### Implementierung
+
+Die Objektinstanz muss erzeugt werden, wenn sie benötigt wird (= Lazy loading). Bei weiteren Anfragen werden Referenzen auf dieses identische Objekt (gespeichert in Klassenvariable) zurückgegeben. Nutzer dürfen keine Konstruktoren aufrufen, da es sonst verschiedene Objekte gibt (Konstruktoren werden private). Zugriff auf das Objekt dann über die Klassenmethode.
+
+![Singleton](vorlesung13/bilder/Bild36.png)
+
+#### Nachteile
+
+- Die Kopplung wird erhöht, was die Wartbarkeit einschränkt.
+- Wann kann die Ressourcen-Freigabe eines Singletons erfolgen?
+- Notwendige Synchronisation bei Multithreaded-Applikationen 
+- Singletons in Clusterumgebungen
+
+#### Implementierungsbeispiel
+
+```java
+public class Singleton {
+  	private int x = 0;
+  	private int y = 0;
+  	private static Singleton instance = null; 
+  	private Singleton(int x, int y) {
+    	this.x = x; this.y = y;
+  	}
+  	public static Singleton getInstance() {
+    	// Lazy initialization (=Instanz erst erzeugen, wenn benötigt)
+    	if (instance == null) 
+      		instance = new Singleton(6, 42);
+    	return instance;
+  	}
+  	@Override public Singleton clone() {
+		return this;
+	}
+  	public void ausgeben() {
+		System.out.print("["+x+","+y+"]");
+	}
+  	public void verschieben(int dx, int dy){
+		x += dx; y += dy;
+	}
+```
+
+```java
+public class Main {
+  	public static void main(String[] s) {
+  		Singleton p1 = Singleton.getInstance();
+  		Singleton p2 = Singleton.getInstance();
+  		// Singleton s = new Singleton(); 
+      	// nicht möglich, weil Constructor unsichtbar
+  		p1.ausgeben();
+ 	 	p2.ausgeben();
+  		if (p1 == p2)
+  			System.out.println("\n identisch");
+  		p1.verschieben(3,5);
+  		p1.ausgeben();
+  		p2.ausgeben();
+  		Singleton p3 = p1.clone();
+  		if (p2 == p3)
+  			System.out.println("\n identisch");  
+  	}
+}
+```
+
+#### Ausgabe
+
+![Ausgabe](vorlesung13/bilder/BildSingletonErgaenzung.png)
+
+### Facade
+
+#### Szenario 
+
+- Eine Softwarekomponente oder Subsystem ist sehr komplex.
+- Starke Kopplung, weil es viele Abhängigkeiten von „außen“ auf einzelne Klassen gibt
+
+![Facade](vorlesung13/bilder/Bild37.png)
+
+#### Lösung
+
+- Bau einer Fassade, hinter der die Komplexität versteckt wird.
+  - Bietet ein einfaches Interface zu einem komplexen Subsystem
+  - Viele Abhängigkeiten zwischen Klassen werden dadurch reduziert
+
+![Facade2](vorlesung13/bilder/Bild38.png)
+
+#### Beispiel
+
+![Facade Beispiel](vorlesung13/bilder/Bild39.png)
 
 ### Builder-Pattern
 
