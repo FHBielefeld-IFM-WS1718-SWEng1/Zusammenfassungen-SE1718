@@ -378,7 +378,7 @@ public class Main {
 - zu einem komplexen Objekt existieren unterschiedliche Darstellungen 
 - die Konstruktion eines komplexen Objekts ist unabhängig von der Erzeugung der Bestandteile
 - Trennung des Erzeugungsprozesses einer komplexen Objektstruktur von der internen Darstellung der Objektstruktur
-- Es trennt die  Konstruktion komplexer  Objekte  vonderen Repräsentationen, wodurch die selben Konstruktionsprozesse wiederverwendet werden können
+- Es trennt die Konstruktion komplexer Objekte von deren Repräsentationen, wodurch die selben Konstruktionsprozesse wiederverwendet werden können
 - Die Implementierungen der Konstruktion und der Repräsentationen werden isoliert  
 - Builder versteckt interne Repräsentation vor dem Direktor  
 - Neue Repräsentationen lassen sich leicht durch neue konkrete Builderklasse einfügen  
@@ -389,7 +389,7 @@ public class Main {
 - Builder 
   - spezifiziert abstrakte Schnittstelle zur Erzeugung der Teile eines komplexen Objekts 
 - ConcreteBuilder 
-  - implementiert die Schnittstelleund erzeugt die Einzelteile
+  - implementiert die Schnittstelle und erzeugt die Einzelteile
   - Definiert und verwaltet die von ihm erzeugte Präsentation
 - Director 
   - konstruiert das komplexe Objekt unter Verwendung der Schnittstelle des Builders
@@ -447,8 +447,8 @@ public abstract class AbstractReader {
   - Trennt die Datenstruktur von den Operationen, die auf der Objektstruktur auszuführen sind
   - Ermöglicht es, eine neue Operation zu definieren, ohne die Klassen der von ihr bearbeiteten Elemente zu verändern.
 - Beispiel:
-  - Compilerbau: Erzeugen desQuellcodes aus abstraktem Syntaxbaum
-  - Interpreter: Berechne dynamisch dasErgebnis eines Ausdrucks
+  - Compilerbau: Erzeugen des Quellcodes aus abstraktem Syntaxbaum
+  - Interpreter: Berechne dynamisch das Ergebnis eines Ausdrucks
 
 ![](bilder/Bild46.png)
 
@@ -469,7 +469,7 @@ public abstract class AbstractReader {
 
 ![](bilder/Bild47.png)
 
-### Architekturmuster vs.Entwurfsmuster (Active Model View Controller)
+### Architekturmuster vs. Entwurfsmuster (Active Model View Controller)
 
 (Active MVC setzt sich aus drei Entwurfsmustern zusammen)
 
@@ -492,27 +492,27 @@ public abstract class AbstractReader {
 
 ### Abstrakte Fabrik (Abstract Factory)
 
-Biete eine Schnittstelle zum Erzeugen von Familien verwanter oder voneinander abhängiger Objekte, ohne ihre konkrete Klassen zu benennen.
+Biete eine Schnittstelle zum Erzeugen von Familien verwandter oder voneinander abhängiger Objekte, ohne ihre konkrete Klassen zu benennen.
 
 ### Adapter 
 
-Passe die Schnittstelle einer Klasse an eine andere von ihren Klienten erwartete Schnittstelle an. Das Adaptermuster läßt Klassen zusammenarbeiten, die wegen inkompatibler Schnittstellen ansonsten dazu nicht inder Lage wären.
+Passe die Schnittstelle einer Klasse an eine andere von ihren Klienten erwartete Schnittstelle an. Das Adaptermuster läßt Klassen zusammenarbeiten, die wegen inkompatibler Schnittstellen ansonsten dazu nicht in der Lage wären.
 
 ### Befehl (Command)
 
-Kapsle einen Befehl als ein Objekt. Dies ermöglicht es, Klienten mit verschiedenen Anfragen zu parametrieren, Operationen in eine Queue zu stellen, ein Logbuch zu führen und Operationen rückgägnig zu machen.
+Kapsle einen Befehl als ein Objekt. Dies ermöglicht es, Klienten mit verschiedenen Anfragen zu parametrieren, Operationen in eine Queue zu stellen, ein Logbuch zu führen und Operationen rückgängig zu machen.
 
 ### Beobachter (Observer)
 
-Definiere eine 1-zu-n-Abhängigkeit zwischen Objekten, so daß die Änderungen des Zustands eines Objektes dazu führt, daß alle abhängigen Objekte benachrichtigt und automatisch aktualisiert werden.
+Definiere eine 1-zu-n-Abhängigkeit zwischen Objekten, sodaß die Änderungen des Zustands eines Objektes dazu führt, daß alle abhängigen Objekte benachrichtigt und automatisch aktualisiert werden.
 
 ### Besucher (Visitor)
 
-Kapsle eine auf den Elementen einer Obhektstruktur auszuführende Operation zu definieren als ein Objekt. Das Besuchermuster ermöglicht es Ihnen, eine neue Operation zu definieren, ohne die klassen der von ihr bearbeiteten Elemente zu verändern.
+Kapsle eine auf den Elementen einer Objektstruktur auszuführende Operation zu definieren als ein Objekt. Das Besuchermuster ermöglicht es Ihnen, eine neue Operation zu definieren, ohne die Klassen der von ihr bearbeiteten Elemente zu verändern.
 
 ### Brücke (Bridge)
 
-Entkopple eine Abstraktion von ihrer Implementierung, so daß beide unabhängig voneinander variiert werden können.
+Entkopple eine Abstraktion von ihrer Implementierung, sodaß beide unabhängig voneinander variiert werden können.
 
 ### Dekorierer (Decorator)
 
@@ -520,7 +520,7 @@ Erweitere ein Objekt dynamisch um Zuständigkeiten. Dekorierer bieten eine flexi
 
 ### Erbauer (Builder)
 
-Trenne die Konstruktion eines komplexen Objekts von seiner Repräsentation, so daß derselbe Konstruktionsprozeß unterschiedliche repräsentationen erzeugen kann.
+Trenne die Konstruktion eines komplexen Objekts von seiner Repräsentation, sodaß derselbe Konstruktionsprozeß unterschiedliche Repräsentationen erzeugen kann.
 
 ### Fabrikmethode (Factory Method)
 
@@ -528,7 +528,7 @@ Definiere eine Klassenschnittstelle mit Operationen zum Erzeugen eines Objekts, 
 
 ### Fassade (Facade)
 
-Biete eine einheitliche Schnittstelle zu einer Menge von Schnittstellen eines Subsystems. Die Fassadenklasse definiert eine abstrakte Schnittstelle, welche die Verwendung des Subsystem vereinfacht.
+Biete eine einheitliche Schnittstelle zu einer Menge von Schnittstellen eines Subsystems. Die Fassadenklasse definiert eine abstrakte Schnittstelle, welche die Verwendung des Subsystems vereinfacht.
 
 ### Fliegengewicht (Flyweight)
 
@@ -540,7 +540,7 @@ Definiere für eine gegebene Sprache eine Repräsentation der Grammatik sowie ei
 
 ### Iterator 
 
-Ermögliche den sequentiellen zugriff auf die Elemente eines zusammengesetzten Objekts, ohne seine zugrundeliegende Repräsentation offenzulegen.
+Ermögliche den sequentiellen Zugriff auf die Elemente eines zusammengesetzten Objekts, ohne seine zugrundeliegende Repräsentation offenzulegen.
 
 ### Kompositum (Composite)
 
@@ -548,7 +548,7 @@ Füge Objekte zu Baumstrukturen zusammen, um Teil-Ganzes-Hierarchien zu repräse
 
 ### Memento (Memento)
 
-Erfasse und externalisieren den internen Zustand eines Objekts, ohne seine Kapselung zu verletzen, so daß das Objekt später in diesen Zustand zurückversetzt werden kann.
+Erfasse und externalisieren den internen Zustand eines Objekts, ohne seine Kapselung zu verletzen, sodaß das Objekt später in diesen Zustand zurückversetzt werden kann.
 
 ### Prototyp 
 
@@ -568,7 +568,7 @@ Sichere ab, daß eine Klasse genau ein Exemplar besitzt, und stelle einen global
 
 ### Strategie (Strategy)
 
-Definiere eine familie von Algorithmen, kapsele jeden einzelnen und mache sie austauschbar. Das Strategiemuster ermöglicht es, den Algorithmus unabhängig von ihn nutzenden Klienten zu variieren.
+Definiere eine Familie von Algorithmen, kapsele jeden einzelnen und mache sie austauschbar. Das Strategiemuster ermöglicht es, den Algorithmus unabhängig von ihn nutzenden Klienten zu variieren.
 
 ### Vermittler (Mediator)
 
@@ -582,6 +582,6 @@ Ermögliche es einem Objekt, sein Verhalten zu ändern, wenn sein interner Zusta
 
 Vermeide die Kopplung des Auslösers einer Anfrage an seinen Empfänger, indem mehr als ein Objekt die Möglichkeit erhällt, die Anfragen zu erledigen. Verkette die empfangenden Objekte, und leite die Anfrage an der Kette entlang, bis ein Objekt sie erledigt.
 
-### Vergleich von Strategy und Template Pattern 
+Vergleich von Strategy und Template Pattern
 
 ![](bilder/Bild45.png)
