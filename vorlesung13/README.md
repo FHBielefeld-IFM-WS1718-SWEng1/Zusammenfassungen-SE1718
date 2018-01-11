@@ -1,5 +1,9 @@
 # Entwurfsmuster
 
+**Autoren:**
+
+Diana, Michael, Jonas, Alex H.
+
 ### Command
 Bei einer Textverarbeitung können viele Funktionen von unterschiedlichen Stellen aus aufgerufen werden, z.B Menü, Button, Popup-Menü bei Rechtsklick, Tastaturkürzel. Diese Funktionen sollen nicht immer neu implementiert werden und zudem rückgängig gemacht werden können. Außerdem soll man die Funktionen mehrfach ausführen können.
 
