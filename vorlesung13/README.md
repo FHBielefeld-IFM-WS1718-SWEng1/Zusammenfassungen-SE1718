@@ -14,20 +14,20 @@ Bei einer Textverarbeitung können viele Funktionen von unterschiedlichen Stelle
 #### Verbindung von Observer und Command in Java
 
 - Observer 
-	- Buttons, Menü-Einträge und Tasten generieren "ActionEvents"
-	- Interface "ActionListener" ist vordefiniert
+  - Buttons, Menü-Einträge und Tasten generieren "ActionEvents"
+  - Interface "ActionListener" ist vordefiniert
 
 - Das "ActionListener"-Interface implementieren und dann Instanzen davon bei Buttons, MenuItems etc. registrieren
 
 Elegante Verbindung von Observer und Command
 
 - Commands sind **ActionListener** von Buttons, Menüs, etc.
-	- Einheitlicher Aufruf via **actionPerformed(ActionEvent evt)
+  - Einheitlicher Aufruf via **actionPerformed(ActionEvent evt)
 - Buttons und Menüs sind **PropertyChangeListener** von Commands
-	- Aktivierung/Deaktivierung
+  - Aktivierung/Deaktivierung
 
 - Wiederverwendung
-	- gleiche **Action** für Menü, Button, Key
+  - gleiche **Action** für Menü, Button, Key
 
 ![Verbindung von Observer und Command](vorlesung13/bilder/Bild15.png)
 
@@ -473,15 +473,15 @@ public class Main {
 - Product
   - Ist das komplexe Objekt  
 
-![](bilder/Bild40.png)
+![](vorlesung13/bilder/Bild40.png)
 
-![](bilder/Bild41.png)
+![](vorlesung13/bilder/Bild41.png)
 
 #### Beispiel für Anwendung
 
 Lesen von RTF-Dateien und Konvertieren nach LaTex, Text, PDF, etc.
 
-![](bilder/Bild42.png)
+![](vorlesung13/bilder/Bild42.png)
 
 ### Template Method
 
@@ -492,11 +492,11 @@ Lesen von RTF-Dateien und Konvertieren nach LaTex, Text, PDF, etc.
 - Template Methode muss final sein, damit sie nicht überschrieben werden kann
 - Damit ist der Ablauf des Algorithmus bei allen gleich, aber die Verantwortung liegt bei den Subklassen
 
-![](bilder/Bild43.png)
+![](vorlesung13/bilder/Bild43.png)
 
 #### Beispiel für Anwendung
 
-![](bilder/Bild44.png)
+![](vorlesung13/bilder/Bild44.png)
 
 ```java
 public abstract class AbstractReader {
@@ -526,7 +526,7 @@ public abstract class AbstractReader {
   - Compilerbau: Erzeugen des Quellcodes aus abstraktem Syntaxbaum
   - Interpreter: Berechne dynamisch das Ergebnis eines Ausdrucks
 
-![](bilder/Bild46.png)
+![](vorlesung13/bilder/Bild46.png)
 
 #### Implementierung
 
@@ -543,13 +543,13 @@ public abstract class AbstractReader {
   - Definiert, wie das konkrete Element traversiert wird
   - Gibt Visitor an Kindelement weiter
 
-![](bilder/Bild47.png)
+![](vorlesung13/bilder/Bild47.png)
 
 ### Architekturmuster vs. Entwurfsmuster (Active Model View Controller)
 
 (Active MVC setzt sich aus drei Entwurfsmustern zusammen)
 
-![](bilder/Bild48.png)
+![](vorlesung13/bilder/Bild48.png)
 
 
 
@@ -660,4 +660,4 @@ Vermeide die Kopplung des Auslösers einer Anfrage an seinen Empfänger, indem m
 
 Vergleich von Strategy und Template Pattern
 
-![](bilder/Bild45.png)
+![](vorlesung13/bilder/Bild45.png)
