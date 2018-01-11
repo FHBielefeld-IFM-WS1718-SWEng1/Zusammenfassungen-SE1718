@@ -19,6 +19,7 @@ Aufgearbeitete Folien für Software Engineering
 10. ​
 11. ​[Softwareentwurf und Softwarearchitektur](/vorlesung11/vorlesung11/)
 12. [MV*](/vorlesung12/zusammenfassung)
+12. [Entwufsmuster](/vorlesung13/vorlesung13/)
 
 ### Informationen für Contributer:
 Alle beigesteuerten Dokumente nutzen das Markdown Format und die Dateiendung .md
