@@ -1,8 +1,268 @@
 # Entwurfsmuster
 
-**Autoren:**
+**Autoren:**  
+ Jonas Raddatz, Alexander Heinisch, Michael Nickel, Diana Kirzhner
 
-Diana, Michael, Jonas, Alex H.
+
+
+## Was sind Entwurfsmuster
+
+- kein fertiger Programmcode, der direkt eingesetzt werden kann
+
+- Schablone für bewährte + generische Lösung eines wiederkehrenden Entwurfproblems
+
+- anwendung auf jeweiliges Problem --> müssen immer wieder neu implementiert werden
+
+- dienen Wiederverwendbarkeit von Entwurfswissen
+
+- erleichtern Kommunikation unter Software-Entwicklern
+
+- Kombinationen von Klassen zu größeren Einheiten, unabhängig von der Programmiersprache
+
+  1. Pattern VS Algorithmen und Frameworks
+
+     | Pattern                     | Algorithmen                              | Frameworks                               |
+     | --------------------------- | ---------------------------------------- | ---------------------------------------- |
+     | abstrakter                  | lösen feinkörnigere Probleme  als Pattern | beinhaltet Menge kooperierender Klassen für spezifischen Anwendungs |
+     | enthalten nur Codebeispiele |                                          | erweiterbar durch Unterklassenbildung    |
+     | weniger spezifisch          |                                          | existenz als konkreter, wiederverwendbarer Code |
+     | fast überall einsetzbar     |                                          | Einsatz für konkrete Anwendungsbereiche  |
+
+
+
+
+### Vor- und Nachteile von Pattern
+
+| Vorteile                                 | Nachteile                                |
+| ---------------------------------------- | ---------------------------------------- |
+| verbesserung Kommunikation zwischen Entwicklern | Design zur Entwurfs- bzw. Konzeptionszeit aufwändig |
+| diskussion über Softwareentwurf auf abstrakter Ebene | Muster ohne UML im Code schwer zu erkennen |
+| Entwurfsidee in Mustern erkennbar        | hoher Einarbeitungsaufwand für Anfänger in Ideen und Anwendbarkeit der Entwurfsmuster |
+| Wartbarkeit, Änderbarkeit ,Wiederverwendbarkeit des Codes besser |                                          |
+
+
+
+### Aufbau von Entwurfsmuster-Katalogen
+
+Pattern Beschreibungen im Katalog enthalten folgende Attribute:
+
+- Name
+- Übersicht
+- Motivation (z.B. Anwendungsbeispiel)
+- Lösung (beteiligte Objekte, Klassen und ihre Beziehungen)
+- Implementierung (mit Code-Fragmenten)
+
+bekannte Anwendungsfälle (z. B. in Java-SDK)
+
+
+
+## Entwurfsmuster und UML
+
+- Verwendung UML bei Beschreibung von Entwurfsmustern (Klassen- und Sequenzdiagramme)
+
+  ​
+
+![Entwurfsmuster und UML](vorlesung13/bilder/Bild01.png)
+
+-  Pattern-Name (gestrichelten Kreis),  verbunden mit eingekreisten Klassen, Pattern und Benennung der Rollen
+
+
+
+![Entwurfsmuster](vorlesung13/bilder/Bild02.png)
+
+1. **Erzeugungspatterns (Creational Pattern)**
+   - behandeln Objekterzeugung
+   - sollen Wissen über konkrete Klassen des Systems vor Benutzer verstecken
+   - Ziel: Konfigurierbarkeit und Änderbarkeit
+2. **Strukturpatterns (Structural Pattern)**
+   - Befassung mit Komposition von Klassen und Objekten (Bildung größerer Strukturen)
+3. **Verhaltenspatterns (Behavior Pattern)**
+   - Behandlung Objektinteraktion und –Verantwortlichkeiten
+   - Charakterisierung  Art und Weise in der Klassen und Objekte zusammenarbeiten +Zuständigkeiten aufteilen
+
+
+
+### Probleme im Entwurf und Entwurfsmuster als Lösung
+
+- Erzeugung Objekte einer fest benannten Klasse
+  - **Lösung:** Abstract Factory, Factory Method
+
+
+- Abhängigkeit von speziellen Implementierungen
+  - **Lösung:** Abstract Factory, Bridge
+
+
+- Abhängigkeit von speziellen Algorithmen
+  - **Lösung**: Strategy
+
+
+- Zu enge Kopplung
+  - **Lösung**: Abstract Factory, Bridge, Observer
+
+    ​
+
+### Überblick der vorgestellten Entwurfsmuster
+
+- **Abstract Factory:** Erzeugen von verwandten Objekten ohne Konstruktoraufruf
+- **Factory Method:** Erzeugung von Objekten deren Typ in Unterklassen bestimmt wird
+- **Builder:** Einen komplexen Erzeugungsprozess verbergen
+- **Singleton:** Instanziierung einer Klasse durch genau ein Objekt
+- **Adapter:** Schnittstelle durch Delegation (Objektadapter) oder Vererbung (Klassenadapter) an eine andere Schnittstelle anpassen
+- **Brücke:** Abstraktion und Implementierung voneinander trennen
+- **Facade:** einfache Schnittstelle auf Basis einer umfangreichen + allgemeinen Schnittstelle erstellen
+- **Composite:** Objektstruktur durch Unterklassen abbilden, um so einzelne Instanzen und Gruppen von Instanzen gleich behandeln zu können 
+- **Proxy:** transparenter Zugriff auf (entfernte) Funktionalitäten über Stellvertreterobjekte
+- **Template Method:** Konkrete Schritte eines festgelegten Algorithmus in Unterklassen implementieren
+- **Command:** Kontrollfluss in Klassen kapseln zwecks Mehrfachverwendung
+- **Observer:** Publish/subscribe Mechanismus
+- **Visitor:** kapselt eine Methode, die auf Objektstruktur ausgeführt werden soll
+- **Strategy:** Unterstützung unterschiedlicher Algorithmen
+- **State:** Verhaltensänderung Objektes nach Zustandsänderung
+
+
+
+### Überblick weitere Entwurfsmuster
+
+- **Prototype:**
+- **Decorator:** 
+  - Unterschiedliche Verantwortlichkeiten ohne Unterklassenbildung
+
+
+- **Flyweight:**
+  -  um Anzahl der erstellten Objekte + Speicherbedarf zu reduzieren und die Leistung zu erhöhen
+  -  Verbesserung Objektstruktur der Anwendung 
+
+
+- **Interpreter:**
+
+
+- **Memento:** 
+  - Speichere Inhalt eines Objekts zeitweise so, dass die Speichermethode gewechselt werden kann
+
+
+- **Mediator:**
+  - um Kommunikationskomplexität zwischen mehreren Objekten/ Klassen zu reduzieren
+
+
+- **Iterator:** 
+  - durchlaufe eine Gruppe von Objekten, ohne die Gruppenstruktur zu kennen
+
+
+
+### Strategy
+
+- **Problem:** 
+
+  - Für Algorithmus gibt es verschiedene Möglichkeiten, sie zu implementieren.
+  - Implementierung soll zur Laufzeit leicht ausgetauscht werden können, um die effizienteste/schnellste/beste zu wählen
+
+  ​
+
+![Problem](vorlesung13/bilder/Bild03.png)
+
+
+
+- **Lösung:** 
+
+  - Kapselung einer Familie von Algorithmen durch eine Schnittstelle
+
+    ​
+
+![Lösungsbeispiel 1](vorlesung13/bilder/Bild04.png)
+
+
+
+![Lösungsbeispiel 2](vorlesung13/bilder/Bild05.png)
+
+
+
+### Composite
+
+#### Strukturmuster – Composite (Kompositum)
+
+- Auftritt Objekt-Hierarchien überall dort, wo komplexe Strukturen modelliert werden
+  - (graphische Anwendungen, Textverarbeitung, usw.)
+- Zusammenfassung einfacher Objekte zu Gruppen, welche wiederum zu größeren Gruppen zusammengefügt werden können 
+
+
+- Kompositum isoliert gemeinsame Eigenschaften von Objekt + Gruppe und bildet daraus eine Oberklasse
+
+
+- Somit: gleiche Behandlung von Einzelnen Instanzen + Gruppen von Instanzen
+
+
+
+![Strukturmuster](vorlesung13/bilder/Bild06.png)
+
+
+
+1. **Component:**
+
+   - deklariert Schnittstelle für Objekte in der zusammengefügten Struktur
+   - implementiert ein Default-Verhalten + deklariert Schnittstelle zum Zugriff auf Kindobjekte
+
+2. **Leaf:**
+
+   - repräsentiert Blattobjekte (Kinderlos) 
+
+3. **Composite:**
+
+   - definiert Verhalten für Objekte mit Kindern 
+   - speichert Kindobjekte + implementiert kindobjekt-bezogene Operationen
+
+   ​
+
+   ![](vorlesung13/bilder/Bild07.png)
+
+   ​
+
+   ![](vorlesung13/bilder/Bild08.png)
+
+   ​
+
+   ​
+
+### Observer
+
+#### Observer – Observable (Beobachter)
+
+-  bekannt als "Publish-Subscribe“ / "Listener“
+-  Ziel: Objekte zueinander konsistent halten, dennoch nicht eng miteinander koppeln 
+-  Subjekte, für deren Zustand sich viele interessieren (z.B. Nachrichtenkanäle)
+-  Subjekte bieten Möglichkeit für Interessenten  Anmeldung  (z.B. Kanal abonnieren)
+-  Informierung Interessenten bei jeder Subjektzustandsänderung (z.B. neue Nachrichten)
+-  **Observable** (=Subject)
+-  **register / addListener** (Observer registrieren)
+-  **unregister / removeListener** (registrierte Observer entfernen)
+-  **notify, notifyAll** (update-Methoden aller registrierten Observer aufrufen)
+-  **setState** (zustandsändernde Operation(en) für beliebige Clients)
+-  **getState** (Abfrage des aktuellen Zustands)
+-  **update** (Reaktion auf Zustandsänderung des Subjects)
+
+
+
+![Observer ](vorlesung13/bilder/Bild09.png)
+
+![Observer ](vorlesung13/bilder/Bild10.png)
+
+
+
+
+
+- **Prototype:**
+
+- **Decorator:** 
+
+  - Unterschiedliche Verantwortlichkeiten ohne Unterklassenbildung
+
+  **Flyweight:**  
+
+- beschreibt, wie Objekte geteilt werden, um ihre Verwendung in feiner Granularität ohne übermäßige Kosten zu ermöglichen
+
+- **Interpreter:**
+  **Memento:** Speichere den Inhalt eines Objekts zeitweise so, dass die Speichermethode gewechselt werden kann.
+  **Mediator:**
+  **Iterator:** durchlaufe eine Gruppe von Objekten, ohne die Gruppenstruktur zu kennen
 
 ### Command
 Bei einer Textverarbeitung können viele Funktionen von unterschiedlichen Stellen aus aufgerufen werden, z.B Menü, Button, Popup-Menü bei Rechtsklick, Tastaturkürzel. Diese Funktionen sollen nicht immer neu implementiert werden und zudem rückgängig gemacht werden können. Außerdem soll man die Funktionen mehrfach ausführen können.
