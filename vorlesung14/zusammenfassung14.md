@@ -21,9 +21,9 @@ André Matutat
 
 **Die Erfüllung der Eigenschaften ist abhängig von**
 - der Art der Programmiersprache und Programmierkonzepte (z.B. objektorientiert)
-- Der Kompetentz der Beteiligten (z.B. des Software-Entwicklers)
+- Der kompetentz der Beteiligten (z.B. des Software-Entwicklers)
 
-## Übersetzten von UML Klassendiagramme in objektorientierte Programmiersprachen 
+## Übersetzen von UML Klassendiagramme in objektorientierte Programmiersprachen 
 
 ![](vorlesung14/bilder/bild1.png)
 - Bei Übersetzung in Source-Code auf Vererbung und Sichtbarkeit achten
@@ -88,24 +88,24 @@ public class A {
 
 ![](vorlesung14/bilder/bild5.png)
 
-- Die entsprechenden Rollen werden als Attribute in die jeweils gegenüberliegende Klasse eingefügt
+- Die entsprechende Rollen werden als Attribute in die jeweils gegenüberliegende Klasse eingefügt
 - Ist die Multiplizität 0..1, kann das entsrpechende Attribut unter Umständen auch den Wert *null* haben
 
 ### Kardinalität n 
 
-- Umsetzungals Collection (Array, Container)
+- Umsetzung als Collection (Array, Container)
 
   ![](vorlesung14/bilder/bild6.png)
 
-- Umsetzungen hängt von Art der Collection ab
+- Umsetzung hängt von Art der Collection ab
 
   - Sollen Daten geordnet werden?
   - Sind doppelte Einträge erlaubt?
   - Gibt es spezielle Zuordnung key-> value?
 
-- Mulitiplizität 0..7 ist als Array umsetzbar
+- Multiplizitäten 0..7 ist als Array umsetzbar
 
-- Eine mögliche Umsetztung für 1..* sieht wie folgt aus: 
+- Eine mögliche Umsetzung für 1..* sieht wie folgt aus: 
 ```java
 public class Projektaufgabe {
   	private List<Mitarbeiter> bearbeiter= new ArrayLIst<Mitarbeiter>();
@@ -230,8 +230,8 @@ class Customer {
 
 ![](vorlesung14/bilder/bild15.png)
 
-- Erstellung einer Konkreten Instanz oom:  *Lehrveranstalung oom= new Lehrveranstaltung( "Objektorientierte Midellierung",394,3);*
-- Zugrif auf Attribut name: *oom.name;*
+- Erstellung einer konkreten Instanz oom:  *Lehrveranstalung oom= new Lehrveranstaltung( "Objektorientierte Midellierung",394,3);*
+- Zugriff auf Attribut name: *oom.name;*
 
 ###Übersetzung nach Java: Klassen (2/2)
 
@@ -239,7 +239,7 @@ class Customer {
 
 - Erstellung einer Instanz oom: wie vorher
 
-- Zugriaff auf Attribut name: *oom.getName();*
+- Zugriff auf Attribut name: *oom.getName();*
 
   ​
 
@@ -283,7 +283,7 @@ class Customer {
 
 ![](vorlesung14/bilder/bild21.png)
 
-- Lehrveranstalltung wird wie Vorher implementiert
+- Lehrveranstaltung wird wie vorher implementiert
 - Wenn *n* fix vorgegeben ist (nicht *) , dann kann auch ein Array verwendet werden
 
 ### Übersetzung nach Java: Starke Aggregation
@@ -309,12 +309,12 @@ class Customer {
 
 ### Problem 
 
-- Software wird verändert underweitert
-- Die Personen, die an der Softwarearbeiten, ändern sich
+- Software wird verändert und erweitert
+- Die Personen, die an der Software arbeiten, ändern sich
 - Wissen über die Software befindet sich oft nur in den Köpfen der Personen
 - Die Wartungsphase ist die längste Phase im Softwarelebenszyklus
 - Software muss daher verständlich sein und auch bleiben
-- Sinnvoll daher ist Beachtung von **Best practices** 
+- Sinnvoll ist daher die Beachtung von **Best practices** 
 
 ### Best practices
 
@@ -326,14 +326,14 @@ class Customer {
 - Software ist zuerst ein Mittel zur Kommunikation mit Entwicklern und dann erst ein Mittel zur Kommunikation mit dem Computer
 - Zuerst funktional korrekt,dann effizient implementieren. 
 
-  - Makeitwork.
+  - Make it work.
 
-  - Makeitright.
+  - Make it right.
 
-  - Makeitfast.
+  - Make it fast.
 - Ohne(„High-Level“)-Dokumentation ist ein Programm nur wenig wert
 - Vermeiden Sie tiefgeschachtelte Kontrollstrukturen (if,while,for,...)
-- Es ist möglich,in Programmiersprachen,die die strukturierte Programmierung unterstützen,schlechte Programme zuschreiben
+- Es ist möglich,in Programmiersprachen,die die strukturierte Programmierung unterstützen,schlechte Programme zu schreiben
 - Entwickler sind gut oder schlecht, unabhängig von der verwendeten Programmiersprache
 - Trotz TDD: erst denken,dann programmieren,dann compilieren
 
@@ -344,7 +344,7 @@ class Customer {
 - Nur allgemein gebräuchliche Abkürzungen verwenden
   - Schlechtes Beispiel: WPSMH=Wärmepumpensteuerung
 - Der Typ eines Wertes sollte nicht im Namen einer Variable oder Methode enthalten sein. Es kann zu Verwirrungen kommen, wenn sich der Typ ändert. 
-- Konsistente Namen: Verwenden Sie immer den selbenNamen für die gleiche Absicht. (z.B immer size, anstatt hin und wieder mal das Wort length oder amount zu verwenden.)  
+- Konsistente Namen: Verwenden Sie immer den selben Namen für die gleiche Absicht. (z.B immer size, anstatt hin und wieder mal das Wort length oder amount zu verwenden.)  
 - Keine Sprachmischung  (denglisch). Entweder englisch, oder deutsch
 - Groß-/Kleinschreibung
   - große Anfangsbuchstaben für Datentypen, Klassen
@@ -368,8 +368,8 @@ class Customer {
 
 ### Ziel der Dokumentation
 
-- Eine Softwareprodukt ist nur sogut, wie seine Dokumentation
-- Die Dokumentation unterstützt den gesamten Software entwicklungsprozess einschließlich des Betriebs und der späteren Wartung des Softwareprodukts
+- Eine Softwareprodukt ist nur so gut, wie seine Dokumentation
+- Die Dokumentation unterstützt den gesamten Softwareentwicklungsprozess einschließlich des Betriebs und der späteren Wartung des Softwareprodukts
 
 | Phase                   | Beschreibung                             |
 | ----------------------- | ---------------------------------------- |
@@ -388,7 +388,7 @@ class Customer {
 ### Benutzungsdokumentation
 
 - Benötigte Hardware- und Softwareressourcen
-- Angabenüber Durchführung und Voraussetzungen der Installation der Software
+- Angaben über Durchführung und Voraussetzungen der Installation der Software
 - Zweck des Softwaresystems und Beschreibung der Funktionalität
 - Typische Anwendungsbeispiele für alle Systemfunktionen
 - Zusammenstellung der Fehlermeldungen und Hinweise auf Fehlerursachen und Maßnahmen zur Fehlerbeseitigung
@@ -401,7 +401,7 @@ class Customer {
 
 ### Projektdokumentation
 
-- Projektplan mit dem geplanten Zeitrahmen und Personal zuteilung Angabe über Ergebnissen,die nach jeder Phase vorliegen sollen
+- Projektplan mit dem geplanten Zeitrahmen und Personalzuteilung, Angabe über Ergebnissen,die nach jeder Phase vorliegen sollen
 - Definition des Projektstandards; Vorgabe von Konventionen für die Dokumentation
 - Verzeichnis über die verbrauchte Arbeitszeit, Ressourcen und sonstige Aufwendungen
 - Projekttagebuch zur Protokollierung der Besprechungen von Projektmitarbeitern, Informationen über Entscheidungen mit entsprechender Begründung
