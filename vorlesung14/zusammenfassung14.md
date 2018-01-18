@@ -45,7 +45,7 @@ public class A {
 
 
 
-- **abgeleitetes Attribute („/“)** 
+- **abgeleitete Attribute („/“)** 
 ```java
   //Klassendiagramm mit Klasse „A“ und Attribute „enthalteneMehrwertSteuer“: 
   // double enthalteneMehrwertSteuer; 
@@ -89,7 +89,7 @@ public class A {
 ![](vorlesung14/bilder/bild5.png)
 
 - Die entsprechende Rollen werden als Attribute in die jeweils gegenüberliegende Klasse eingefügt
-- Ist die Multiplizität 0..1, kann das entsrpechende Attribut unter Umständen auch den Wert *null* haben
+- Ist die Multiplizität 0..1, kann das entsprechende Attribut unter Umständen auch den Wert *null* haben
 
 ### Kardinalität n 
 
