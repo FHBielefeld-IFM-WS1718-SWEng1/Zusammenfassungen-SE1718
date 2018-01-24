@@ -184,3 +184,161 @@ Spezifikation:
 Testfälle nach einer Äquivalenzklassenanalyse und Grenzwertanalyse:
 
 ![Grenzwertanalyse](vorlesung15/bilder/Grenzwertanalyse.png)
+
+#### Strukturorientierter Test (White-Box-Test) 
+
+- Betrachtung des Ein-/Ausgabeverhaltens und der inneren Struktur des Testobjekts -> Test der implementierten Realisierung
+
+- Ziel: Für jeden möglichen Pfad durch das Testobjekt soll das Verhalten des Testobjekts in Abhängigkeit von den Eingabedaten festgestellt werden
+
+- Auswahl der Testfälle aufgrund der Kenntnis der Ablaufstrukturen des Testobjekts
+
+- Wahl der Testfälle:
+	- Jede Klasse und jede Methode des Testobjekts wird mindestens einmal aufgerufen
+	- Jeder Zweig wird mindestens einmal durchlaufen Möglichst alle Pfade werden durchlaufen
+
+##### Der Kontrollflussgraph (KFG) 
+
+- Ist ein gerichteter Graph
+
+KFG(P) =def   G = (V, E, VStart, VZiel)
+
+- V: Menge der Knoten (Anweisungen des Programms)
+- E: Teilmenge von V×V: Menge der Kanten (Nachfolgerelation bezüglich der Ausführung des Programms)
+- VStart , VZiel  aus V: Ausgewählte Knoten für Start, Ende des Programms (VZiel kann auch eine Menge von Knoten sein)
+
+![KFG](vorlesung15/bilder/kfg.png)
+
+- Methode gibt Quadrat aller positiven geraden Zahlen, sonst 0 zurück
+
+##### Normalisierung eines KFG
+
+Wunsch: Graph sollte unabhängig von der Formatierung sein
+
+Folgende Regeln, mit denen mehrere Knoten k1,k2,...,kn, die nacheinander durchlaufen werden können, also k1,k2,...,kn, zu einem Knoten verschmolzen werden.
+- Die Knotenfolge wird bei jedem Durchlauf immer nur über k1 betreten, es gibt außer den genannten Kanten keine weiteren Kanten, die in k2,...,kn enden.
+- Die Knotenfolge wird bei jedem Durchlauf immer nur über kn verlassen, es gibt außer den genannten Kanten keine weiteren Kanten, die in k1,...,kn-1 beginnen.
+- Die Knotenfolge ist maximal bezüglich a) und b).
+
+##### White box Tests
+
+- C0: Anweisungsüberdeckung (Statement Coverage): Jede Anweisung des Programms wird mindestens einmal durchlaufen.
+- C1: Zweigüberdeckung (Branch Coverage): Jeder Zweig der Anwendung wird mindestens einmal durchlaufen. Z.B. einmal if und einmal else oder einmal while und einmal nicht while.
+- C2: Pfadüberdeckung (Path Coverage): Jeder mögliche Pfad der Anwendung wird mindestens einmal durchlaufen.
+- C3: Bedingungsüberdeckung (Condition Coverage): Jede Bedingung und jede Teilbedingung wird mindestens einmal durchlaufen und ist einmal true und einmal false.
+
+##### Anweisungsüberdeckung (C0)
+
+Ziel: alle Anweisungen des Programms durch Wahl geeigneter Testdaten mindestens einmal ausführen, alle Knoten des KFG mindestens einmal besuchen.
+
+![Anweisungsüberdeckung (C0)](vorlesung15/bilder/C0.png)
+
+![Anweisungsüberdeckung (C0)](vorlesung15/bilder/C02.png)
+
+##### Anweisungsüberdeckung (C1)
+
+Ziel: alle Kanten des KFG überdecken, d.h. alle Zweige des Programms einmal durchlaufen
+
+![Anweisungsüberdeckung (C1)](vorlesung15/bilder/C1.png)
+
+![Anweisungsüberdeckung (C1)](vorlesung15/bilder/C12.png)
+
+##### Zusammenfassung C0 & C1
+
+Vorteile der Anweisungsüberdeckung: 
+- einfach
+- geringe Anzahl von Eingabedaten
+- nicht ausführbare Programmteile werden erkannt
+
+Nachteil der Anweisungsüberdeckung:
+- Logische Aspekte werden nicht überprüft
+
+Deshalb: 
+- Zweigüberdeckungstest gilt als das Minimalkriterium im dynamischen Softwaretest
+- Schließt den Anweisungsüberdeckungstest ein
+- Fordert die Ausführung aller Zweige eines KFG
+- Jede Entscheidung mindestens einmal wahr und falsch 
+
+Nachteile der Zweigüberdeckung: 
+- Fehlende Zweige werden nicht automatisch entdeckt 
+- Kombinationen von Zweigen sind unzureichend geprüft 
+- Komplexe Bedingungen werden nicht analysiert 
+- Schleifen werden nicht ausreichend analysiert 
+
+
+##### Testansätze zusammengefasst
+
+![Testansätze zusammengefasst](vorlesung15/bilder/C12.png)
+
+
+#### Unittests
+
+- Die Anzahl der Code-Zeilen für Unittests übersteigt bei weitem die Anzahl der Zeilen des zu testenden Codes.
+- Ein Unittest testet genau eine Klasse.
+- A test is not a unit test if:
+	- It talks to the database
+	- It communicates across the network
+	- It touches the file system
+	- It can’t run at the same time as any of your other unit tests
+	- You have to do special things to your environment (such as editing config files) to run it.
+
+##### Test - Fixture
+
+- Ein Testfall sieht in der Regel so aus, dass eine bestimmte Konfiguration von Objekten aufgebaut wird, gegen die der Test läuft.
+- Diese Menge von Testobjekten wird auch als Test-Fixture bezeichnet.
+- Damit fehlerhafte Testfälle nicht andere Testfälle beeinflussen können, wird die Test-Fixture für jeden Testfall neu initialisiert.
+- In der Methode setUp werden Variable initialisiert und Mit der Methode tearDown werden wertvolle Testressourcen (z.B. Datenbank- oder Netzwerkverbindungen) wieder freigegeben.
+
+
+##### TestSuite
+
+- Um eine Menge von Tests zusammen ausführen zu können, werden die Tests zu TestSuites zusammengefasst.
+- Mit JUnit können beliebig viele Tests in einer TestSuite zusammengefasst  werden.
+- pro Package eine TestSuite-Klasse definieren.
+
+#### TDD
+
+![TDD](vorlesung15/bilder/tdd.png)
+
+
+#### Zusammenspiel von Klassen testen
+
+Software Engineering - Softwareprüfung
+
+
+Zu sa m m e n sp ie l v on  Kla sse n  t e st e n
+
+- Bis jetzt wurde nur eine Klasse betrachtet, die keine Assoziation zu anderen zu testenden Klassen hat
+- Weil die Implementierung von anderen Klassen noch nicht vorhanden sind, muss man die Implementierung „simulieren“, so dass man die eigene Klasse testen kann -> Test-Double
+- Liegt die Klasse vor, die man temporär durch den Test-Double prüfen wollte, können diese Tests mit der realen Klasse wiederholt werden
+- Test-Doubles dienen auch für die Implementierung von Klassen, die auf Ressourcen (z.B. Datenbanken) zugreifen, die nicht immer verfügbar sind
+- Test-Doubles wurden früher per Hand programmiert. Heutzutage kann man diese per Software automatisch erzeugen lassen:
+- Beispiele: jMock, EasyMock, Mockito
+- Achtung:
+	- Test-Doubles sind oft aufwändig in der Erstellung und müssen bei Änderungen am Code mit verändert werden und geben keine Garantie dafür, dass die Software keine Fehler enthält.
+
+
+#### Test Doubles
+
+![Test Doubles](vorlesung15/bilder/testdoubles.png)
+
+- Mock: Dynamische und konfigurierbare Laufzeit-Implementierung eines Interfaces oder Klasse, für die Rückgabewerte von Methoden definiert werden.
+- Stub: Fragmentartige Implementierung als Stellvertreter, genutzt zum Testen. 
+- Dummy: Ersatzklasse ohne Implementierung, um das Testen zu ermöglichen. Wird herumgereicht, aber nicht benutzt. (z.B. um eine Parameterliste einer Methode zu füllen). Muss existieren, aber eine „Interaktion“ mit einem Dummy ist nicht angedacht.
+- Dummies und Stubs werden erzeugt, um die Testumgebung „lauffähig“ zu machen und werden nicht für die eigentliche „Verifikation“ benutzt. Ein Dummy wird als „Wert“ herumgereicht, während ein Stub Daten an die zu testende Klasse zurückgibt („indirekte Inputs“).
+- Spy: Ein Mock, der die Aufrufe von Methoden etc. zählt
+- Spies und Mocks werden benutzt, um die Korrektheit des Kommunikationsablauf zwischen zu testender Klasse und den daran beteiligten Klassen zu überprüfen („indirekte Outputs“).
+- Fake: Funktionierende, einfach aufzusetzende, simplifizierte Implementierung mit "gehackter Funktionalität", also nicht verwendbar in Produktion (zum Beispiel eine In-memory-Datenbank). Fakes werden in Integrationstests verwendet.
+- Fakes spielen dieselbe Rolle wie Dummies oder Stubs. Sie werden erzeugt, um die Testumgebung lauffähig zu machen, aber werden nicht für die Verifikation benutzt. 
+- Test doubles werden nicht für direkte Outputs der SUT benutzt.
+
+
+
+
+
+
+
+
+
+
+
