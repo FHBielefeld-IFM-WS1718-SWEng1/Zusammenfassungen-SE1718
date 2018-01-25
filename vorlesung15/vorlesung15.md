@@ -1,4 +1,59 @@
-﻿## Testende Verfahren - Dynamische Tests
+﻿# Softwareprüfung
+ 
+ ## Einordnung in den Entwicklungsprozess
+
+![Entwicklungsprozess](vorlesung15/bilder/entwP.png)
+
+ ## Software Qualität
+ 
+ ![Qualitätsmerkmale](vorlesung15/bilder/qualiM.png)
+ 
+ ### Gewichtung der Qualitätsmerkmale
+ 
+ Die Qualitätsmerkmale werden unterschiedlich gewichtet und konkurrieren miteinander. Diese Tatsache kann im magischen Dreieck visualisiert werden.
+ 
+ ![MagischesDreieck](vorlesung15/bilder/dreieck.png)
+
+ ### Qualitätsmerkmale sind abhängig von der Perspektive der Aktoren
+ 
+ - Benutzer
+   - Zuverlässigkeit
+   - Benutzerfreundlichkeit
+   - Kompatibilität
+   - Effizienz
+ - Software-Hersteller
+   - Wiederverwendbarkeit
+   - Portabilität
+ - Hersteller und Benutzer
+   - Erweiterbarkeit
+   - Anpassbarkeit
+   
+ ![benApliSof](vorlesung15/bilder/benApliSof.png)
+ 
+ ### Qualitätsmerkmale sind abhängig von der Domäne und dem Projekt 
+ 
+ Bei einem Betriebssystem ist das Zeitverhalten und die Stabilität wichtiger als bei einem Informationssystem, bei dem eher Funktionalität und Bedienbarkeit wichtig sind
+ 
+ ## Qualitätsmaßnahmen
+ 
+ ![Qualitätsmaßnahmen](vorlesung15/bilder/qualiMassnahmen.png)
+ 
+ ## Aufgabe des Projektmanagements
+ 
+ ![Projektmanagement](vorlesung15/bilder/projektManagement.png)
+ 
+ ### Analytische QS-Verfahren
+ 
+ ![Analytische QS-Verfahren](vorlesung15/bilder/aQSverfahren.png)
+ 
+ ## Analysierende Verfahren
+ 
+ ### Entwurfsziele
+ 
+ 
+ 
+ 
+ ## Testende Verfahren - Dynamische Tests
 
 - Das Systemverhalten wird überwacht und gegenüber dem spezifiziertem Verhalten geprüft
 - Das System wird mit Testdaten ausgeführt und sein Verhalten beobachtet
