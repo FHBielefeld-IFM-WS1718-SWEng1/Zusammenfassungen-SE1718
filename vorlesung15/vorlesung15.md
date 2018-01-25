@@ -62,7 +62,7 @@
    - Misst, wie stark verwandt oder fokussiert die Aufgaben eines Elementes (z.B. Klasse, Komponente, Paket) sind
    - Niedrige Kohäsion lässt darauf schließen, dass in einer Klasse mehrere Funktionalitäten implementiert wurden und erschwert das Verständnis und die Wiederverwendbarkeit
  
- ### Quantitave und qualitative Aussagen über Softwarequalität
+ ### Quantitive und qualitative Aussagen über Softwarequalität
  
  - Qualitativ
    - mittels subjektiver Beurteilungsmethoden („gut“, „schlecht“) oder Review-Checklisten oder Codeinspektion
@@ -213,17 +213,17 @@
 
 - Aufdeckung aller Abweichungen des Systemverhaltens in Bezug auf das in der Anforderungsdefinition spezifizierte Systemverhalten
 - Überprüft wird:
-	- die vollständige Erfükkung der Benutzeranforderungen
+	- die vollständige Erfüllung der Benutzeranforderungen
 	- die Korrektheit der Ergebnisse
 	- die Robustheit gegen fehlerhafte Eingabedaten
-	- die nichtfunktionalen Anforderungen
+	- die nicht funktionalen Anforderungen
 
 ![Testarten2](vorlesung15/bilder/Testarten2.png)
 
 ### Abnahmetest
 
 - Akzeptanztest (End-To-End-Test)
-- Test wird mit realen Daten und unter realen Einsazubedingungen durchgeführt
+- Test wird mit realen Daten und unter realen Einsatzbedingungen durchgeführt
 - Aufdecken aller Fehler, die auf Missverständnisse bei Absprachen zwischen Benutzer und Entwickler beruhen
 - Test gegen Abnahmekriterien, die in der Anforderungsdefinition festgelegt wurden
 
@@ -250,7 +250,7 @@
 
 ### GUI-Test
 
-- Capture & Replay: Alle Mausgewegungen und Tastatureingaben werden aufgezeichnet und können dann als Test erneut abgespielt werden
+- Capture & Replay: Alle Mausbewegungen und Tastatureingaben werden aufgezeichnet und können dann als Test erneut abgespielt werden
 
 ### Penetrationstest
 
@@ -258,7 +258,7 @@
 
 ### Lasttest
 
-- Testet das System auf Zuverlässigkeit und das Einhalten der Spezifikation innerhalb des erlaibten Grenzbereichs
+- Testet das System auf Zuverlässigkeit und das Einhalten der Spezifikation innerhalb des erlaubten Grenzbereichs
 - Test auf Performance: Transaktionsrate bzw. Antwortzeiten 
 - Test auf Skalierbarkeit: Anzahl der Endbenutzer und das Datenvolumen
 - Gibt es Zugriffskonflikte konkurrierender Benutzer?
@@ -274,7 +274,7 @@
 
 ![Ableitung_von_Testfällen](vorlesung15/bilder/Ableitung_von_Testfaellen.png)
 
-Vollständges Testen ist in der Regel unmöglich, daher wird nur stichprobenartig getestet. Das Ziel dabei ist es mit möglichst wenig Testfällen möglichst viele Fehler zu finden.
+Vollständiges Testen ist in der Regel unmöglich, daher wird nur stichprobenartig getestet. Das Ziel dabei ist es mit möglichst wenig Testfällen möglichst viele Fehler zu finden.
 
 ### Verfahren zur Testfallermittlung
 
@@ -283,7 +283,7 @@ Vollständges Testen ist in der Regel unmöglich, daher wird nur stichprobenarti
 - Testfallauswahl aufgrund der Modulspezifikation
 - Interne Struktur kann unbekannt sein
 - Prüft definierte Schnittstellen auf Funktionalität
-- Ausgehend von der Spezifikation des zu untersuchenden Objekts werden verschiedene Eingaben definiert, deren gewünschtes Resultat aus der Spetifikation abzuleiten ist
+- Ausgehend von der Spezifikation des zu untersuchenden Objekts werden verschiedene Eingaben definiert, deren gewünschtes Resultat aus der Spezifikation abzuleiten ist
 - Ziel: Umfassende Prüfung der spezifizierten Funktionalität
 
 #### Strukturorientierter Test (White-Box-Test)
@@ -291,7 +291,7 @@ Vollständges Testen ist in der Regel unmöglich, daher wird nur stichprobenarti
 - Testfallauswahl aufgrund der internen Struktur
 - Codereview: Prüft die Details der Logik
 - Klassenspezifikation muss ebenfalls bekannt sein
-- Es wird die Struktur des zu untersuchenden Programms analysiert und versucht, möglichst alle Ablaufalternative (if, while) durchzuspielen
+- Es wird die Struktur des zu untersuchenden Programms analysiert und versucht, möglichst alle Ablauf alternativen (if, while) durchzuspielen
 - Ziel: Für jeden möglichen Pfad durch das Testobjekt soll das Verhalten des Testobjekts in Abhängigkeit von den Eingabedaten festgestellt werden
 
 Verfahren zur Testfallermittlung:
@@ -320,7 +320,7 @@ Verfahren zur Testfallermittlung:
 
 - Mögliche Eingaben müssen bekannt sein
 - Für einfache Zahlenparameter: Intervall mit gültigen Werden
-- Wenn explizit eine Menge von Werten vorgegenen ist: Jeder Wert stellt eine Äquivalenzklasse dar
+- Wenn explizit eine Menge von Werten vorgegeben ist: Jeder Wert stellt eine Äquivalenzklasse dar
 
 ##### Beispiel für Äquivalenzklassen
 
@@ -338,7 +338,7 @@ Spezifikation:
 - Gültige Äquivalenzklassen:
 	- möglichst viele Klassen in einem Test kombinieren
 - Ungültige Äquivalenzklassen:
-	- Auswahl eines Wertes aus einer ungültigen Äquivalenzklasse in Kobination mit Werten, die ausschließlich aus gültigen Äquivalenzklassen entnommen sind
+	- Auswahl eines Wertes aus einer ungültigen Äquivalenzklasse in Kombination mit Werten, die ausschließlich aus gültigen Äquivalenzklassen entnommen sind
 	- Für alle ungültigen Eingabewerte muss eine Fehlerbehandlung existieren
 
 ![Testfallerzeugung_aus_Äquivalenzklassen](vorlesung15/bilder/Testfallerzeugung_aus_Aequivalenzklassen.png)
