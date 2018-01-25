@@ -84,7 +84,7 @@
  ### Zyklomatische Komplexität nach McCabe
   
  - Man konstruiere die Kontrollflussgraphen
- - Man messe die strukturelle Komplexität
+ - Man messe die strukturelle Komplexität:
        Die zyklomatische Zahl z(G) eines Kontrollflussgraphen G ist:
 		z(G) = e – n + 2 mit
 		e = Anzahl der Kanten des Kontrollflussgraphen
@@ -93,12 +93,75 @@
  
  ![McCabe2](vorlesung15/bilder/mcCabe2.png)
  
+ ### Beispiele für die zyklomatische Komplexität
  
-
-
-
-
+ ![Zyklomatische Komplexität Bsp](vorlesung15/bilder/zykloKomplexBsp.png)
  
+ ### Objektorientierte SW-Metriken
+ 
+ In objektorientierten Programmen versagt die McCabe-Metrik, da die Kontrollflußkomplexit¨at der meisten Methoden gering ist (z (G) = 1). Metriken müssen deshalb das Zusammenspiel der Klassen betrachten – typischerweise anhand des (statischen) Objektmodells
+
+ - Beispiel Werkzeuge für OO-Metriken
+   - Checkstyle
+   - JMetrik
+   - Eclipse plugin
+   
+ ### Beispiele für OO SW-Metriken 
+ 
+ - Lines of Code pro Methode: Maximum sollte unter 20 liegen
+ - Methoden pro Klasse: sollte zwischen 3 und 15 liegen
+ - Parameter pro Methode: sollte unter 6 liegen
+ - Instanzvariablen pro Klasse: Die Zahl sollte unter 10 liegen
+ - Depth of Inheritance Tree (DIT) = Anzahl der Oberklassen
+ - Number Of Children (NOC) = Anzahl der direkten Unterklassen
+ - Weighted Method per Class (WMC) = Anzahl der definierten Methoden
+ - Coupling Between Object Classes (CBO) = Anzahl der benutzten Klassen
+ - Lack of Cohesion in Methods (LCOM)
+   - Aussage über die “Güte” der Kapselung. Kann Hinweis auf Entwurfsfehler sein
+   - Es gibt unterschiedliche Varianten zur Berechnung von LCOM
+ 
+ ### LCOM (Lack of Cohesion in Methods)
+ 
+ LCOM (C) = Methodenpaare ohne gemeinsame Instanzvariablen minus Methodenpaare mit gemeinsamen Instanzvariablen (falls LCOM (C) < 0 => LCOM (C) = 0).
+ Ziel: LCOM (C) = 0
+
+ ![LCON](vorlesung15/bilder/LCON.png)
+
+ ### Lack of Cohesion in Methods (LCOM*) = LCOM-HS (Henderson-Sellers) = LCOM5
+ 
+ - LCOM* =  (avgNutzt – m)  /  (1 - m)
+   - nutzt(a) die Zahl der Methoden, die eine Instanzvariable a der untersuchten Klasse nutzen 
+   - avgNutzt der Durchschnitt aller Werte für alle Instanzvariablen
+   - m die Anzahl aller Methoden der untersuchten Klasse
+ - Ist der Wert nahe Null, handelt es sich um eine eng zusammenhängende Klasse
+ - Ist der Wert nahe 1, ist die Klasse schwach zusammenhängend und man sollte über eine Aufspaltung nachdenken. Hinweis auf Entwurfsfehler
+ - Hinweise
+   - Es muss vorher festgelegt werden, ob Klassenvariablen und Klassenmethoden berücksichtigt werden sollen
+   - Ist LCOM* benutzbar, wenn man auch get()- und set()-Methoden nutzt? 
+ 
+ ### LCOM*-Beispiel
+ 
+ ![LCON Bsp](vorlesung15/bilder/LCONbsp.png) 
+ 
+ ## Testende Verfahren - Statische Tests
+ 
+ - Analyse und Prüfung der Systembeschreibungen (z. B. Anforderungen, Entwurfsdiagramme, Quellcode, ...)
+ - Ausführung des Systems nicht erforderlich
+ 
+ ### Arten von testenden statischen Verfahren
+ 
+ - Review
+   - Überprüfung schriftlicher Dokumente durch Gutachter sowie Überprüfung von Code, Fortschritt, Qualität mit dem Ziel der Feststellung von Mängeln, Fehler, Inkonsistenzen, Unvollständigkeiten, Verstößen gegen Vorgaben, Richtlinien, Standards, Plänen
+ - Walkthrough
+   - abgeschwächte Form des Reviews
+ - Audit
+   - während ein Review das Ergebnis prüft, prüft ein Audit die Vorgehensweise und den Ablauf, also Prüfung des Wegs zum Ergebnis
+ - Code-Inspektion
+   - Diskussion des Source-Codes mit erfahrenen Softwareentwicklern. Dient zum Aufdecken von Fehlern und nicht zum Beheben von Fehlern dient
+ - Statische Analyse
+   - Werkzeuggestütztes Auffinden von Fehlern ohne direkte Ausführung des Systems mit dem Ziel, fehlerverdächtige Stellen des Systems zu lokalisieren
+ - Formale Verifikation (Korrektheitsbeweis)
+   - Verifikation ist die Beurteilung eines Systems, um festzustellen, ob die Resultate einer gegebenen Entwicklungsphase den Vorgaben aus einer vorhergehenden entsprechen
  
  ## Testende Verfahren - Dynamische Tests
 
