@@ -1,6 +1,8 @@
 ﻿# Softwareprüfung
  
  ## Einordnung in den Entwicklungsprozess
+ 
+ Autoren: Marc Schwettmann, Jan Tschech, Florian Buller
 
 ![Entwicklungsprozess](vorlesung15/bilder/entwP.png)
 
