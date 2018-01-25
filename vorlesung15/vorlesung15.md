@@ -6,6 +6,8 @@
 
  ## Software Qualität
  
+ ### Qualitätsmerkmale von Software 
+ 
  ![Qualitätsmerkmale](vorlesung15/bilder/qualiM.png)
  
  ### Gewichtung der Qualitätsmerkmale
@@ -38,7 +40,7 @@
  
  ![Qualitätsmaßnahmen](vorlesung15/bilder/qualiMassnahmen.png)
  
- ## Aufgabe des Projektmanagements
+ ### Aufgabe des Projektmanagements
  
  ![Projektmanagement](vorlesung15/bilder/projektManagement.png)
  
@@ -50,7 +52,52 @@
  
  ### Entwurfsziele
  
+ - Niedrige Kopplung
+   - Der Grad, zu dem die Klassen voneinander abhängig sind (Methodenaufrufe, Vererbung und Zugriff auf öffentliche Attribute)
+   - Starke Kopplung entspricht starken Abhängigkeiten und erschwert Wiederverwendung und Wartbarkeit
  
+ - Hohe Kohäsion
+   - Misst, wie stark verwandt oder fokussiert die Aufgaben eines Elementes (z.B. Klasse, Komponente, Paket) sind
+   - Niedrige Kohäsion lässt darauf schließen, dass in einer Klasse mehrere Funktionalitäten implementiert wurden und erschwert das Verständnis und die Wiederverwendbarkeit
+ 
+ ### Quantitave und qualitative Aussagen über Softwarequalität
+ 
+ - Qualitativ
+   - mittels subjektiver Beurteilungsmethoden („gut“, „schlecht“) oder Review-Checklisten oder Codeinspektion
+   
+ - Quantitativ: Metrik 
+ 
+ Eine Softwaremetrik ist eine Funktion, die eine Software-Einheit in einen Zahlenwert abbildet, der als der Erfüllungsgrad  einer Qualitätseigenschaft der Software-Einheit interpretiert wird. Eine Metrik ist ein interpretiertes Maß, das automatisch ermittelt werden kann und ein Indiz für die Qualität eines Produktes ist. Metriken sollen nur als Indikatoren betrachtet werden, d.h. gewonnene Aussagen müssen nachgeprüft werden. Dabei soll man Ergebnissen nicht blind vertrauen, sondern als Hilfsmittel  für eigene Urteilsfindung interpretieren. Es existieren zwei Arten von Metriken, Konventionelle Metriken und OO-Metriken.
+ 
+ ![Metriken](vorlesung15/bilder/metriken.png)
+ 
+ - Beispiel: SIZE (oder auch LOC=Lines of Code): Anzahl der Codezeilen
+   - Umfang variiert mit der Sprache, Programmierstil, etc.
+   - Leicht zu messen
+   
+ ### Zyklomatische Komplexität (McCabe)
+ 
+ Zyklomatische Komplexität gibt Obergrenze für die Testfallanzahl für den Zweigüberdeckungstest an. Ein Codemaß, das die Komplexität von Kontrollflüssen in Methoden misst. Aber auch ein Quantitatives Maß für den erwarteten Testaufwand. Methoden mit einer hohen „Cyclomatic Complexity“ sind schwerer zu warten und zu testen. „Lange“ Methoden sind nicht unbedingt komplex. Folgt man McCabe, so sollen Methoden, für die z(G) > 10 gilt, einem Refactoring unterzogen werden.
+ 
+ ![McCabe](vorlesung15/bilder/mcCabe.png)
+ 
+ ### Zyklomatische Komplexität nach McCabe
+  
+ - Man konstruiere die Kontrollflussgraphen
+ - Man messe die strukturelle Komplexität
+       Die zyklomatische Zahl z(G) eines Kontrollflussgraphen G ist:
+		z(G) = e – n + 2 mit
+		e = Anzahl der Kanten des Kontrollflussgraphen
+		n = Anzahl der Knoten
+
+ 
+ ![McCabe2](vorlesung15/bilder/mcCabe2.png)
+ 
+ 
+
+
+
+
  
  
  ## Testende Verfahren - Dynamische Tests
