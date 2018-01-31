@@ -16,11 +16,11 @@ Alexander Bergmann, Dario Leunig, Jonas Raddatz
 
 #### Einordnung in den Entwicklungsprozess
 
-![img1](Vorlesung7/Bilder/img1.PNG)
+![img1](vorlesung7/bilder/img1.PNG)
 
 
 
-![img2](Vorlesung7/Bilder/img2.PNG)
+![img2](vorlesung7/bilder/img2.PNG)
 
 #### Die Anforderungsanalyse
 
@@ -38,7 +38,7 @@ Dies schafft ein einheitliches Verständnis zwischen Kunden und Entwicklern sowi
 
   ​
 
-  ![img3](Vorlesung7/Bilder/img3.PNG)
+  ![img3](vorlesung7/bilder/img3.PNG)
 
   ​
 
@@ -46,7 +46,7 @@ Dies schafft ein einheitliches Verständnis zwischen Kunden und Entwicklern sowi
 
   ​
 
-![img4](Vorlesung7/Bilder/img4.PNG)
+![img4](vorlesung7/bilder/img4.PNG)
 
 
 
@@ -71,7 +71,7 @@ Aktivitätsdiagramme dienen der Modellierung von Abläufen in Datenflüssen eine
 
 Die Diagramme stellen quasi den Algorithmus einer Operation dar.
 
-![img5](Vorlesung7/Bilder/img5.PNG)
+![img5](vorlesung7/bilder/img5.PNG)
 
 
 
@@ -92,11 +92,11 @@ Modellierung des Objektflusses
 
 #### Grundlegende Elemente
 
-![img6](Vorlesung7/Bilder/img6.PNG)
+![img6](vorlesung7/bilder/img6.PNG)
 
 
 
-![img14](Vorlesung7/Bilder/img14.PNG)
+![img14](vorlesung7/bilder/img14.PNG)
 
 
 
@@ -108,19 +108,19 @@ Modellierung des Objektflusses
 
   ​
 
-![img10](Vorlesung7/Bilder/img10.PNG)
+![img10](vorlesung7/bilder/img10.PNG)
 
 
 
-![img8](Vorlesung7/Bilder/img8.PNG)
+![img8](vorlesung7/bilder/img8.PNG)
 
 
 
-![img7](Vorlesung7/Bilder/img7.PNG)
+![img7](vorlesung7/bilder/img7.PNG)
 
 
 
-![img9](Vorlesung7/Bilder/img9.PNG)
+![img9](vorlesung7/bilder/img9.PNG)
 
 
 
@@ -135,7 +135,7 @@ Modellierung des Objektflusses
   - Beendet einen einzelnen Kontrollfluss
   - Konsumiert ein einzelnes Token
 
-![img11](Vorlesung7/Bilder/img11.PNG)
+![img11](vorlesung7/bilder/img11.PNG)
 
 
 
@@ -157,13 +157,13 @@ Modellierung des Objektflusses
 
 
 
-![img13](Vorlesung7/Bilder/img13.PNG)
+![img13](vorlesung7/bilder/img13.PNG)
 
 
 
 Beispiel 
 
-![img15](Vorlesung7/Bilder/img15.PNG)
+![img15](vorlesung7/bilder/img15.PNG)
 
 
 
@@ -172,7 +172,7 @@ Beispiel
 
 #### Softwareentwicklungsprozess
 
-![img12](Vorlesung7/Bilder/img12.PNG)
+![img12](vorlesung7/bilder/img12.PNG)
 
 
 ### Kanten (Kontrollfluss / Objektfluss)
