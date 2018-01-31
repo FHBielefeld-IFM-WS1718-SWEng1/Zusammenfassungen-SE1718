@@ -30,7 +30,7 @@ Abstrakte Klassen und Methoden werden kursiv geschrieben.
 
 #### Generalisierung
 
-![Diagramm zur Generalisierung](vorlesung8/Bilder/generalisierung.png)
+![Diagramm zur Generalisierung](vorlesung8/Bilder/generalisierung.PNG)
 
 In dem Diagramm sieht man die Vererbungsidee. Je mehr Klassen von einer Klasse erben, desto generalisierter, also allgemeiner, ist sie. Erbt eine Klasse von vielen anderen Klassen zuvor, ist sie spezialisiert.
 
@@ -86,7 +86,7 @@ In einem Klassendiagramm gibt es verschiedene Arten von Assoziationen. Diese mod
 
 Die unteren Diagramme bilden die zeichnerische Realisierung ab.
 
-![Assoziationen](vorlesung8/Bilder/assoziationen.png)
+![Assoziationen](vorlesung8/Bilder/assoziationen.PNG)
 
 #### Navigierbarkeit
 
@@ -308,4 +308,4 @@ Aus diesen Informationen kann man nun eine Tabelle der Klassen und ihrer Attribu
 
 Abschließend lässt sich das folgende Klassendiagramm erstellen:
 
-![Klassendiagramm](vorlesung8/Bilder/Beispiel1_Klassendiagramm)
+![Klassendiagramm](vorlesung8/Bilder/Beispiel1_Klassendiagramm.png)
