@@ -13,6 +13,12 @@ Aufgearbeitete Folien für Software Engineering<br>
 7. [Aktivitätsdiagramme](/vorlesung7/vorlesung7.md)
 8. [Systemanalyse mit Klassendiagrammen](/vorlesung8/vorlesung8.md)
 9. [Sequenzdiagramme](/vorlesung9/vorlesung9.md)
+10. [Weitere UML-Diagramme](/vorlesung10/vorlesung10.md)
+11. [Softwareentwurf und Softwarearchitektur](/vorlesung11/vorlesung11.md)
+12. [MV* Architekturmuster](/vorlesung12/zusammenfassung.md)
+13. [Entwufsmuster](/vorlesung13/README.md)
+14. [Implementierung und Dokumentation](/vorlesung14/zusammenfassung14.md)
+15. [Softwareprüfung](/vorlesung15/vorlesung15.md)
 
 <br>
 Bilder funktionieren in github Darstellung nicht, da die Pfade für docute angepasst sind.

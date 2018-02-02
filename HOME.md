@@ -16,10 +16,12 @@ Aufgearbeitete Folien für Software Engineering
 7. [Aktivitätsdiagramme](/vorlesung7/vorlesung7)
 8. [Systemanalyse mit Klassendiagrammen](/vorlesung8/vorlesung8)
 9. [Sequenzdiagramme](/vorlesung9/vorlesung9)
-10. ​
-11. ​[Softwareentwurf und Softwarearchitektur](/vorlesung11/vorlesung11/)
+10. ​[Weitere UML-Diagramme](/vorlesung10/vorlesung10)
+11. ​[Softwareentwurf und Softwarearchitektur](/vorlesung11/vorlesung11)
 12. [MV*](/vorlesung12/zusammenfassung)
-12. [Entwufsmuster](/vorlesung13/vorlesung13/)
+13. [Entwufsmuster](/vorlesung13/README)
+14. [Implementierung und Dokumentation](/vorlesung14/zusammenfassung14)
+14. [Softwareprüfung](/vorlesung15/vorlesung15)
 
 ### Informationen für Contributer:
 Alle beigesteuerten Dokumente nutzen das Markdown Format und die Dateiendung .md
