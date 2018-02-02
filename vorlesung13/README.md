@@ -19,16 +19,14 @@
 
 - Kombinationen von Klassen zu größeren Einheiten, unabhängig von der Programmiersprache
 
-  1. Pattern VS Algorithmen und Frameworks
+### Pattern VS Algorithmen und Frameworks
 
-     | Pattern                     | Algorithmen                              | Frameworks                               |
-     | --------------------------- | ---------------------------------------- | ---------------------------------------- |
-     | abstrakter                  | lösen feinkörnigere Probleme  als Pattern | beinhaltet Menge kooperierender Klassen für spezifischen Anwendungs |
-     | enthalten nur Codebeispiele |                                          | erweiterbar durch Unterklassenbildung    |
-     | weniger spezifisch          |                                          | existenz als konkreter, wiederverwendbarer Code |
-     | fast überall einsetzbar     |                                          | Einsatz für konkrete Anwendungsbereiche  |
-
-
+| Pattern                     | Algorithmen                               | Frameworks                                                          |
+| --------------------------- | ----------------------------------------- | ------------------------------------------------------------------- |
+| abstrakter                  | lösen feinkörnigere Probleme  als Pattern | beinhaltet Menge kooperierender Klassen für spezifischen Anwendungs |
+| enthalten nur Codebeispiele |                                           | erweiterbar durch Unterklassenbildung                               |
+| weniger spezifisch          |                                           | existenz als konkreter, wiederverwendbarer Code                     |
+| fast überall einsetzbar     |                                           | Einsatz für konkrete Anwendungsbereiche                             |
 
 
 ### Vor- und Nachteile von Pattern
