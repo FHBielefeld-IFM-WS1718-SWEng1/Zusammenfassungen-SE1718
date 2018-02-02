@@ -105,7 +105,7 @@ Die unteren Diagramme bilden die zeichnerische Realisierung ab.
 
 Jede Assoziation besitzt noch einen Assoziationsnamen, dieser ist optional. Auch Rollen können unter der Kardinalität eingetragen werden. Beide dienen dazu, die Assoziation genauer zu beschreiben.
 
-![Rollen](vorlesung8/Bilder/rollen.png)
+![Rollen](vorlesung8/Bilder/rolle.png)
 
 ![XOR-Beziehungen](vorlesung8/Bilder/xOr.png)
 
