@@ -14,11 +14,11 @@ Florian B., Florian W.
 
 ### Einordnung in den Entwicklungsprozess
 
-![Einordnung in den Entwicklungsprozess](vorlesung6/bilder/Bild1.png)
+![Einordnung in den Entwicklungsprozess](vorlesung6/bilder/Bild1.PNG)
 #### Stakeholder
 Der Stakeholder ist eine wichtige Quelle für Informationen. Dieser hat direkten oder indirekten Einfluss auf die Anforderungen des Systems. Wenn man bei den Anforderungen einen Stakeholder weglässt, kann das dazu führen, dass es Lücken im System gibt. Ein paar wichtige Stakeholder: Kunde, Mitarbeiter, Eigentümer, Zulieferer und andere Dienstleister. 
 
-![Stakeholder](vorlesung6/bilder/Bild2.png)
+![Stakeholder](vorlesung6/bilder/Bild2.PNG)
 
 #### Arten von Anforderungsdefinitionen
 
@@ -58,21 +58,21 @@ Um die Anforderungen herauszufinden ist eine Befragung von zentralen Stakeholder
 - Funktionale Anforderungen: Was soll das System können
 - Nicht funktionale Anforderungen: Welche Eigenschaften soll das System neben der Funktionalität aufweisen
 
-![Arten von Anforerungen](vorlesung6/bilder/Bild3.png)
+![Arten von Anforerungen](vorlesung6/bilder/Bild3.PNG)
 
 | Funktionale Anforderungen | Nicht funktionale Anforderungen |
 |--------|--------|
 | Funktionaliäten|   Leistungsanforderungen     |
 |Daten | Qualitätsanforderungen |
-|Schnittstellen | Realisierungsanforderungen | 
+|Schnittstellen | Realisierungsanforderungen |
 
 
-	
-![Nicht Funktionale Anforderungen](vorlesung6/bilder/Bild4.png)
+​	
+![Nicht Funktionale Anforderungen](vorlesung6/bilder/Bild4.PNG)
 
 ### Probleme bei der Anforderungsanalyse
 
-![Arten von Anforerungen](vorlesung6/bilder/Bild5.png)
+![Arten von Anforerungen](vorlesung6/bilder/Bild5.PNG)
 
 Ein großes Problem ist, dass der Kunde eigentlich gar nicht weiß was er eigentlich will. Und diese Anforderungen, die dabei herauskommen, kann man nicht maschinell bearbeiten, also muss man diese per Hand durchgehen. Die unterschiedlichen Leute, die beteiligt sind, haben oft unterschiedliche Ansprüche an das System. Dadruch gibt es widersprüchliche Aussagen. Diese müssen das zusätzlich noch erkannt werden. 
 Anforderungen können sich auch noch während des Prozesses ändern. Experten lassen auch gerne mal ein paar Dinge aus, die für Sie offensichtlich ist. Wenn es Konflikte gibt muss es keine klaren Entscheidungen geben. 
@@ -81,14 +81,14 @@ Anforderungen können sich auch noch während des Prozesses ändern. Experten la
 |--------|--------|
 |   mehrdeutig     |   ein Fahrrad wie Klaus    |
 | nicht erfüllbar | Sandmännchen kennenlernen |
-| überbestimmt  | ein runder Ball | 
+| überbestimmt  | ein runder Ball |
 | inkonsistent | ein schnelles Auto, ein Oldtimer|
-|unvollständig| 
+|unvollständig|
 
 ### Vorgehensweise beim Requirements engineering
 
-![Bild6](vorlesung6/bilder/Bild6.png)
-![Bild7](vorlesung6/bilder/Bild7.png)
+![Bild6](vorlesung6/bilder/Bild6.PNG)
+![Bild7](vorlesung6/bilder/Bild7.PNG)
 
 #### Use Case Satzschablone
 
@@ -105,7 +105,7 @@ Zeigt das Verhalten des Sytems gegebenüber Akteuren. Stellt außerdem die Abhä
 
 ### Satzschablonen für die Anforderungsermittlung
 
-![Bild8](vorlesung6/bilder/Bild8.png)
+![Bild8](vorlesung6/bilder/Bild8.PNG)
 
 #### Charakterisierung von Systemaktivitäten
 
@@ -123,15 +123,15 @@ Zeigt das Verhalten des Sytems gegebenüber Akteuren. Stellt außerdem die Abhä
 - Standardisierte Normsprache
 - Hilft Anforderungen aufzunehmen und zu formulieren
 
-![Bild9](vorlesung6/bilder/Bild9.png)
+![Bild9](vorlesung6/bilder/Bild9.PNG)
 
 ##### Beispiele:
 - 	Nach der Kontaktaufnahme durch die Software „Globalview“ muss das System fähig sein, Anfragen nach den Projektnamen, deren Gesamtaufwänden und Fertigstellungsgraden anzunehmen.
 - Das Personalmodul wird fähig sein, Personendaten aus der Datenbank zu importieren
-![Bild10](vorlesung6/bilder/Bild10.png)
-![Bild11](vorlesung6/bilder/Bild11.png)
-![Bild12](vorlesung6/bilder/Bild12.png)Bedigung Bedigung Bedigung
-![Bild13](vorlesung6/bilder/Bild13.png)
+![Bild10](vorlesung6/bilder/Bild10.PNG)
+![Bild11](vorlesung6/bilder/Bild11.PNG)
+![Bild12](vorlesung6/bilder/Bild12.PNG)
+![Bild13](vorlesung6/bilder/Bild13.PNG)
 
 ### Use Case (Anwendungsfall)
 
@@ -174,7 +174,7 @@ Alle Anwendungsfälle zusammen dokumentieren die Möglichkeiten der Benutzung de
   - Normalabläufen, normaler/erfolgreicher Ablauf
   - Alternativabläufe, andere Wege zum Ziel als bei Normalabläufe
   - führen nicht zum Ziel, z.B. infolge eines "fachlichen Fehlers" oder bei einem Abbruch durch den Akteur
- 
+
 - Anwendungsfall
   - beschreibt eine abstrakte Interaktion zwischen Akteuren und dem System
   - können mehrere Szenarien existieren
