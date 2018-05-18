@@ -14,11 +14,11 @@ Florian B., Florian W.
 
 ### Einordnung in den Entwicklungsprozess
 
-![Einordnung in den Entwicklungsprozess](vorlesung6/bilder/Bild1.PNG)
+![Einordnung in den Entwicklungsprozess](vorlesung6/bilder/Bild1.png)
 #### Stakeholder
 Der Stakeholder ist eine wichtige Quelle für Informationen. Dieser hat direkten oder indirekten Einfluss auf die Anforderungen des Systems. Wenn man bei den Anforderungen einen Stakeholder weglässt, kann das dazu führen, dass es Lücken im System gibt. Ein paar wichtige Stakeholder: Kunde, Mitarbeiter, Eigentümer, Zulieferer und andere Dienstleister. 
 
-![Stakeholder](vorlesung6/bilder/Bild2.PNG)
+![Stakeholder](vorlesung6/bilder/Bild2.png)
 
 #### Arten von Anforderungsdefinitionen
 
@@ -58,7 +58,7 @@ Um die Anforderungen herauszufinden ist eine Befragung von zentralen Stakeholder
 - Funktionale Anforderungen: Was soll das System können
 - Nicht funktionale Anforderungen: Welche Eigenschaften soll das System neben der Funktionalität aufweisen
 
-![Arten von Anforerungen](vorlesung6/bilder/Bild3.PNG)
+![Arten von Anforerungen](vorlesung6/bilder/Bild3.png)
 
 | Funktionale Anforderungen | Nicht funktionale Anforderungen |
 |--------|--------|
@@ -68,11 +68,11 @@ Um die Anforderungen herauszufinden ist eine Befragung von zentralen Stakeholder
 
 
 ​	
-![Nicht Funktionale Anforderungen](vorlesung6/bilder/Bild4.PNG)
+![Nicht Funktionale Anforderungen](vorlesung6/bilder/Bild4.png)
 
 ### Probleme bei der Anforderungsanalyse
 
-![Arten von Anforerungen](vorlesung6/bilder/Bild5.PNG)
+![Arten von Anforerungen](vorlesung6/bilder/Bild5.png)
 
 Ein großes Problem ist, dass der Kunde eigentlich gar nicht weiß was er eigentlich will. Und diese Anforderungen, die dabei herauskommen, kann man nicht maschinell bearbeiten, also muss man diese per Hand durchgehen. Die unterschiedlichen Leute, die beteiligt sind, haben oft unterschiedliche Ansprüche an das System. Dadruch gibt es widersprüchliche Aussagen. Diese müssen das zusätzlich noch erkannt werden. 
 Anforderungen können sich auch noch während des Prozesses ändern. Experten lassen auch gerne mal ein paar Dinge aus, die für Sie offensichtlich ist. Wenn es Konflikte gibt muss es keine klaren Entscheidungen geben. 
@@ -87,8 +87,8 @@ Anforderungen können sich auch noch während des Prozesses ändern. Experten la
 
 ### Vorgehensweise beim Requirements engineering
 
-![Bild6](vorlesung6/bilder/Bild6.PNG)
-![Bild7](vorlesung6/bilder/Bild7.PNG)
+![Bild6](vorlesung6/bilder/Bild6.png)
+![Bild7](vorlesung6/bilder/Bild7.png)
 
 #### Use Case Satzschablone
 
@@ -105,7 +105,7 @@ Zeigt das Verhalten des Sytems gegebenüber Akteuren. Stellt außerdem die Abhä
 
 ### Satzschablonen für die Anforderungsermittlung
 
-![Bild8](vorlesung6/bilder/Bild8.PNG)
+![Bild8](vorlesung6/bilder/Bild8.png)
 
 #### Charakterisierung von Systemaktivitäten
 
@@ -123,15 +123,15 @@ Zeigt das Verhalten des Sytems gegebenüber Akteuren. Stellt außerdem die Abhä
 - Standardisierte Normsprache
 - Hilft Anforderungen aufzunehmen und zu formulieren
 
-![Bild9](vorlesung6/bilder/Bild9.PNG)
+![Bild9](vorlesung6/bilder/Bild9.png)
 
 ##### Beispiele:
 - 	Nach der Kontaktaufnahme durch die Software „Globalview“ muss das System fähig sein, Anfragen nach den Projektnamen, deren Gesamtaufwänden und Fertigstellungsgraden anzunehmen.
 - Das Personalmodul wird fähig sein, Personendaten aus der Datenbank zu importieren
-![Bild10](vorlesung6/bilder/Bild10.PNG)
-![Bild11](vorlesung6/bilder/Bild11.PNG)
-![Bild12](vorlesung6/bilder/Bild12.PNG)
-![Bild13](vorlesung6/bilder/Bild13.PNG)
+![Bild10](vorlesung6/bilder/Bild10.png)
+![Bild11](vorlesung6/bilder/Bild11.png)
+![Bild12](vorlesung6/bilder/Bild12.png)
+![Bild13](vorlesung6/bilder/Bild13.png)
 
 ### Use Case (Anwendungsfall)
 
